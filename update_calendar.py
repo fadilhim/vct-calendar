@@ -6,7 +6,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-from icalendar import Calendar
+from icalendar import Calendar, vDatetime
 
 sys.path.insert(0, str(Path(__file__).parent))
 
@@ -98,7 +98,7 @@ def update_calendar(calendar_path: str, stages: list[str] = None) -> dict:
             existing_event["dtstart"] = new_event["dtstart"]
             existing_event["dtend"] = new_event["dtend"]
             existing_event["status"] = new_event["status"]
-            existing_event["dtstamp"] = datetime.now(UTC)
+            existing_event["dtstamp"] = vDatetime(datetime.now(UTC))
 
             print(f"  Updated {uid}: {', '.join(changes)}")
             stats["updated"] += 1
