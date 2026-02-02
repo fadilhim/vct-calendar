@@ -1,0 +1,1048 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VCT 2026 Calendar//vlr.gg//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:VCT 2026
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Upper Round 1 - Natus Vincere vs Karmine C
+ orp
+DTSTART:20260120T160000Z
+DTEND:20260120T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594740@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594740/natus-vincere-vs-karmine-corp
+ -vct-2026-emea-kickoff-ur1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/594740/natus-vincere-vs-karmine-corp-vct-2026-emea-
+ kickoff-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Upper Round 1 - FUT Esports vs Gentle Mate
+ s
+DTSTART:20260120T183500Z
+DTEND:20260120T203500Z
+DTSTAMP:20260126T141842Z
+UID:match-594741@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594741/fut-esports-vs-gentle-mates-v
+ ct-2026-emea-kickoff-ur1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/594741/fut-esports-vs-gentle-mates-vct-2026-emea-ki
+ ckoff-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Upper Round 1 - PCIFIC Esports vs BBL Espo
+ rts
+DTSTART:20260121T160000Z
+DTEND:20260121T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594742@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594742/pcific-esports-vs-bbl-esports
+ -vct-2026-emea-kickoff-ur1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/594742/pcific-esports-vs-bbl-esports-vct-2026-emea-
+ kickoff-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Upper Round 1 - ULF Esports vs Team Vitali
+ ty
+DTSTART:20260121T192000Z
+DTEND:20260121T212000Z
+DTSTAMP:20260126T141842Z
+UID:match-594743@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594743/ulf-esports-vs-team-vitality-
+ vct-2026-emea-kickoff-ur1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/594743/ulf-esports-vs-team-vitality-vct-2026-emea-k
+ ickoff-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Upper Round 2 - Team Heretics vs Natus Vin
+ cere
+DTSTART:20260122T160000Z
+DTEND:20260122T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594744@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594744/team-heretics-vs-natus-vincer
+ e-vct-2026-emea-kickoff-ur2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/594744/team-heretics-vs-natus-vincere-vct-2026-emea
+ -kickoff-ur2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Upper Round 2 - GIANTX vs Gentle Mates
+DTSTART:20260122T193000Z
+DTEND:20260122T213000Z
+DTSTAMP:20260126T141842Z
+UID:match-594745@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594745/giantx-vs-gentle-mates-vct-20
+ 26-emea-kickoff-ur2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/594745/giantx-vs-gentle-mates-vct-2026-emea-kickoff
+ -ur2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Upper Round 2 - FNATIC vs BBL Esports
+DTSTART:20260123T160000Z
+DTEND:20260123T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594746@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594746/fnatic-vs-bbl-esports-vct-202
+ 6-emea-kickoff-ur2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/594746/fnatic-vs-bbl-esports-vct-2026-emea-kickoff-
+ ur2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Upper Round 2 - Team Liquid vs Team Vitali
+ ty
+DTSTART:20260123T182500Z
+DTEND:20260123T202500Z
+DTSTAMP:20260126T141842Z
+UID:match-594747@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594747/team-liquid-vs-team-vitality-
+ vct-2026-emea-kickoff-ur2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/594747/team-liquid-vs-team-vitality-vct-2026-emea-k
+ ickoff-ur2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Upper Round 3 - Natus Vincere vs Gentle Ma
+ tes
+DTSTART:20260129T160000Z
+DTEND:20260129T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594748@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594748/natus-vincere-vs-gentle-mates
+ -vct-2026-emea-kickoff-ur3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594748/natus-vincere-vs-gentle-mates-vct-2026-emea-
+ kickoff-ur3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Upper Round 3 - BBL Esports vs Team Vitali
+ ty
+DTSTART:20260129T190000Z
+DTEND:20260129T210000Z
+DTSTAMP:20260126T141842Z
+UID:match-594749@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594749/bbl-esports-vs-team-vitality-
+ vct-2026-emea-kickoff-ur3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594749/bbl-esports-vs-team-vitality-vct-2026-emea-k
+ ickoff-ur3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Upper Final - TBD vs TBD
+DTSTART:20260213T160000Z
+DTEND:20260213T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594750@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594750/tbd-vct-2026-emea-kickoff-ubf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594750/tbd-vct-2026-emea-kickoff-ubf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Middle Round 1 - Karmine Corp vs Team Liqu
+ id
+DTSTART:20260127T160000Z
+DTEND:20260127T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594751@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594751/karmine-corp-vs-team-liquid-v
+ ct-2026-emea-kickoff-mr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594751/karmine-corp-vs-team-liquid-vct-2026-emea-ki
+ ckoff-mr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Middle Round 1 - FUT Esports vs FNATIC
+DTSTART:20260127T190000Z
+DTEND:20260127T210000Z
+DTSTAMP:20260126T141842Z
+UID:match-594752@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594752/fut-esports-vs-fnatic-vct-202
+ 6-emea-kickoff-mr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594752/fut-esports-vs-fnatic-vct-2026-emea-kickoff-
+ mr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Middle Round 1 - PCIFIC Esports vs GIANTX
+DTSTART:20260128T160000Z
+DTEND:20260128T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594753@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594753/pcific-esports-vs-giantx-vct-
+ 2026-emea-kickoff-mr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594753/pcific-esports-vs-giantx-vct-2026-emea-kicko
+ ff-mr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Middle Round 1 - ULF Esports vs Team Heret
+ ics
+DTSTART:20260128T190000Z
+DTEND:20260128T210000Z
+DTSTAMP:20260126T141842Z
+UID:match-594754@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594754/ulf-esports-vs-team-heretics-
+ vct-2026-emea-kickoff-mr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594754/ulf-esports-vs-team-heretics-vct-2026-emea-k
+ ickoff-mr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Middle Round 2 - TBD vs TBD
+DTSTART:20260130T160000Z
+DTEND:20260130T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594755@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594755/tbd-vct-2026-emea-kickoff-mr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594755/tbd-vct-2026-emea-kickoff-mr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Middle Round 2 - TBD vs TBD
+DTSTART:20260130T190000Z
+DTEND:20260130T210000Z
+DTSTAMP:20260126T141842Z
+UID:match-594756@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594756/tbd-vct-2026-emea-kickoff-mr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594756/tbd-vct-2026-emea-kickoff-mr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Middle Round 3 - TBD vs TBD
+DTSTART:20260204T160000Z
+DTEND:20260204T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594757@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594757/tbd-vct-2026-emea-kickoff-mr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594757/tbd-vct-2026-emea-kickoff-mr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Middle Round 3 - TBD vs TBD
+DTSTART:20260204T190000Z
+DTEND:20260204T210000Z
+DTSTAMP:20260126T141842Z
+UID:match-594758@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594758/tbd-vct-2026-emea-kickoff-mr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594758/tbd-vct-2026-emea-kickoff-mr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Middle Round 4 - TBD vs TBD
+DTSTART:20260213T130000Z
+DTEND:20260213T150000Z
+DTSTAMP:20260126T141842Z
+UID:match-594759@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594759/tbd-vct-2026-emea-kickoff-mr4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594759/tbd-vct-2026-emea-kickoff-mr4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Middle Final - TBD vs TBD
+DTSTART:20260214T160000Z
+DTEND:20260214T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594760@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594760/tbd-vct-2026-emea-kickoff-mbf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594760/tbd-vct-2026-emea-kickoff-mbf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Lower Round 1 - TBD vs TBD
+DTSTART:20260203T160000Z
+DTEND:20260203T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594761@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594761/tbd-vct-2026-emea-kickoff-lr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594761/tbd-vct-2026-emea-kickoff-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Lower Round 1 - TBD vs TBD
+DTSTART:20260203T190000Z
+DTEND:20260203T210000Z
+DTSTAMP:20260126T141842Z
+UID:match-594762@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594762/tbd-vct-2026-emea-kickoff-lr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594762/tbd-vct-2026-emea-kickoff-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Lower Round 2 - TBD vs TBD
+DTSTART:20260205T160000Z
+DTEND:20260205T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594763@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594763/tbd-vct-2026-emea-kickoff-lr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594763/tbd-vct-2026-emea-kickoff-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Lower Round 2 - TBD vs TBD
+DTSTART:20260205T190000Z
+DTEND:20260205T210000Z
+DTSTAMP:20260126T141842Z
+UID:match-594764@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594764/tbd-vct-2026-emea-kickoff-lr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594764/tbd-vct-2026-emea-kickoff-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Lower Round 3 - TBD vs TBD
+DTSTART:20260206T160000Z
+DTEND:20260206T180000Z
+DTSTAMP:20260126T141842Z
+UID:match-594765@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594765/tbd-vct-2026-emea-kickoff-lr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594765/tbd-vct-2026-emea-kickoff-lr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Lower Round 3 - TBD vs TBD
+DTSTART:20260206T190000Z
+DTEND:20260206T210000Z
+DTSTAMP:20260126T141842Z
+UID:match-594766@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594766/tbd-vct-2026-emea-kickoff-lr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594766/tbd-vct-2026-emea-kickoff-lr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Lower Round 4 - TBD vs TBD
+DTSTART:20260212T170000Z
+DTEND:20260212T190000Z
+DTSTAMP:20260126T141842Z
+UID:match-594767@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594767/tbd-vct-2026-emea-kickoff-lr4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594767/tbd-vct-2026-emea-kickoff-lr4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Lower Round 5 - TBD vs TBD
+DTSTART:20260214T130000Z
+DTEND:20260214T150000Z
+DTSTAMP:20260126T141842Z
+UID:match-594768@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594768/tbd-vct-2026-emea-kickoff-lr5
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594768/tbd-vct-2026-emea-kickoff-lr5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Kickoff - Lower Final - TBD vs TBD
+DTSTART:20260215T170000Z
+DTEND:20260215T190000Z
+DTSTAMP:20260126T141842Z
+UID:match-594769@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/594769/tbd-vct-2026-emea-kickoff-lbf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/594769/tbd-vct-2026-emea-kickoff-lbf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Upper Round 1 - LOUD vs Cloud9
+DTSTART:20260116T011000Z
+DTEND:20260116T031000Z
+DTSTAMP:20260126T141842Z
+UID:match-596398@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596398/loud-vs-cloud9-vct-2026-ameri
+ cas-kickoff-ur1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596398/loud-vs-cloud9-vct-2026-americas-kickoff-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Upper Round 1 - ENVY vs Evil Geniuses
+DTSTART:20260115T220000Z
+DTEND:20260116T000000Z
+DTSTAMP:20260126T141842Z
+UID:match-596399@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596399/envy-vs-evil-geniuses-vct-202
+ 6-americas-kickoff-ur1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596399/envy-vs-evil-geniuses-vct-2026-americas-kick
+ off-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Upper Round 1 - KRÜ Esports vs FURIA
+DTSTART:20260116T220000Z
+DTEND:20260117T000000Z
+DTSTAMP:20260126T141842Z
+UID:match-596400@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596400/kr-esports-vs-furia-vct-2026-
+ americas-kickoff-ur1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596400/kr-esports-vs-furia-vct-2026-americas-kickof
+ f-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Upper Round 1 - 100 Thieves vs LEVIAT
+ ÁN
+DTSTART:20260117T010500Z
+DTEND:20260117T030500Z
+DTSTAMP:20260126T141842Z
+UID:match-596401@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596401/100-thieves-vs-leviat-n-vct-2
+ 026-americas-kickoff-ur1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596401/100-thieves-vs-leviat-n-vct-2026-americas-ki
+ ckoff-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Upper Round 2 - NRG vs Cloud9
+DTSTART:20260117T220000Z
+DTEND:20260118T000000Z
+DTSTAMP:20260126T141842Z
+UID:match-596402@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596402/nrg-vs-cloud9-vct-2026-americ
+ as-kickoff-ur2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596402/nrg-vs-cloud9-vct-2026-americas-kickoff-ur2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Upper Round 2 - MIBR vs ENVY
+DTSTART:20260118T000000Z
+DTEND:20260118T020000Z
+DTSTAMP:20260126T141842Z
+UID:match-596403@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596403/mibr-vs-envy-vct-2026-america
+ s-kickoff-ur2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596403/mibr-vs-envy-vct-2026-americas-kickoff-ur2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Upper Round 2 - Sentinels vs FURIA
+DTSTART:20260118T220000Z
+DTEND:20260119T000000Z
+DTSTAMP:20260126T141842Z
+UID:match-596404@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596404/sentinels-vs-furia-vct-2026-a
+ mericas-kickoff-ur2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596404/sentinels-vs-furia-vct-2026-americas-kickoff
+ -ur2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Upper Round 2 - G2 Esports vs 100 Thie
+ ves
+DTSTART:20260119T002000Z
+DTEND:20260119T022000Z
+DTSTAMP:20260126T141842Z
+UID:match-596405@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596405/g2-esports-vs-100-thieves-vct
+ -2026-americas-kickoff-ur2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596405/g2-esports-vs-100-thieves-vct-2026-americas-
+ kickoff-ur2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Upper Round 3 - NRG vs MIBR
+DTSTART:20260130T220000Z
+DTEND:20260131T000000Z
+DTSTAMP:20260126T141842Z
+UID:match-596406@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596406/nrg-vs-mibr-vct-2026-americas
+ -kickoff-ur3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596406/nrg-vs-mibr-vct-2026-americas-kickoff-ur3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Upper Round 3 - FURIA vs G2 Esports
+DTSTART:20260131T010000Z
+DTEND:20260131T030000Z
+DTSTAMP:20260126T141842Z
+UID:match-596407@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596407/furia-vs-g2-esports-vct-2026-
+ americas-kickoff-ur3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596407/furia-vs-g2-esports-vct-2026-americas-kickof
+ f-ur3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Upper Final - TBD vs TBD
+DTSTART:20260213T230000Z
+DTEND:20260214T010000Z
+DTSTAMP:20260126T141842Z
+UID:match-596408@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596408/tbd-vct-2026-americas-kickoff
+ -ubf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596408/tbd-vct-2026-americas-kickoff-ubf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Middle Round 1 - LOUD vs 100 Thieves
+DTSTART:20260123T220000Z
+DTEND:20260124T000000Z
+DTSTAMP:20260126T141842Z
+UID:match-596409@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596409/loud-vs-100-thieves-vct-2026-
+ americas-kickoff-mr1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596409/loud-vs-100-thieves-vct-2026-americas-kickof
+ f-mr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Middle Round 1 - Evil Geniuses vs Sent
+ inels
+DTSTART:20260124T011000Z
+DTEND:20260124T031000Z
+DTSTAMP:20260126T141842Z
+UID:match-596410@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596410/evil-geniuses-vs-sentinels-vc
+ t-2026-americas-kickoff-mr1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596410/evil-geniuses-vs-sentinels-vct-2026-americas
+ -kickoff-mr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Middle Round 1 - KRÜ Esports vs ENVY
+DTSTART:20260124T220000Z
+DTEND:20260125T000000Z
+DTSTAMP:20260126T141842Z
+UID:match-596411@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596411/kr-esports-vs-envy-vct-2026-a
+ mericas-kickoff-mr1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596411/kr-esports-vs-envy-vct-2026-americas-kickoff
+ -mr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Middle Round 1 - LEVIATÁN vs Cloud9
+DTSTART:20260125T010500Z
+DTEND:20260125T030500Z
+DTSTAMP:20260126T141842Z
+UID:match-596412@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596412/leviat-n-vs-cloud9-vct-2026-a
+ mericas-kickoff-mr1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596412/leviat-n-vs-cloud9-vct-2026-americas-kickoff
+ -mr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Middle Round 2 - 100 Thieves vs Sentin
+ els
+DTSTART:20260125T220000Z
+DTEND:20260126T000000Z
+DTSTAMP:20260126T141842Z
+UID:match-596413@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596413/100-thieves-vs-sentinels-vct-
+ 2026-americas-kickoff-mr2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596413/100-thieves-vs-sentinels-vct-2026-americas-k
+ ickoff-mr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Middle Round 2 - ENVY vs Cloud9
+DTSTART:20260126T010000Z
+DTEND:20260126T030000Z
+DTSTAMP:20260126T141842Z
+UID:match-596414@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596414/envy-vs-cloud9-vct-2026-ameri
+ cas-kickoff-mr2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/596414/envy-vs-cloud9-vct-2026-americas-kickoff-mr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Middle Round 3 - 100 Thieves vs TBD
+DTSTART:20260201T220000Z
+DTEND:20260202T000000Z
+DTSTAMP:20260126T141842Z
+UID:match-596415@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596415/100-thieves-vs-tbd-vct-2026-a
+ mericas-kickoff-mr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596415/100-thieves-vs-tbd-vct-2026-americas-kickoff
+ -mr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Middle Round 3 - Cloud9 vs TBD
+DTSTART:20260202T010000Z
+DTEND:20260202T030000Z
+DTSTAMP:20260126T141842Z
+UID:match-596416@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596416/cloud9-vs-tbd-vct-2026-americ
+ as-kickoff-mr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596416/cloud9-vs-tbd-vct-2026-americas-kickoff-mr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Middle Round 4 - TBD vs TBD
+DTSTART:20260208T020000Z
+DTEND:20260208T040000Z
+DTSTAMP:20260126T141842Z
+UID:match-596417@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596417/tbd-vct-2026-americas-kickoff
+ -mr4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596417/tbd-vct-2026-americas-kickoff-mr4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Middle Final - TBD vs TBD
+DTSTART:20260214T230000Z
+DTEND:20260215T010000Z
+DTSTAMP:20260126T141842Z
+UID:match-596418@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596418/tbd-vct-2026-americas-kickoff
+ -mbf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596418/tbd-vct-2026-americas-kickoff-mbf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Lower Round 1 - LOUD vs Evil Geniuses
+DTSTART:20260131T220000Z
+DTEND:20260201T000000Z
+DTSTAMP:20260126T141842Z
+UID:match-596419@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596419/loud-vs-evil-geniuses-vct-202
+ 6-americas-kickoff-lr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596419/loud-vs-evil-geniuses-vct-2026-americas-kick
+ off-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Lower Round 1 - KRÜ Esports vs LEVIAT
+ ÁN
+DTSTART:20260201T010000Z
+DTEND:20260201T030000Z
+DTSTAMP:20260126T141842Z
+UID:match-596420@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596420/kr-esports-vs-leviat-n-vct-20
+ 26-americas-kickoff-lr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596420/kr-esports-vs-leviat-n-vct-2026-americas-kic
+ koff-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Lower Round 2 - ENVY vs TBD
+DTSTART:20260206T220000Z
+DTEND:20260207T000000Z
+DTSTAMP:20260126T141842Z
+UID:match-596421@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596421/envy-vs-tbd-vct-2026-americas
+ -kickoff-lr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596421/envy-vs-tbd-vct-2026-americas-kickoff-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Lower Round 2 - Sentinels vs TBD
+DTSTART:20260207T010000Z
+DTEND:20260207T030000Z
+DTSTAMP:20260126T141842Z
+UID:match-596422@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596422/sentinels-vs-tbd-vct-2026-ame
+ ricas-kickoff-lr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596422/sentinels-vs-tbd-vct-2026-americas-kickoff-l
+ r2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Lower Round 3 - TBD vs TBD
+DTSTART:20260207T200000Z
+DTEND:20260207T220000Z
+DTSTAMP:20260126T141842Z
+UID:match-596423@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596423/tbd-vct-2026-americas-kickoff
+ -lr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596423/tbd-vct-2026-americas-kickoff-lr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Lower Round 3 - TBD vs TBD
+DTSTART:20260207T230000Z
+DTEND:20260208T010000Z
+DTSTAMP:20260126T141842Z
+UID:match-596424@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596424/tbd-vct-2026-americas-kickoff
+ -lr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596424/tbd-vct-2026-americas-kickoff-lr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Lower Round 4 - TBD vs TBD
+DTSTART:20260213T200000Z
+DTEND:20260213T220000Z
+DTSTAMP:20260126T141842Z
+UID:match-596425@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596425/tbd-vct-2026-americas-kickoff
+ -lr4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596425/tbd-vct-2026-americas-kickoff-lr4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Lower Round 5 - TBD vs TBD
+DTSTART:20260214T200000Z
+DTEND:20260214T220000Z
+DTSTAMP:20260126T141842Z
+UID:match-596426@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596426/tbd-vct-2026-americas-kickoff
+ -lr5
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596426/tbd-vct-2026-americas-kickoff-lr5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Kickoff - Lower Final - TBD vs TBD
+DTSTART:20260215T220000Z
+DTEND:20260216T000000Z
+DTSTAMP:20260126T141842Z
+UID:match-596427@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/596427/tbd-vct-2026-americas-kickoff
+ -lbf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/596427/tbd-vct-2026-americas-kickoff-lbf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Upper Round 1 - Nongshim RedForce vs Te
+ am Secret
+DTSTART:20260122T080000Z
+DTEND:20260122T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595630@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595630/nongshim-redforce-vs-team-sec
+ ret-vct-2026-pacific-kickoff-ur1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/595630/nongshim-redforce-vs-team-secret-vct-2026-pa
+ cific-kickoff-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Upper Round 1 - ZETA DIVISION vs FULL S
+ ENSE
+DTSTART:20260122T101000Z
+DTEND:20260122T121000Z
+DTSTAMP:20260126T141842Z
+UID:match-595631@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595631/zeta-division-vs-full-sense-v
+ ct-2026-pacific-kickoff-ur1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/595631/zeta-division-vs-full-sense-vct-2026-pacific
+ -kickoff-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Upper Round 1 - VARREL vs Global Esport
+ s
+DTSTART:20260123T080000Z
+DTEND:20260123T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595632@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595632/varrel-vs-global-esports-vct-
+ 2026-pacific-kickoff-ur1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/595632/varrel-vs-global-esports-vct-2026-pacific-ki
+ ckoff-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Upper Round 1 - DetonatioN FocusMe vs G
+ en.G
+DTSTART:20260123T101000Z
+DTEND:20260123T121000Z
+DTSTAMP:20260126T141842Z
+UID:match-595633@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595633/detonation-focusme-vs-gen-g-v
+ ct-2026-pacific-kickoff-ur1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/595633/detonation-focusme-vs-gen-g-vct-2026-pacific
+ -kickoff-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Upper Round 2 - T1 vs Nongshim RedForce
+DTSTART:20260124T080000Z
+DTEND:20260124T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595634@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595634/t1-vs-nongshim-redforce-vct-2
+ 026-pacific-kickoff-ur2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/595634/t1-vs-nongshim-redforce-vct-2026-pacific-kic
+ koff-ur2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Upper Round 2 - DRX vs FULL SENSE
+DTSTART:20260124T105500Z
+DTEND:20260124T125500Z
+DTSTAMP:20260126T141842Z
+UID:match-595635@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595635/drx-vs-full-sense-vct-2026-pa
+ cific-kickoff-ur2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/595635/drx-vs-full-sense-vct-2026-pacific-kickoff-u
+ r2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Upper Round 2 - Paper Rex vs Global Esp
+ orts
+DTSTART:20260125T080000Z
+DTEND:20260125T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595636@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595636/paper-rex-vs-global-esports-v
+ ct-2026-pacific-kickoff-ur2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/595636/paper-rex-vs-global-esports-vct-2026-pacific
+ -kickoff-ur2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Upper Round 2 - Rex Regum Qeon vs Deton
+ atioN FocusMe
+DTSTART:20260125T110000Z
+DTEND:20260125T130000Z
+DTSTAMP:20260126T141842Z
+UID:match-595637@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595637/rex-regum-qeon-vs-detonation-
+ focusme-vct-2026-pacific-kickoff-ur2
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/595637/rex-regum-qeon-vs-detonation-focusme-vct-202
+ 6-pacific-kickoff-ur2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Upper Round 3 - Nongshim RedForce vs FU
+ LL SENSE
+DTSTART:20260131T080000Z
+DTEND:20260131T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595638@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595638/nongshim-redforce-vs-full-sen
+ se-vct-2026-pacific-kickoff-ur3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595638/nongshim-redforce-vs-full-sense-vct-2026-pac
+ ific-kickoff-ur3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Upper Round 3 - Paper Rex vs Rex Regum 
+ Qeon
+DTSTART:20260131T100000Z
+DTEND:20260131T120000Z
+DTSTAMP:20260126T141842Z
+UID:match-595639@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595639/paper-rex-vs-rex-regum-qeon-v
+ ct-2026-pacific-kickoff-ur3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595639/paper-rex-vs-rex-regum-qeon-vct-2026-pacific
+ -kickoff-ur3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Upper Final - TBD vs TBD
+DTSTART:20260213T090000Z
+DTEND:20260213T110000Z
+DTSTAMP:20260126T141842Z
+UID:match-595640@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595640/tbd-vct-2026-pacific-kickoff-
+ ubf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595640/tbd-vct-2026-pacific-kickoff-ubf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Middle Round 1 - Team Secret vs Detonat
+ ioN FocusMe
+DTSTART:20260129T080000Z
+DTEND:20260129T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595641@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595641/team-secret-vs-detonation-foc
+ usme-vct-2026-pacific-kickoff-mr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595641/team-secret-vs-detonation-focusme-vct-2026-p
+ acific-kickoff-mr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Middle Round 1 - ZETA DIVISION vs Globa
+ l Esports
+DTSTART:20260129T100000Z
+DTEND:20260129T120000Z
+DTSTAMP:20260126T141842Z
+UID:match-595642@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595642/zeta-division-vs-global-espor
+ ts-vct-2026-pacific-kickoff-mr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595642/zeta-division-vs-global-esports-vct-2026-pac
+ ific-kickoff-mr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Middle Round 1 - VARREL vs DRX
+DTSTART:20260130T080000Z
+DTEND:20260130T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595643@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595643/varrel-vs-drx-vct-2026-pacifi
+ c-kickoff-mr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595643/varrel-vs-drx-vct-2026-pacific-kickoff-mr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Middle Round 1 - Gen.G vs T1
+DTSTART:20260130T100000Z
+DTEND:20260130T120000Z
+DTSTAMP:20260126T141842Z
+UID:match-595644@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595644/gen-g-vs-t1-vct-2026-pacific-
+ kickoff-mr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595644/gen-g-vs-t1-vct-2026-pacific-kickoff-mr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Middle Round 2 - TBD vs TBD
+DTSTART:20260201T080000Z
+DTEND:20260201T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595645@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595645/tbd-vct-2026-pacific-kickoff-
+ mr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595645/tbd-vct-2026-pacific-kickoff-mr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Middle Round 2 - TBD vs TBD
+DTSTART:20260201T100000Z
+DTEND:20260201T120000Z
+DTSTAMP:20260126T141842Z
+UID:match-595646@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595646/tbd-vct-2026-pacific-kickoff-
+ mr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595646/tbd-vct-2026-pacific-kickoff-mr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Middle Round 3 - TBD vs TBD
+DTSTART:20260206T080000Z
+DTEND:20260206T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595647@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595647/tbd-vct-2026-pacific-kickoff-
+ mr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595647/tbd-vct-2026-pacific-kickoff-mr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Middle Round 3 - TBD vs TBD
+DTSTART:20260206T100000Z
+DTEND:20260206T120000Z
+DTSTAMP:20260126T141842Z
+UID:match-595648@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595648/tbd-vct-2026-pacific-kickoff-
+ mr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595648/tbd-vct-2026-pacific-kickoff-mr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Middle Round 4 - TBD vs TBD
+DTSTART:20260213T070000Z
+DTEND:20260213T090000Z
+DTSTAMP:20260126T141842Z
+UID:match-595649@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595649/tbd-vct-2026-pacific-kickoff-
+ mr4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595649/tbd-vct-2026-pacific-kickoff-mr4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Middle Final - TBD vs TBD
+DTSTART:20260214T090000Z
+DTEND:20260214T110000Z
+DTSTAMP:20260126T141842Z
+UID:match-595650@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595650/tbd-vct-2026-pacific-kickoff-
+ mbf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595650/tbd-vct-2026-pacific-kickoff-mbf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Lower Round 1 - TBD vs TBD
+DTSTART:20260205T080000Z
+DTEND:20260205T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595651@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595651/tbd-vct-2026-pacific-kickoff-
+ lr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595651/tbd-vct-2026-pacific-kickoff-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Lower Round 1 - TBD vs TBD
+DTSTART:20260205T100000Z
+DTEND:20260205T120000Z
+DTSTAMP:20260126T141842Z
+UID:match-595652@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595652/tbd-vct-2026-pacific-kickoff-
+ lr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595652/tbd-vct-2026-pacific-kickoff-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Lower Round 2 - TBD vs TBD
+DTSTART:20260207T080000Z
+DTEND:20260207T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595653@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595653/tbd-vct-2026-pacific-kickoff-
+ lr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595653/tbd-vct-2026-pacific-kickoff-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Lower Round 2 - TBD vs TBD
+DTSTART:20260207T100000Z
+DTEND:20260207T120000Z
+DTSTAMP:20260126T141842Z
+UID:match-595654@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595654/tbd-vct-2026-pacific-kickoff-
+ lr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595654/tbd-vct-2026-pacific-kickoff-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Lower Round 3 - TBD vs TBD
+DTSTART:20260208T080000Z
+DTEND:20260208T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595655@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595655/tbd-vct-2026-pacific-kickoff-
+ lr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595655/tbd-vct-2026-pacific-kickoff-lr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Lower Round 3 - TBD vs TBD
+DTSTART:20260208T100000Z
+DTEND:20260208T120000Z
+DTSTAMP:20260126T141842Z
+UID:match-595656@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595656/tbd-vct-2026-pacific-kickoff-
+ lr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595656/tbd-vct-2026-pacific-kickoff-lr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Lower Round 4 - TBD vs TBD
+DTSTART:20260212T080000Z
+DTEND:20260212T100000Z
+DTSTAMP:20260126T141842Z
+UID:match-595657@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595657/tbd-vct-2026-pacific-kickoff-
+ lr4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595657/tbd-vct-2026-pacific-kickoff-lr4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Lower Round 5 - TBD vs TBD
+DTSTART:20260214T070000Z
+DTEND:20260214T090000Z
+DTSTAMP:20260126T141842Z
+UID:match-595658@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595658/tbd-vct-2026-pacific-kickoff-
+ lr5
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595658/tbd-vct-2026-pacific-kickoff-lr5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Pacific Kickoff - Lower Final - TBD vs TBD
+DTSTART:20260215T070000Z
+DTEND:20260215T090000Z
+DTSTAMP:20260126T141842Z
+UID:match-595659@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/595659/tbd-vct-2026-pacific-kickoff-
+ lbf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/595659/tbd-vct-2026-pacific-kickoff-lbf
+END:VEVENT
+END:VCALENDAR
