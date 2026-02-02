@@ -3,16 +3,17 @@
 
 import argparse
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 from icalendar import Calendar
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from src.calendar_generator import WIB, UTC, match_to_event, get_stages_in_calendar
+from src.calendar_generator import UTC, match_to_event, get_stages_in_calendar
 from src.scraper import scrape_all_matches
+
+CALENDAR_FILE = "vct-2026.ics"
 
 
 def load_existing_calendar(path: str) -> tuple[Calendar, dict]:
@@ -30,21 +31,18 @@ def load_existing_calendar(path: str) -> tuple[Calendar, dict]:
     return cal, existing_uids
 
 
-def update_calendar(input_path: str, output_path: str = None, stages: list[str] = None) -> dict:
+def update_calendar(calendar_path: str, stages: list[str] = None) -> dict:
     """Update existing calendar with fresh data from vlr.gg.
     
     Only updates existing events, never adds new ones.
     If stages is None, auto-detects stages from the calendar.
     """
-    if output_path is None:
-        output_path = input_path
-
-    print(f"Loading existing calendar from {input_path}...")
-    cal, existing_uids = load_existing_calendar(input_path)
+    print(f"Loading existing calendar from {calendar_path}...")
+    cal, existing_uids = load_existing_calendar(calendar_path)
     print(f"Found {len(existing_uids)} existing events")
 
     if stages is None:
-        stages = list(get_stages_in_calendar(input_path))
+        stages = list(get_stages_in_calendar(calendar_path))
         print(f"Auto-detected stages: {', '.join(stages)}")
 
     print(f"\nScraping latest data from vlr.gg...")
@@ -107,7 +105,7 @@ def update_calendar(input_path: str, output_path: str = None, stages: list[str] 
         else:
             stats["unchanged"] += 1
 
-    with open(output_path, "wb") as f:
+    with open(calendar_path, "wb") as f:
         f.write(cal.to_ical())
 
     print(f"\nUpdate complete:")
@@ -115,22 +113,13 @@ def update_calendar(input_path: str, output_path: str = None, stages: list[str] 
     print(f"  - Unchanged: {stats['unchanged']}")
     print(f"  - Skipped (new events): {stats['skipped_new']}")
     print(f"  - Skipped (no time): {stats['skipped_no_time']}")
-    print(f"\nSaved to {output_path}")
+    print(f"\nSaved to {calendar_path}")
 
     return stats
 
 
 def main():
     parser = argparse.ArgumentParser(description="Update VCT 2026 calendar with latest data")
-    parser.add_argument(
-        "--input",
-        default="vct-2026.ics",
-        help="Input ICS file to update (default: vct-2026.ics)",
-    )
-    parser.add_argument(
-        "--output",
-        help="Output file path (default: same as input)",
-    )
     parser.add_argument(
         "--stage",
         choices=["kickoff", "masters", "stage1", "stage2", "champions"],
@@ -140,11 +129,11 @@ def main():
     )
     args = parser.parse_args()
 
-    if not Path(args.input).exists():
-        print(f"Error: {args.input} not found. Run generate_calendar.py first.")
+    if not Path(CALENDAR_FILE).exists():
+        print(f"Error: {CALENDAR_FILE} not found. Run generate_calendar.py first.")
         sys.exit(1)
 
-    update_calendar(args.input, args.output, args.stages)
+    update_calendar(CALENDAR_FILE, args.stages)
 
 
 if __name__ == "__main__":

@@ -10,7 +10,7 @@ STAGES = {
     "champions": {"id": 47, "name": "Champions", "active": False},
 }
 
-EXCLUDED_REGIONS = ["China"]
+EXCLUDED_REGIONS = []  # Include all regions (Americas, EMEA, Pacific, China)
 
 REQUEST_DELAY = 1.0
 

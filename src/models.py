@@ -34,4 +34,4 @@ class Match:
 
     @property
     def summary(self) -> str:
-        return f"{self.event_name} - {self.tournament_phase} - {self.team1} vs {self.team2}"
+        return f"{self.event_name} - {self.team1} vs {self.team2} ({self.tournament_phase})"
