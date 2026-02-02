@@ -20,7 +20,7 @@ def create_calendar() -> Calendar:
     cal.add("version", "2.0")
     cal.add("calscale", "GREGORIAN")
     cal.add("method", "PUBLISH")
-    cal.add("x-wr-calname", "VCT 2026")
+    cal.add("x-wr-calname", "Valorant Champions Tour")
     cal.add("x-wr-timezone", "UTC")
     return cal
 
