@@ -223,31 +223,31 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Kickoff - Natus Vincere vs FNATIC (Middle Round 3)
 DTSTART:20260204T160000Z
 DTEND:20260204T180000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-594757@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594757/natus-vincere-vs-fnatic-vct-2
  026-emea-kickoff-mr3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/594757/natus-vincere-vs-fnatic-vct-2026-emea-kickof
  f-mr3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Kickoff - Team Vitality vs GIANTX (Middle Round 3)
-DTSTART:20260204T190000Z
-DTEND:20260204T210000Z
-DTSTAMP:20260202T184357Z
+DTSTART:20260204T200000Z
+DTEND:20260204T220000Z
+DTSTAMP:20260205T145436Z
 UID:match-594758@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594758/team-vitality-vs-giantx-vct-2
  026-emea-kickoff-mr3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/594758/team-vitality-vs-giantx-vct-2026-emea-kickof
  f-mr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Kickoff - TBD vs TBD (Middle Round 4)
+SUMMARY:VCT 2026 EMEA Kickoff - FNATIC vs Team Vitality (Middle Round 4)
 DTSTART:20260213T130000Z
 DTEND:20260213T150000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-594759@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594759/tbd-vct-2026-emea-kickoff-mr4
 STATUS:TENTATIVE
@@ -268,32 +268,33 @@ SUMMARY:VCT 2026 EMEA Kickoff - Karmine Corp vs FUT Esports (Lower Round 1
  )
 DTSTART:20260203T160000Z
 DTEND:20260203T180000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-594761@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594761/karmine-corp-vs-fut-esports-v
  ct-2026-emea-kickoff-lr1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/594761/karmine-corp-vs-fut-esports-vct-2026-emea-ki
  ckoff-lr1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Kickoff - PCIFIC Esports vs ULF Esports (Lower Round
   1)
-DTSTART:20260203T190000Z
-DTEND:20260203T210000Z
-DTSTAMP:20260202T184357Z
+DTSTART:20260203T193500Z
+DTEND:20260203T213500Z
+DTSTAMP:20260205T145436Z
 UID:match-594762@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594762/pcific-esports-vs-ulf-esports
  -vct-2026-emea-kickoff-lr1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/594762/pcific-esports-vs-ulf-esports-vct-2026-emea-
  kickoff-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Kickoff - Team Heretics vs TBD (Lower Round 2)
+SUMMARY:VCT 2026 EMEA Kickoff - Team Heretics vs Karmine Corp (Lower Round
+  2)
 DTSTART:20260205T160000Z
 DTEND:20260205T180000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-594763@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594763/team-heretics-vs-tbd-vct-2026
  -emea-kickoff-lr2
@@ -302,10 +303,10 @@ URL:https://www.vlr.gg/594763/team-heretics-vs-tbd-vct-2026-emea-kickoff-l
  r2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Kickoff - Team Liquid vs TBD (Lower Round 2)
+SUMMARY:VCT 2026 EMEA Kickoff - Team Liquid vs ULF Esports (Lower Round 2)
 DTSTART:20260205T190000Z
 DTEND:20260205T210000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-594764@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594764/team-liquid-vs-tbd-vct-2026-e
  mea-kickoff-lr2
@@ -313,20 +314,20 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/594764/team-liquid-vs-tbd-vct-2026-emea-kickoff-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Kickoff - TBD vs TBD (Lower Round 3)
+SUMMARY:VCT 2026 EMEA Kickoff - Natus Vincere vs TBD (Lower Round 3)
 DTSTART:20260206T160000Z
 DTEND:20260206T180000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-594765@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594765/tbd-vct-2026-emea-kickoff-lr3
 STATUS:TENTATIVE
 URL:https://www.vlr.gg/594765/tbd-vct-2026-emea-kickoff-lr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Kickoff - TBD vs TBD (Lower Round 3)
+SUMMARY:VCT 2026 EMEA Kickoff - GIANTX vs TBD (Lower Round 3)
 DTSTART:20260206T190000Z
 DTEND:20260206T210000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-594766@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594766/tbd-vct-2026-emea-kickoff-lr3
 STATUS:TENTATIVE
@@ -980,30 +981,30 @@ SUMMARY:VCT 2026 Pacific Kickoff - Team Secret vs ZETA DIVISION (Lower Rou
  nd 1)
 DTSTART:20260205T080000Z
 DTEND:20260205T100000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-595651@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595651/team-secret-vs-zeta-division-
  vct-2026-pacific-kickoff-lr1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/595651/team-secret-vs-zeta-division-vct-2026-pacifi
  c-kickoff-lr1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Kickoff - VARREL vs Gen.G (Lower Round 1)
-DTSTART:20260205T100000Z
-DTEND:20260205T120000Z
-DTSTAMP:20260202T184357Z
+DTSTART:20260205T104500Z
+DTEND:20260205T124500Z
+DTSTAMP:20260205T145436Z
 UID:match-595652@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595652/varrel-vs-gen-g-vct-2026-paci
  fic-kickoff-lr1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/595652/varrel-vs-gen-g-vct-2026-pacific-kickoff-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Kickoff - DRX vs TBD (Lower Round 2)
+SUMMARY:VCT 2026 Pacific Kickoff - DRX vs ZETA DIVISION (Lower Round 2)
 DTSTART:20260207T080000Z
 DTEND:20260207T100000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-595653@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595653/drx-vs-tbd-vct-2026-pacific-k
  ickoff-lr2
@@ -1011,10 +1012,10 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/595653/drx-vs-tbd-vct-2026-pacific-kickoff-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Kickoff - Global Esports vs TBD (Lower Round 2)
+SUMMARY:VCT 2026 Pacific Kickoff - Global Esports vs Gen.G (Lower Round 2)
 DTSTART:20260207T100000Z
 DTEND:20260207T120000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-595654@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595654/global-esports-vs-tbd-vct-202
  6-pacific-kickoff-lr2
@@ -1297,34 +1298,35 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 China Kickoff - Dragon Ranger Gaming vs TYLOO (Middle Rou
  nd 3)
-DTSTART:20260203T110000Z
-DTEND:20260203T130000Z
-DTSTAMP:20260202T184357Z
+DTSTART:20260203T123000Z
+DTEND:20260203T143000Z
+DTSTAMP:20260205T145436Z
 UID:match-598938@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598938/dragon-ranger-gaming-vs-tyloo
  -vct-2026-china-kickoff-mr3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/598938/dragon-ranger-gaming-vs-tyloo-vct-2026-china
  -kickoff-mr3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 China Kickoff - EDward Gaming vs Bilibili Gaming (Middle 
  Round 3)
-DTSTART:20260204T110000Z
-DTEND:20260204T130000Z
-DTSTAMP:20260202T184357Z
+DTSTART:20260204T122000Z
+DTEND:20260204T142000Z
+DTSTAMP:20260205T145436Z
 UID:match-598939@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598939/edward-gaming-vs-bilibili-gam
  ing-vct-2026-china-kickoff-mr3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/598939/edward-gaming-vs-bilibili-gaming-vct-2026-ch
  ina-kickoff-mr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Kickoff - TBD vs TBD (Middle Round 4)
+SUMMARY:VCT 2026 China Kickoff - Dragon Ranger Gaming vs Bilibili Gaming (
+ Middle Round 4)
 DTSTART:20260206T090000Z
 DTEND:20260206T110000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-598940@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598940/tbd-vct-2026-china-kickoff-mr
  4
@@ -1373,11 +1375,11 @@ SUMMARY:VCT 2026 China Kickoff - Trace Esports vs Wolves Esports (Lower Ro
  und 2)
 DTSTART:20260203T090000Z
 DTEND:20260203T110000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-598944@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598944/trace-esports-vs-wolves-espor
  ts-vct-2026-china-kickoff-lr2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/598944/trace-esports-vs-wolves-esports-vct-2026-chi
  na-kickoff-lr2
 END:VEVENT
@@ -1386,41 +1388,42 @@ SUMMARY:VCT 2026 China Kickoff - Titan Esports Club vs JDG Esports (Lower
  Round 2)
 DTSTART:20260204T090000Z
 DTEND:20260204T110000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-598945@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598945/titan-esports-club-vs-jdg-esp
  orts-vct-2026-china-kickoff-lr2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/598945/titan-esports-club-vs-jdg-esports-vct-2026-c
  hina-kickoff-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Kickoff - TBD vs TBD (Lower Round 3)
+SUMMARY:VCT 2026 China Kickoff - TYLOO vs Trace Esports (Lower Round 3)
 DTSTART:20260205T090000Z
 DTEND:20260205T110000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-598946@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598946/tbd-vct-2026-china-kickoff-lr
  3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/598946/tbd-vct-2026-china-kickoff-lr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Kickoff - TBD vs TBD (Lower Round 3)
-DTSTART:20260205T110000Z
-DTEND:20260205T130000Z
-DTSTAMP:20260202T184357Z
+SUMMARY:VCT 2026 China Kickoff - EDward Gaming vs JDG Esports (Lower Round
+  3)
+DTSTART:20260205T112500Z
+DTEND:20260205T132500Z
+DTSTAMP:20260205T145436Z
 UID:match-598947@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598947/tbd-vct-2026-china-kickoff-lr
  3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/598947/tbd-vct-2026-china-kickoff-lr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Kickoff - TBD vs TBD (Lower Round 4)
+SUMMARY:VCT 2026 China Kickoff - TYLOO vs EDward Gaming (Lower Round 4)
 DTSTART:20260206T110000Z
 DTEND:20260206T130000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260205T145436Z
 UID:match-598948@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598948/tbd-vct-2026-china-kickoff-lr
  4
