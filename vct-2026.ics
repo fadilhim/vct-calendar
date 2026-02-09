@@ -294,11 +294,11 @@ SUMMARY:VCT 2026 EMEA Kickoff - Team Heretics vs Karmine Corp (Lower Round
   2)
 DTSTART:20260205T160000Z
 DTEND:20260205T180000Z
-DTSTAMP:20260205T145436Z
+DTSTAMP:20260209T101406Z
 UID:match-594763@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594763/team-heretics-vs-tbd-vct-2026
  -emea-kickoff-lr2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/594763/team-heretics-vs-tbd-vct-2026-emea-kickoff-l
  r2
 END:VEVENT
@@ -306,38 +306,40 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Kickoff - Team Liquid vs ULF Esports (Lower Round 2)
 DTSTART:20260205T190000Z
 DTEND:20260205T210000Z
-DTSTAMP:20260205T145436Z
+DTSTAMP:20260209T101406Z
 UID:match-594764@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594764/team-liquid-vs-tbd-vct-2026-e
  mea-kickoff-lr2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/594764/team-liquid-vs-tbd-vct-2026-emea-kickoff-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Kickoff - Natus Vincere vs TBD (Lower Round 3)
+SUMMARY:VCT 2026 EMEA Kickoff - Natus Vincere vs Team Heretics (Lower Roun
+ d 3)
 DTSTART:20260206T160000Z
 DTEND:20260206T180000Z
-DTSTAMP:20260205T145436Z
+DTSTAMP:20260209T101406Z
 UID:match-594765@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594765/tbd-vct-2026-emea-kickoff-lr3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/594765/tbd-vct-2026-emea-kickoff-lr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Kickoff - GIANTX vs TBD (Lower Round 3)
-DTSTART:20260206T190000Z
-DTEND:20260206T210000Z
-DTSTAMP:20260205T145436Z
+SUMMARY:VCT 2026 EMEA Kickoff - GIANTX vs Team Liquid (Lower Round 3)
+DTSTART:20260206T180000Z
+DTEND:20260206T200000Z
+DTSTAMP:20260209T101406Z
 UID:match-594766@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594766/tbd-vct-2026-emea-kickoff-lr3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/594766/tbd-vct-2026-emea-kickoff-lr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Kickoff - TBD vs TBD (Lower Round 4)
+SUMMARY:VCT 2026 EMEA Kickoff - Team Heretics vs Team Liquid (Lower Round 
+ 4)
 DTSTART:20260212T170000Z
 DTEND:20260212T190000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-594767@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594767/tbd-vct-2026-emea-kickoff-lr4
 STATUS:TENTATIVE
@@ -591,21 +593,21 @@ URL:https://www.vlr.gg/596416/g2-esports-vs-cloud9-vct-2026-americas-kicko
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Kickoff - NRG vs G2 Esports (Middle Round 4)
-DTSTART:20260208T020000Z
-DTEND:20260208T040000Z
-DTSTAMP:20260202T184357Z
+DTSTART:20260208T012500Z
+DTEND:20260208T032500Z
+DTSTAMP:20260209T101406Z
 UID:match-596417@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/596417/nrg-vs-g2-esports-vct-2026-am
  ericas-kickoff-mr4
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/596417/nrg-vs-g2-esports-vct-2026-americas-kickoff-
  mr4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Kickoff - TBD vs TBD (Middle Final)
+SUMMARY:VCT 2026 Americas Kickoff - G2 Esports vs TBD (Middle Final)
 DTSTART:20260214T230000Z
 DTEND:20260215T010000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-596418@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/596418/tbd-vct-2026-americas-kickoff
  -mbf
@@ -641,54 +643,55 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Kickoff - ENVY vs Evil Geniuses (Lower Round 2)
 DTSTART:20260206T220000Z
 DTEND:20260207T000000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-596421@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/596421/envy-vs-evil-geniuses-vct-202
  6-americas-kickoff-lr2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/596421/envy-vs-evil-geniuses-vct-2026-americas-kick
  off-lr2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Kickoff - Sentinels vs LEVIATÁN (Lower Round 2)
-DTSTART:20260207T010000Z
-DTEND:20260207T030000Z
-DTSTAMP:20260202T184357Z
+DTSTART:20260207T003000Z
+DTEND:20260207T023000Z
+DTSTAMP:20260209T101406Z
 UID:match-596422@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/596422/sentinels-vs-leviat-n-vct-202
  6-americas-kickoff-lr2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/596422/sentinels-vs-leviat-n-vct-2026-americas-kick
  off-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Kickoff - 100 Thieves vs TBD (Lower Round 3)
+SUMMARY:VCT 2026 Americas Kickoff - 100 Thieves vs Evil Geniuses (Lower Ro
+ und 3)
 DTSTART:20260207T200000Z
 DTEND:20260207T220000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-596423@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/596423/100-thieves-vs-tbd-vct-2026-a
  mericas-kickoff-lr3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/596423/100-thieves-vs-tbd-vct-2026-americas-kickoff
  -lr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Kickoff - Cloud9 vs TBD (Lower Round 3)
-DTSTART:20260207T230000Z
-DTEND:20260208T010000Z
-DTSTAMP:20260202T184357Z
+SUMMARY:VCT 2026 Americas Kickoff - Cloud9 vs LEVIATÁN (Lower Round 3)
+DTSTART:20260207T232000Z
+DTEND:20260208T012000Z
+DTSTAMP:20260209T101406Z
 UID:match-596424@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/596424/cloud9-vs-tbd-vct-2026-americ
  as-kickoff-lr3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/596424/cloud9-vs-tbd-vct-2026-americas-kickoff-lr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Kickoff - TBD vs TBD (Lower Round 4)
+SUMMARY:VCT 2026 Americas Kickoff - 100 Thieves vs Cloud9 (Lower Round 4)
 DTSTART:20260213T200000Z
 DTEND:20260213T220000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-596425@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/596425/tbd-vct-2026-americas-kickoff
  -lr4
@@ -696,10 +699,10 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/596425/tbd-vct-2026-americas-kickoff-lr4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Kickoff - TBD vs TBD (Lower Round 5)
+SUMMARY:VCT 2026 Americas Kickoff - NRG vs TBD (Lower Round 5)
 DTSTART:20260214T200000Z
 DTEND:20260214T220000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-596426@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/596426/tbd-vct-2026-americas-kickoff
  -lr5
@@ -935,30 +938,31 @@ SUMMARY:VCT 2026 Pacific Kickoff - FULL SENSE vs DetonatioN FocusMe (Middl
  e Round 3)
 DTSTART:20260206T080000Z
 DTEND:20260206T100000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-595647@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595647/full-sense-vs-detonation-focu
  sme-vct-2026-pacific-kickoff-mr3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/595647/full-sense-vs-detonation-focusme-vct-2026-pa
  cific-kickoff-mr3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Kickoff - Paper Rex vs T1 (Middle Round 3)
-DTSTART:20260206T100000Z
-DTEND:20260206T120000Z
-DTSTAMP:20260202T184357Z
+DTSTART:20260206T110000Z
+DTEND:20260206T130000Z
+DTSTAMP:20260209T101406Z
 UID:match-595648@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595648/paper-rex-vs-t1-vct-2026-paci
  fic-kickoff-mr3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/595648/paper-rex-vs-t1-vct-2026-pacific-kickoff-mr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Kickoff - TBD vs TBD (Middle Round 4)
+SUMMARY:VCT 2026 Pacific Kickoff - DetonatioN FocusMe vs T1 (Middle Round 
+ 4)
 DTSTART:20260213T070000Z
 DTEND:20260213T090000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-595649@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595649/tbd-vct-2026-pacific-kickoff-
  mr4
@@ -1004,52 +1008,53 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Kickoff - DRX vs ZETA DIVISION (Lower Round 2)
 DTSTART:20260207T080000Z
 DTEND:20260207T100000Z
-DTSTAMP:20260205T145436Z
+DTSTAMP:20260209T101406Z
 UID:match-595653@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595653/drx-vs-tbd-vct-2026-pacific-k
  ickoff-lr2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/595653/drx-vs-tbd-vct-2026-pacific-kickoff-lr2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Kickoff - Global Esports vs Gen.G (Lower Round 2)
-DTSTART:20260207T100000Z
-DTEND:20260207T120000Z
-DTSTAMP:20260205T145436Z
+DTSTART:20260207T110000Z
+DTEND:20260207T130000Z
+DTSTAMP:20260209T101406Z
 UID:match-595654@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595654/global-esports-vs-tbd-vct-202
  6-pacific-kickoff-lr2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/595654/global-esports-vs-tbd-vct-2026-pacific-kicko
  ff-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Kickoff - TBD vs TBD (Lower Round 3)
+SUMMARY:VCT 2026 Pacific Kickoff - FULL SENSE vs DRX (Lower Round 3)
 DTSTART:20260208T080000Z
 DTEND:20260208T100000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-595655@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595655/tbd-vct-2026-pacific-kickoff-
  lr3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/595655/tbd-vct-2026-pacific-kickoff-lr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Kickoff - TBD vs TBD (Lower Round 3)
+SUMMARY:VCT 2026 Pacific Kickoff - Paper Rex vs Global Esports (Lower Roun
+ d 3)
 DTSTART:20260208T100000Z
 DTEND:20260208T120000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-595656@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595656/tbd-vct-2026-pacific-kickoff-
  lr3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/595656/tbd-vct-2026-pacific-kickoff-lr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Kickoff - TBD vs TBD (Lower Round 4)
+SUMMARY:VCT 2026 Pacific Kickoff - DRX vs Paper Rex (Lower Round 4)
 DTSTART:20260212T080000Z
 DTEND:20260212T100000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-595657@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595657/tbd-vct-2026-pacific-kickoff-
  lr4
@@ -1208,13 +1213,13 @@ URL:https://www.vlr.gg/598930/xi-lai-gaming-vs-edward-gaming-vct-2026-chin
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 China Kickoff - All Gamers vs Xi Lai Gaming (Upper Final)
-DTSTART:20260207T090000Z
-DTEND:20260207T110000Z
-DTSTAMP:20260202T184357Z
+DTSTART:20260207T101000Z
+DTEND:20260207T121000Z
+DTSTAMP:20260209T101406Z
 UID:match-598931@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598931/all-gamers-vs-xi-lai-gaming-v
  ct-2026-china-kickoff-ubf
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/598931/all-gamers-vs-xi-lai-gaming-vct-2026-china-k
  ickoff-ubf
 END:VEVENT
@@ -1326,22 +1331,23 @@ SUMMARY:VCT 2026 China Kickoff - Dragon Ranger Gaming vs Bilibili Gaming (
  Middle Round 4)
 DTSTART:20260206T090000Z
 DTEND:20260206T110000Z
-DTSTAMP:20260205T145436Z
+DTSTAMP:20260209T101406Z
 UID:match-598940@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598940/tbd-vct-2026-china-kickoff-mr
  4
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/598940/tbd-vct-2026-china-kickoff-mr4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Kickoff - TBD vs TBD (Middle Final)
+SUMMARY:VCT 2026 China Kickoff - Xi Lai Gaming vs Bilibili Gaming (Middle 
+ Final)
 DTSTART:20260208T090000Z
 DTEND:20260208T110000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-598941@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598941/tbd-vct-2026-china-kickoff-mb
  f
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/598941/tbd-vct-2026-china-kickoff-mbf
 END:VEVENT
 BEGIN:VEVENT
@@ -1423,33 +1429,35 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 China Kickoff - TYLOO vs EDward Gaming (Lower Round 4)
 DTSTART:20260206T110000Z
 DTEND:20260206T130000Z
-DTSTAMP:20260205T145436Z
+DTSTAMP:20260209T101406Z
 UID:match-598948@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598948/tbd-vct-2026-china-kickoff-lr
  4
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/598948/tbd-vct-2026-china-kickoff-lr4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Kickoff - TBD vs TBD (Lower Round 5)
+SUMMARY:VCT 2026 China Kickoff - Dragon Ranger Gaming vs EDward Gaming (Lo
+ wer Round 5)
 DTSTART:20260207T070000Z
 DTEND:20260207T090000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-598949@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598949/tbd-vct-2026-china-kickoff-lr
  5
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/598949/tbd-vct-2026-china-kickoff-lr5
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Kickoff - TBD vs TBD (Lower Final)
+SUMMARY:VCT 2026 China Kickoff - Bilibili Gaming vs EDward Gaming (Lower F
+ inal)
 DTSTART:20260209T090000Z
 DTEND:20260209T110000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260209T101406Z
 UID:match-598950@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/598950/tbd-vct-2026-china-kickoff-lb
  f
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/598950/tbd-vct-2026-china-kickoff-lbf
 END:VEVENT
 END:VCALENDAR
