@@ -339,17 +339,17 @@ SUMMARY:VCT 2026 EMEA Kickoff - Team Heretics vs Team Liquid (Lower Round
  4)
 DTSTART:20260212T170000Z
 DTEND:20260212T190000Z
-DTSTAMP:20260209T101406Z
+DTSTAMP:20260213T114646Z
 UID:match-594767@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594767/tbd-vct-2026-emea-kickoff-lr4
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/594767/tbd-vct-2026-emea-kickoff-lr4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Kickoff - TBD vs TBD (Lower Round 5)
+SUMMARY:VCT 2026 EMEA Kickoff - Team Liquid vs TBD (Lower Round 5)
 DTSTART:20260214T130000Z
 DTEND:20260214T150000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260213T114646Z
 UID:match-594768@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/594768/tbd-vct-2026-emea-kickoff-lr5
 STATUS:TENTATIVE
@@ -853,11 +853,11 @@ SUMMARY:VCT 2026 Pacific Kickoff - Nongshim RedForce vs Rex Regum Qeon (Up
  per Final)
 DTSTART:20260213T090000Z
 DTEND:20260213T110000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260213T114646Z
 UID:match-595640@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595640/nongshim-redforce-vs-rex-regu
  m-qeon-vct-2026-pacific-kickoff-ubf
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/595640/nongshim-redforce-vs-rex-regum-qeon-vct-2026
  -pacific-kickoff-ubf
 END:VEVENT
@@ -962,18 +962,18 @@ SUMMARY:VCT 2026 Pacific Kickoff - DetonatioN FocusMe vs T1 (Middle Round
  4)
 DTSTART:20260213T070000Z
 DTEND:20260213T090000Z
-DTSTAMP:20260209T101406Z
+DTSTAMP:20260213T114646Z
 UID:match-595649@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595649/tbd-vct-2026-pacific-kickoff-
  mr4
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/595649/tbd-vct-2026-pacific-kickoff-mr4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Kickoff - TBD vs TBD (Middle Final)
+SUMMARY:VCT 2026 Pacific Kickoff - T1 vs TBD (Middle Final)
 DTSTART:20260214T090000Z
 DTEND:20260214T110000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260213T114646Z
 UID:match-595650@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595650/tbd-vct-2026-pacific-kickoff-
  mbf
@@ -1054,18 +1054,19 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Kickoff - DRX vs Paper Rex (Lower Round 4)
 DTSTART:20260212T080000Z
 DTEND:20260212T100000Z
-DTSTAMP:20260209T101406Z
+DTSTAMP:20260213T114646Z
 UID:match-595657@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595657/tbd-vct-2026-pacific-kickoff-
  lr4
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/595657/tbd-vct-2026-pacific-kickoff-lr4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Kickoff - TBD vs TBD (Lower Round 5)
+SUMMARY:VCT 2026 Pacific Kickoff - DetonatioN FocusMe vs Paper Rex (Lower 
+ Round 5)
 DTSTART:20260214T070000Z
 DTEND:20260214T090000Z
-DTSTAMP:20260202T184357Z
+DTSTAMP:20260213T114646Z
 UID:match-595658@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/595658/tbd-vct-2026-pacific-kickoff-
  lr5
