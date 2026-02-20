@@ -1463,4 +1463,52 @@ DESCRIPTION:Watch: https://www.vlr.gg/598950/tbd-vct-2026-china-kickoff-lb
 STATUS:CONFIRMED
 URL:https://www.vlr.gg/598950/tbd-vct-2026-china-kickoff-lbf
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valorant Masters Santiago 2026 - M8 vs EDG (Match)
+DTSTART:20260228T170000Z
+DTEND:20260228T190000Z
+DTSTAMP:20260220T064418Z
+UID:match-625788@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/625788/gentle-mates-vs-edward-gaming
+ -valorant-masters-santiago-2026-r1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/625788/gentle-mates-vs-edward-gaming-valorant-maste
+ rs-santiago-2026-r1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valorant Masters Santiago 2026 - XLG vs NRG (Match)
+DTSTART:20260228T200000Z
+DTEND:20260228T220000Z
+DTSTAMP:20260220T064151Z
+UID:match-625791@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/625791/xi-lai-gaming-vs-nrg-valorant
+ -masters-santiago-2026-r1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/625791/xi-lai-gaming-vs-nrg-valorant-masters-santia
+ go-2026-r1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valorant Masters Santiago 2026 - G2 vs PRX (Match)
+DTSTART:20260301T170000Z
+DTEND:20260301T190000Z
+DTSTAMP:20260220T064418Z
+UID:match-625790@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/625790/g2-esports-vs-paper-rex-valor
+ ant-masters-santiago-2026-r1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/625790/g2-esports-vs-paper-rex-valorant-masters-san
+ tiago-2026-r1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valorant Masters Santiago 2026 - T1 vs TL (Match)
+DTSTART:20260301T200000Z
+DTEND:20260301T220000Z
+DTSTAMP:20260220T064418Z
+UID:match-625789@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/625789/t1-vs-team-liquid-valorant-ma
+ sters-santiago-2026-r1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/625789/t1-vs-team-liquid-valorant-masters-santiago-
+ 2026-r1
+END:VEVENT
 END:VCALENDAR
