@@ -1,6 +1,6 @@
 """ICS calendar generation utilities."""
 
-from datetime import datetime, timedelta
+from datetime import date, datetime, time, timedelta
 from typing import Optional
 from zoneinfo import ZoneInfo
 
@@ -105,6 +105,21 @@ def append_to_calendar(matches: list[Match], calendar_path: str) -> int:
     return events_added
 
 
+def stage_from_summary(summary: str) -> Optional[str]:
+    """Infer stage key from event summary."""
+    if "Kickoff" in summary:
+        return "kickoff"
+    if "Masters" in summary:
+        return "masters"
+    if "Stage 1" in summary:
+        return "stage1"
+    if "Stage 2" in summary:
+        return "stage2"
+    if "Champions" in summary:
+        return "champions"
+    return None
+
+
 def get_stages_in_calendar(calendar_path: str) -> set[str]:
     """Get the set of stages present in a calendar file."""
     with open(calendar_path, "rb") as f:
@@ -114,15 +129,45 @@ def get_stages_in_calendar(calendar_path: str) -> set[str]:
     for component in cal.walk():
         if component.name == "VEVENT":
             summary = str(component.get("summary", ""))
-            if "Kickoff" in summary:
-                stages.add("kickoff")
-            elif "Masters" in summary:
-                stages.add("masters")
-            elif "Stage 1" in summary:
-                stages.add("stage1")
-            elif "Stage 2" in summary:
-                stages.add("stage2")
-            elif "Champions" in summary:
-                stages.add("champions")
+            stage = stage_from_summary(summary)
+            if stage:
+                stages.add(stage)
 
     return stages
+
+
+def get_upcoming_stages_in_calendar(
+    calendar_path: str, reference_time: Optional[datetime] = None
+) -> set[str]:
+    """Get stages that still have at least one event in the future."""
+    with open(calendar_path, "rb") as f:
+        cal = Calendar.from_ical(f.read())
+
+    now = reference_time or datetime.now(UTC)
+    upcoming_stages = set()
+
+    for component in cal.walk():
+        if component.name != "VEVENT":
+            continue
+
+        summary = str(component.get("summary", ""))
+        stage = stage_from_summary(summary)
+        if not stage:
+            continue
+
+        dt_value = component.get("dtend") or component.get("dtstart")
+        if not dt_value:
+            continue
+
+        event_dt = dt_value.dt if hasattr(dt_value, "dt") else dt_value
+        if isinstance(event_dt, date) and not isinstance(event_dt, datetime):
+            event_dt = datetime.combine(event_dt, time.min).replace(tzinfo=UTC)
+        elif event_dt.tzinfo is None:
+            event_dt = event_dt.replace(tzinfo=UTC)
+        else:
+            event_dt = event_dt.astimezone(UTC)
+
+        if event_dt >= now:
+            upcoming_stages.add(stage)
+
+    return upcoming_stages

@@ -10,7 +10,12 @@ from icalendar import Calendar, vDatetime
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from src.calendar_generator import UTC, match_to_event, get_stages_in_calendar
+from src.calendar_generator import (
+    UTC,
+    get_stages_in_calendar,
+    get_upcoming_stages_in_calendar,
+    match_to_event,
+)
 from src.scraper import scrape_all_matches
 
 CALENDAR_FILE = "vct-2026.ics"
@@ -42,8 +47,20 @@ def update_calendar(calendar_path: str, stages: list[str] = None) -> dict:
     print(f"Found {len(existing_uids)} existing events")
 
     if stages is None:
-        stages = list(get_stages_in_calendar(calendar_path))
-        print(f"Auto-detected stages: {', '.join(stages)}")
+        all_stages = get_stages_in_calendar(calendar_path)
+        upcoming_stages = get_upcoming_stages_in_calendar(calendar_path)
+        ended_stages = sorted(all_stages - upcoming_stages)
+        stages = sorted(upcoming_stages)
+
+        print(f"Auto-detected upcoming stages: {', '.join(stages) if stages else 'none'}")
+        if ended_stages:
+            print(f"Skipping ended stages: {', '.join(ended_stages)}")
+    else:
+        stages = list(stages)
+
+    if not stages:
+        print("\nNo upcoming stages to update. Calendar is already up to date for future events.")
+        return {"updated": 0, "unchanged": 0, "skipped_new": 0, "skipped_no_time": 0}
 
     print(f"\nScraping latest data from vlr.gg...")
     matches = []

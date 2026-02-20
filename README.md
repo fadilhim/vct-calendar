@@ -9,7 +9,7 @@ ICS calendar for Valorant Champions Tour 2026, automatically updated from [vlr.g
 Add this URL to your calendar app for automatic updates:
 
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/vct-calendar/main/vct-2026.ics
+https://raw.githubusercontent.com/fadilhim/vct-calendar/main/vct-2026.ics
 ```
 
 | App                 | How to Subscribe                    |
