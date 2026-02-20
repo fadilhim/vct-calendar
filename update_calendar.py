@@ -39,7 +39,7 @@ def load_existing_calendar(path: str) -> tuple[Calendar, dict]:
 def update_calendar(calendar_path: str, stages: list[str] = None) -> dict:
     """Update existing calendar with fresh data from vlr.gg.
     
-    Only updates existing events, never adds new ones.
+    Updates existing events and appends new ones.
     If stages is None, auto-detects stages from the calendar.
     """
     print(f"Loading existing calendar from {calendar_path}...")
@@ -60,7 +60,7 @@ def update_calendar(calendar_path: str, stages: list[str] = None) -> dict:
 
     if not stages:
         print("\nNo upcoming stages to update. Calendar is already up to date for future events.")
-        return {"updated": 0, "unchanged": 0, "skipped_new": 0, "skipped_no_time": 0}
+        return {"added": 0, "updated": 0, "unchanged": 0, "skipped_no_time": 0}
 
     print(f"\nScraping latest data from vlr.gg...")
     matches = []
@@ -70,25 +70,29 @@ def update_calendar(calendar_path: str, stages: list[str] = None) -> dict:
         matches.extend(stage_matches)
     print(f"Found {len(matches)} total matches from vlr.gg")
 
-    stats = {"updated": 0, "unchanged": 0, "skipped_new": 0, "skipped_no_time": 0}
+    stats = {"added": 0, "updated": 0, "unchanged": 0, "skipped_no_time": 0}
 
     for match in matches:
         uid = match.uid
-
-        if uid not in existing_uids:
-            stats["skipped_new"] += 1
-            continue
 
         if not match.datetime_wib:
             stats["skipped_no_time"] += 1
             continue
 
-        existing_event = existing_uids[uid]
         new_event = match_to_event(match)
 
         if not new_event:
             stats["skipped_no_time"] += 1
             continue
+
+        if uid not in existing_uids:
+            cal.add_component(new_event)
+            existing_uids[uid] = new_event
+            stats["added"] += 1
+            print(f"  Added {uid}: {new_event.get('summary', '')}")
+            continue
+
+        existing_event = existing_uids[uid]
 
         changes = []
 
@@ -126,9 +130,9 @@ def update_calendar(calendar_path: str, stages: list[str] = None) -> dict:
         f.write(cal.to_ical())
 
     print(f"\nUpdate complete:")
+    print(f"  - Added: {stats['added']}")
     print(f"  - Updated: {stats['updated']}")
     print(f"  - Unchanged: {stats['unchanged']}")
-    print(f"  - Skipped (new events): {stats['skipped_new']}")
     print(f"  - Skipped (no time): {stats['skipped_no_time']}")
     print(f"\nSaved to {calendar_path}")
 

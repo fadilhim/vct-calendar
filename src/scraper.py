@@ -103,6 +103,99 @@ def parse_wib_datetime(datetime_str: str, year: int = 2026) -> Optional[datetime
         return None
 
 
+def extract_match_datetime_str(link_text: str) -> str:
+    """Extract a datetime text from a match card text blob.
+
+    Supports:
+    - "11:00 pm WIB, Jan 20"
+    - "Mar 1 12:00 am" (date + time without WIB)
+    """
+    if not link_text:
+        return ""
+
+    # Legacy VLR format with explicit WIB marker.
+    match = re.search(
+        r"(\d{1,2}:\d{2}\s*[ap]m\s*WIB,?\s*\w+\s*\d{1,2})",
+        link_text,
+        re.I,
+    )
+    if match:
+        return match.group(1)
+
+    # Current event-card format: "Mar 1 ... 12:00 am"
+    compact = re.sub(r"\s+", " ", link_text).strip()
+    match = re.search(
+        r"\b((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2})\b.*?\b(\d{1,2}:\d{2}\s*[ap]m)\b",
+        compact,
+        re.I,
+    )
+    if match:
+        # Normalize to parser-friendly token order.
+        return f"{match.group(2)} {match.group(1)}"
+
+    return ""
+
+
+def extract_match_teams(link) -> tuple[str, str, Optional[str], Optional[str]]:
+    """Extract team names and optional scores from a match link/card."""
+    team1 = "TBD"
+    team2 = "TBD"
+    score1 = None
+    score2 = None
+
+    # Main bracket card format (e.g. Masters event page).
+    bracket_names = [
+        el.get_text(strip=True)
+        for el in link.select(".team-name div")
+        if el.get_text(strip=True)
+    ]
+    if len(bracket_names) >= 2:
+        team1, team2 = bracket_names[0], bracket_names[1]
+
+        left = link.select_one(".score-left")
+        right = link.select_one(".score-right")
+        if left:
+            left_text = left.get_text(strip=True)
+            if left_text.isdigit():
+                score1 = left_text
+        if right:
+            right_text = right.get_text(strip=True)
+            if right_text.isdigit():
+                score2 = right_text
+        return team1, team2, score1, score2
+
+    # Sidebar/upcoming list format.
+    sidebar_names = [
+        el.get_text(strip=True)
+        for el in link.select(".event-sidebar-matches-team .name span")
+        if el.get_text(strip=True)
+    ]
+    if len(sidebar_names) >= 2:
+        return sidebar_names[0], sidebar_names[1], None, None
+
+    # Legacy generic fallback.
+    link_text = link.get_text(separator="|", strip=True)
+    parts = [p.strip() for p in link_text.split("|") if p.strip()]
+    team_candidates = []
+    for part in parts:
+        if re.match(r"^[\d:\s]+[ap]m$", part, re.I):
+            continue
+        if re.match(r"^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b", part):
+            continue
+        if re.match(r"^(Round|Upper|Lower|Middle|Grand|Final|Bo\\d+)$", part, re.I):
+            continue
+        if part in {"-", "WIB"}:
+            continue
+        if len(part) > 1 and not part.isdigit():
+            team_candidates.append(part)
+
+    if len(team_candidates) >= 2:
+        return team_candidates[0], team_candidates[1], None, None
+    if len(team_candidates) == 1:
+        return team_candidates[0], "TBD", None, None
+    return team1, team2, score1, score2
+
+
 def get_matches_from_tournament(tournament: Tournament) -> list[Match]:
     """Fetch all matches from a tournament page."""
     soup = get_soup(tournament.url)
@@ -185,56 +278,10 @@ def get_matches_from_tournament(tournament: Tournament) -> list[Match]:
 
         tournament_phase = phase_from_url or current_phase or "Match"
 
-        team1 = "TBD"
-        team2 = "TBD"
-        score1 = None
-        score2 = None
-
-        match_rows = link.select("div > div")
-        team_data = []
-        for row in match_rows:
-            img = row.select_one("img")
-            if img:
-                team_name_el = row.select_one("div:not(:has(img))")
-                if team_name_el:
-                    team_name = team_name_el.get_text(strip=True)
-                else:
-                    text_parts = [t for t in row.stripped_strings]
-                    team_name = text_parts[0] if text_parts else ""
-
-                score_el = row.find_next_sibling("div") or row.select_one("div:last-child")
-                score = None
-                if score_el:
-                    score_text = score_el.get_text(strip=True)
-                    if score_text.isdigit():
-                        score = score_text
-
-                if team_name and team_name not in ["-", "WIB"]:
-                    team_data.append((team_name, score))
-
-        if not team_data:
-            link_text = link.get_text(separator="|", strip=True)
-            parts = link_text.split("|")
-            team_candidates = []
-            for part in parts:
-                part = part.strip()
-                if part and not re.match(r"^[\d:\s]+[ap]m", part, re.I) and part not in ["-", "WIB"] and not re.match(r"^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)", part):
-                    score_match = re.match(r"^(.+?)(\d)$", part)
-                    if score_match:
-                        team_candidates.append((score_match.group(1).strip(), score_match.group(2)))
-                    elif len(part) > 2 and not part.isdigit():
-                        team_candidates.append((part, None))
-            team_data = team_candidates[:2]
-
-        if len(team_data) >= 2:
-            team1, score1 = team_data[0]
-            team2, score2 = team_data[1]
-        elif len(team_data) == 1:
-            team1, score1 = team_data[0]
+        team1, team2, score1, score2 = extract_match_teams(link)
 
         link_text = link.get_text(separator=" ", strip=True)
-        datetime_match = re.search(r"(\d{1,2}:\d{2}\s*[ap]m\s*WIB,?\s*\w+\s*\d{1,2})", link_text, re.I)
-        datetime_str = datetime_match.group(1) if datetime_match else ""
+        datetime_str = extract_match_datetime_str(link_text)
 
         dt = parse_wib_datetime(datetime_str)
 
