@@ -2,7 +2,7 @@
 
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Optional
 from urllib.parse import urljoin
 
@@ -86,16 +86,41 @@ def extract_tournament_name(slug: str) -> str:
     return name
 
 
-def parse_wib_datetime(datetime_str: str, year: int = 2026) -> Optional[datetime]:
-    """Parse WIB datetime string like '11:00 pm WIB, Jan 20' to datetime."""
+def parse_wib_datetime(
+    datetime_str: str,
+    year: int = 2026,
+    reference_datetime: Optional[datetime] = None,
+) -> Optional[datetime]:
+    """Parse WIB datetime string from VLR cards into a naive datetime.
+
+    Supports explicit dates and relative labels such as "Today"/"Tomorrow".
+    """
     if not datetime_str or datetime_str == "-":
         return None
 
-    datetime_str = datetime_str.replace("WIB,", "").replace("WIB", "").strip()
-    datetime_str = re.sub(r"\s+", " ", datetime_str)
+    ref = reference_datetime or datetime.now()
+    normalized = datetime_str.strip()
+
+    # Handle relative labels commonly used on current match cards.
+    lowered = normalized.lower()
+    relative_day = None
+    if lowered.startswith("today"):
+        relative_day = ref.date()
+    elif lowered.startswith("tomorrow"):
+        relative_day = (ref + timedelta(days=1)).date()
+    elif lowered.startswith("yesterday"):
+        relative_day = (ref - timedelta(days=1)).date()
+
+    if relative_day is not None:
+        time_match = re.search(r"\b(\d{1,2}:\d{2}\s*[ap]m)\b", normalized, re.I)
+        if time_match:
+            normalized = f"{time_match.group(1)} {relative_day.strftime('%b %d %Y')}"
+
+    normalized = normalized.replace("WIB,", "").replace("WIB", "").strip()
+    normalized = re.sub(r"\s+", " ", normalized)
 
     try:
-        dt = date_parser.parse(datetime_str, fuzzy=True)
+        dt = date_parser.parse(normalized, fuzzy=True)
         if dt.year == 1900 or dt.year < 2020:
             dt = dt.replace(year=year)
         return dt
@@ -124,6 +149,16 @@ def extract_match_datetime_str(link_text: str) -> str:
 
     # Current event-card format: "Mar 1 ... 12:00 am"
     compact = re.sub(r"\s+", " ", link_text).strip()
+
+    # Relative labels used in some list/cards (e.g. "Today 4:00 PM").
+    match = re.search(
+        r"\b(Today|Tomorrow|Yesterday)\b.*?\b(\d{1,2}:\d{2}\s*[ap]m)\b",
+        compact,
+        re.I,
+    )
+    if match:
+        return f"{match.group(1)} {match.group(2)}"
+
     match = re.search(
         r"\b((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2})\b.*?\b(\d{1,2}:\d{2}\s*[ap]m)\b",
         compact,
@@ -132,6 +167,24 @@ def extract_match_datetime_str(link_text: str) -> str:
     if match:
         # Normalize to parser-friendly token order.
         return f"{match.group(2)} {match.group(1)}"
+
+    # Full month names (e.g. "March 8, 2026 ... 4:00 PM").
+    match = re.search(
+        r"\b((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(?:,\s*\d{4})?)\b.*?\b(\d{1,2}:\d{2}\s*[ap]m)\b",
+        compact,
+        re.I,
+    )
+    if match:
+        return f"{match.group(2)} {match.group(1)}"
+
+    # Inverse ordering occasionally appears: "4:00 PM ... March 8, 2026".
+    match = re.search(
+        r"\b(\d{1,2}:\d{2}\s*[ap]m)\b.*?\b((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(?:,\s*\d{4})?)\b",
+        compact,
+        re.I,
+    )
+    if match:
+        return f"{match.group(1)} {match.group(2)}"
 
     return ""
 
@@ -198,108 +251,142 @@ def extract_match_teams(link) -> tuple[str, str, Optional[str], Optional[str]]:
 
 def get_matches_from_tournament(tournament: Tournament) -> list[Match]:
     """Fetch all matches from a tournament page."""
-    soup = get_soup(tournament.url)
     matches = []
+    # Some events (e.g. Masters) keep bracket matches on dedicated tabs like /playoffs.
+    # Scrape all known tabs and dedupe by match_id at the end.
+    page_urls = [
+        tournament.url,
+        f"{tournament.url}/playoffs",
+        f"{tournament.url}/swiss-stage",
+        f"{tournament.url}/group-stage",
+        f"{tournament.url}/matches",
+    ]
+    seen_pages = set()
 
-    match_links = soup.select('a[href*="/"][href$="-ur1"], a[href*="/"][href$="-ur2"], '
-                              'a[href*="/"][href$="-ur3"], a[href*="/"][href$="-ubf"], '
-                              'a[href*="/"][href$="-mr1"], a[href*="/"][href$="-mr2"], '
-                              'a[href*="/"][href$="-mr3"], a[href*="/"][href$="-mr4"], '
-                              'a[href*="/"][href$="-mbf"], '
-                              'a[href*="/"][href$="-lr1"], a[href*="/"][href$="-lr2"], '
-                              'a[href*="/"][href$="-lr3"], a[href*="/"][href$="-lr4"], '
-                              'a[href*="/"][href$="-lr5"], a[href*="/"][href$="-lbf"], '
-                              'a[href*="/"][href$="-gf"]')
+    for page_url in page_urls:
+        if page_url in seen_pages:
+            continue
+        seen_pages.add(page_url)
 
-    if not match_links:
-        match_links = soup.select('a[href^="/"][class*="match"]')
-
-    if not match_links:
-        bracket_container = soup.select_one(".event-bracket, .bracket")
-        if bracket_container:
-            match_links = bracket_container.select("a[href]")
-
-    if not match_links:
-        all_links = soup.select('a[href^="/"]')
-        match_pattern = re.compile(r"^/\d{5,7}/")
-        match_links = [link for link in all_links if match_pattern.match(link.get("href", ""))]
-
-    current_phase = ""
-
-    for link in match_links:
-        href = link.get("href", "")
-
-        match_id_match = re.search(r"/(\d{5,7})/", href)
-        if not match_id_match:
+        try:
+            soup = get_soup(page_url)
+        except requests.RequestException:
             continue
 
-        match_id = match_id_match.group(1)
+        match_links = soup.select('a[href*="/"][href$="-ur1"], a[href*="/"][href$="-ur2"], '
+                                  'a[href*="/"][href$="-ur3"], a[href*="/"][href$="-ubf"], '
+                                  'a[href*="/"][href$="-ubqf"], a[href*="/"][href$="-uqf"], '
+                                  'a[href*="/"][href$="-usf"], '
+                                  'a[href*="/"][href$="-mr1"], a[href*="/"][href$="-mr2"], '
+                                  'a[href*="/"][href$="-mr3"], a[href*="/"][href$="-mr4"], '
+                                  'a[href*="/"][href$="-mbf"], '
+                                  'a[href*="/"][href$="-lr1"], a[href*="/"][href$="-lr2"], '
+                                  'a[href*="/"][href$="-lr3"], a[href*="/"][href$="-lr4"], '
+                                  'a[href*="/"][href$="-lr5"], a[href*="/"][href$="-lbf"], '
+                                  'a[href*="/"][href$="-gf"], a[href*="/"][href$="-r1"], '
+                                  'a[href*="/"][href$="-r2"], a[href*="/"][href$="-r3"]')
 
-        phase_parent = link.find_parent(class_=lambda x: x and "round" in x.lower()) if hasattr(link, 'find_parent') else None
-        if phase_parent:
-            phase_header = phase_parent.find_previous(string=re.compile(r"(Upper|Lower|Middle|Round|Final)", re.I))
-            if phase_header:
-                current_phase = phase_header.strip()
+        if not match_links:
+            match_links = soup.select('a[href^="/"][class*="match"]')
 
-        phase_from_url = ""
-        url_parts = href.lower()
-        if "-ur1" in url_parts:
-            phase_from_url = "Upper Round 1"
-        elif "-ur2" in url_parts:
-            phase_from_url = "Upper Round 2"
-        elif "-ur3" in url_parts:
-            phase_from_url = "Upper Round 3"
-        elif "-ubf" in url_parts:
-            phase_from_url = "Upper Final"
-        elif "-mr1" in url_parts:
-            phase_from_url = "Middle Round 1"
-        elif "-mr2" in url_parts:
-            phase_from_url = "Middle Round 2"
-        elif "-mr3" in url_parts:
-            phase_from_url = "Middle Round 3"
-        elif "-mr4" in url_parts:
-            phase_from_url = "Middle Round 4"
-        elif "-mbf" in url_parts:
-            phase_from_url = "Middle Final"
-        elif "-lr1" in url_parts:
-            phase_from_url = "Lower Round 1"
-        elif "-lr2" in url_parts:
-            phase_from_url = "Lower Round 2"
-        elif "-lr3" in url_parts:
-            phase_from_url = "Lower Round 3"
-        elif "-lr4" in url_parts:
-            phase_from_url = "Lower Round 4"
-        elif "-lr5" in url_parts:
-            phase_from_url = "Lower Round 5"
-        elif "-lbf" in url_parts:
-            phase_from_url = "Lower Final"
-        elif "-gf" in url_parts:
-            phase_from_url = "Grand Final"
+        if not match_links:
+            bracket_container = soup.select_one(".event-bracket, .bracket")
+            if bracket_container:
+                match_links = bracket_container.select("a[href]")
 
-        tournament_phase = phase_from_url or current_phase or "Match"
+        if not match_links:
+            all_links = soup.select('a[href^="/"]')
+            match_pattern = re.compile(r"^/\d{5,7}/")
+            match_links = [link for link in all_links if match_pattern.match(link.get("href", ""))]
 
-        team1, team2, score1, score2 = extract_match_teams(link)
+        current_phase = ""
 
-        link_text = link.get_text(separator=" ", strip=True)
-        datetime_str = extract_match_datetime_str(link_text)
+        for link in match_links:
+            href = link.get("href", "")
 
-        dt = parse_wib_datetime(datetime_str)
+            match_id_match = re.search(r"/(\d{5,7})/", href)
+            if not match_id_match:
+                continue
 
-        match = Match(
-            match_id=match_id,
-            event_name=tournament.name,
-            tournament_phase=tournament_phase,
-            team1=team1 or "TBD",
-            team2=team2 or "TBD",
-            datetime_wib=dt,
-            datetime_str=datetime_str,
-            match_url=urljoin(BASE_URL, href),
-            score1=score1,
-            score2=score2,
-        )
+            match_id = match_id_match.group(1)
 
-        if not any(m.match_id == match.match_id for m in matches):
-            matches.append(match)
+            phase_parent = link.find_parent(class_=lambda x: x and "round" in x.lower()) if hasattr(link, 'find_parent') else None
+            if phase_parent:
+                phase_header = phase_parent.find_previous(string=re.compile(r"(Upper|Lower|Middle|Round|Final|Quarterfinal|Semifinal)", re.I))
+                if phase_header:
+                    current_phase = phase_header.strip()
+
+            phase_from_url = ""
+            url_parts = href.lower()
+            if "-ur1" in url_parts:
+                phase_from_url = "Upper Round 1"
+            elif "-ur2" in url_parts:
+                phase_from_url = "Upper Round 2"
+            elif "-ur3" in url_parts:
+                phase_from_url = "Upper Round 3"
+            elif "-ubqf" in url_parts:
+                phase_from_url = "Upper Quarterfinals"
+            elif "-uqf" in url_parts:
+                phase_from_url = "Upper Quarterfinals"
+            elif "-usf" in url_parts:
+                phase_from_url = "Upper Semifinals"
+            elif "-ubf" in url_parts:
+                phase_from_url = "Upper Final"
+            elif "-mr1" in url_parts:
+                phase_from_url = "Middle Round 1"
+            elif "-mr2" in url_parts:
+                phase_from_url = "Middle Round 2"
+            elif "-mr3" in url_parts:
+                phase_from_url = "Middle Round 3"
+            elif "-mr4" in url_parts:
+                phase_from_url = "Middle Round 4"
+            elif "-mbf" in url_parts:
+                phase_from_url = "Middle Final"
+            elif "-lr1" in url_parts:
+                phase_from_url = "Lower Round 1"
+            elif "-lr2" in url_parts:
+                phase_from_url = "Lower Round 2"
+            elif "-lr3" in url_parts:
+                phase_from_url = "Lower Round 3"
+            elif "-lr4" in url_parts:
+                phase_from_url = "Lower Round 4"
+            elif "-lr5" in url_parts:
+                phase_from_url = "Lower Round 5"
+            elif "-lbf" in url_parts:
+                phase_from_url = "Lower Final"
+            elif "-gf" in url_parts:
+                phase_from_url = "Grand Final"
+            elif "-r1" in url_parts:
+                phase_from_url = "Round 1"
+            elif "-r2" in url_parts:
+                phase_from_url = "Round 2"
+            elif "-r3" in url_parts:
+                phase_from_url = "Round 3"
+
+            tournament_phase = phase_from_url or current_phase or "Match"
+
+            team1, team2, score1, score2 = extract_match_teams(link)
+
+            link_text = link.get_text(separator=" ", strip=True)
+            datetime_str = extract_match_datetime_str(link_text)
+
+            dt = parse_wib_datetime(datetime_str)
+
+            match = Match(
+                match_id=match_id,
+                event_name=tournament.name,
+                tournament_phase=tournament_phase,
+                team1=team1 or "TBD",
+                team2=team2 or "TBD",
+                datetime_wib=dt,
+                datetime_str=datetime_str,
+                match_url=urljoin(BASE_URL, href),
+                score1=score1,
+                score2=score2,
+            )
+
+            if not any(m.match_id == match.match_id for m in matches):
+                matches.append(match)
 
     return matches
 
