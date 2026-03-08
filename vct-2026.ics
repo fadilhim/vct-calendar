@@ -1536,11 +1536,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/626544/tbd-valorant-masters-santiago-2026-gf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Valorant Masters Santiago 2026 - Gentle Mates vs 12:00 am WIB\, Ma
- r 9 (Lower Round 1)
+SUMMARY:Valorant Masters Santiago 2026 - Gentle Mates vs All Gamers (Lower
+  Round 1)
 DTSTART:20260308T170000Z
 DTEND:20260308T190000Z
-DTSTAMP:20260307T163934Z
+DTSTAMP:20260308T050028Z
 UID:match-626545@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/626545/gentle-mates-vs-tbd-valorant-
  masters-santiago-2026-lr1
@@ -1549,11 +1549,11 @@ URL:https://www.vlr.gg/626545/gentle-mates-vs-tbd-valorant-masters-santiag
  o-2026-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Valorant Masters Santiago 2026 - FURIA vs 3:00 am WIB\, Mar 9 (Low
- er Round 1)
+SUMMARY:Valorant Masters Santiago 2026 - FURIA vs BBL Esports (Lower Round
+  1)
 DTSTART:20260308T200000Z
 DTEND:20260308T220000Z
-DTSTAMP:20260307T163934Z
+DTSTAMP:20260308T050028Z
 UID:match-626546@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/626546/furia-vs-tbd-valorant-masters
  -santiago-2026-lr1
@@ -1649,9 +1649,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Valorant Masters Santiago 2026 - All Gamers vs G2 Esports (Upper Q
  uarterfinals)
-DTSTART:20260307T200000Z
-DTEND:20260307T220000Z
-DTSTAMP:20260307T165052Z
+DTSTART:20260307T203000Z
+DTEND:20260307T223000Z
+DTSTAMP:20260308T050028Z
 UID:match-626538@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/626538/all-gamers-vs-g2-esports-valo
  rant-masters-santiago-2026-ubqf
@@ -1670,6 +1670,19 @@ DESCRIPTION:Watch: https://www.vlr.gg/626540/bbl-esports-vs-nrg-valorant-m
  asters-santiago-2026-ubqf
 STATUS:TENTATIVE
 URL:https://www.vlr.gg/626540/bbl-esports-vs-nrg-valorant-masters-santiago
+ -2026-ubqf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valorant Masters Santiago 2026 - FURIA vs Paper Rex (Upper Quarter
+ finals)
+DTSTART:20260306T180000Z
+DTEND:20260306T200000Z
+DTSTAMP:20260308T050028Z
+UID:match-626539@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/626539/furia-vs-paper-rex-valorant-m
+ asters-santiago-2026-ubqf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/626539/furia-vs-paper-rex-valorant-masters-santiago
  -2026-ubqf
 END:VEVENT
 END:VCALENDAR
