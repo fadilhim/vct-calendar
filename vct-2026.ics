@@ -1538,9 +1538,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Valorant Masters Santiago 2026 - Gentle Mates vs All Gamers (Lower
   Round 1)
-DTSTART:20260308T170000Z
-DTEND:20260308T190000Z
-DTSTAMP:20260308T050028Z
+DTSTART:20260308T203000Z
+DTEND:20260308T223000Z
+DTSTAMP:20260309T012904Z
 UID:match-626545@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/626545/gentle-mates-vs-tbd-valorant-
  masters-santiago-2026-lr1
@@ -1551,9 +1551,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Valorant Masters Santiago 2026 - FURIA vs BBL Esports (Lower Round
   1)
-DTSTART:20260308T200000Z
-DTEND:20260308T220000Z
-DTSTAMP:20260308T050028Z
+DTSTART:20260308T170000Z
+DTEND:20260308T190000Z
+DTSTAMP:20260309T012904Z
 UID:match-626546@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/626546/furia-vs-tbd-valorant-masters
  -santiago-2026-lr1
@@ -1562,11 +1562,11 @@ URL:https://www.vlr.gg/626546/furia-vs-tbd-valorant-masters-santiago-2026-
  lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Valorant Masters Santiago 2026 - 1:00 am WIB\, Mar 11 vs TBD (Lowe
- r Round 2)
+SUMMARY:Valorant Masters Santiago 2026 - All Gamers vs 1:00 am WIB\, Mar 1
+ 1 (Lower Round 2)
 DTSTART:20260310T180000Z
 DTEND:20260310T200000Z
-DTSTAMP:20260307T163934Z
+DTSTAMP:20260309T012904Z
 UID:match-626547@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/626547/tbd-valorant-masters-santiago
  -2026-lr2
@@ -1574,11 +1574,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/626547/tbd-valorant-masters-santiago-2026-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Valorant Masters Santiago 2026 - 4:00 am WIB\, Mar 11 vs TBD (Lowe
- r Round 2)
+SUMMARY:Valorant Masters Santiago 2026 - BBL Esports vs 4:00 am WIB\, Mar 
+ 11 (Lower Round 2)
 DTSTART:20260310T210000Z
 DTEND:20260310T230000Z
-DTSTAMP:20260307T163934Z
+DTSTAMP:20260309T012904Z
 UID:match-626548@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/626548/tbd-valorant-masters-santiago
  -2026-lr2
