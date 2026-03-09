@@ -1685,4 +1685,30 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/626539/furia-vs-paper-rex-valorant-masters-santiago
  -2026-ubqf
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valorant Masters Santiago 2026 - Nongshim RedForce vs G2 Esports (
+ Upper Semifinals)
+DTSTART:20260309T180000Z
+DTEND:20260309T200000Z
+DTSTAMP:20260309T145727Z
+UID:match-626541@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/626541/nongshim-redforce-vs-g2-espor
+ ts-valorant-masters-santiago-2026-ubsf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/626541/nongshim-redforce-vs-g2-esports-valorant-mas
+ ters-santiago-2026-ubsf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valorant Masters Santiago 2026 - Paper Rex vs NRG (Upper Semifinal
+ s)
+DTSTART:20260309T210000Z
+DTEND:20260309T230000Z
+DTSTAMP:20260309T145727Z
+UID:match-626542@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/626542/paper-rex-vs-nrg-valorant-mas
+ ters-santiago-2026-ubsf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/626542/paper-rex-vs-nrg-valorant-masters-santiago-2
+ 026-ubsf
+END:VEVENT
 END:VCALENDAR
