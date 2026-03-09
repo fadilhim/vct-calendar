@@ -276,7 +276,7 @@ def get_matches_from_tournament(tournament: Tournament) -> list[Match]:
         match_links = soup.select('a[href*="/"][href$="-ur1"], a[href*="/"][href$="-ur2"], '
                                   'a[href*="/"][href$="-ur3"], a[href*="/"][href$="-ubf"], '
                                   'a[href*="/"][href$="-ubqf"], a[href*="/"][href$="-uqf"], '
-                                  'a[href*="/"][href$="-usf"], '
+                                  'a[href*="/"][href$="-usf"], a[href*="/"][href$="-ubsf"], '
                                   'a[href*="/"][href$="-mr1"], a[href*="/"][href$="-mr2"], '
                                   'a[href*="/"][href$="-mr3"], a[href*="/"][href$="-mr4"], '
                                   'a[href*="/"][href$="-mbf"], '
@@ -328,7 +328,7 @@ def get_matches_from_tournament(tournament: Tournament) -> list[Match]:
                 phase_from_url = "Upper Quarterfinals"
             elif "-uqf" in url_parts:
                 phase_from_url = "Upper Quarterfinals"
-            elif "-usf" in url_parts:
+            elif "-usf" in url_parts or "-ubsf" in url_parts:
                 phase_from_url = "Upper Semifinals"
             elif "-ubf" in url_parts:
                 phase_from_url = "Upper Final"
