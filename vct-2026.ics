@@ -1512,11 +1512,11 @@ URL:https://www.vlr.gg/625791/xi-lai-gaming-vs-nrg-valorant-masters-santia
  go-2026-r1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Valorant Masters Santiago 2026 - Nongshim RedForce vs 12:00 am WIB
- \, Mar 14 (Upper Final)
+SUMMARY:Valorant Masters Santiago 2026 - Nongshim RedForce vs NRG (Upper F
+ inal)
 DTSTART:20260313T170000Z
 DTEND:20260313T190000Z
-DTSTAMP:20260309T212202Z
+DTSTAMP:20260310T024815Z
 UID:match-626543@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/626543/tbd-valorant-masters-santiago
  -2026-ubf
@@ -1562,11 +1562,11 @@ URL:https://www.vlr.gg/626546/furia-vs-tbd-valorant-masters-santiago-2026-
  lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Valorant Masters Santiago 2026 - All Gamers vs 1:00 am WIB\, Mar 1
- 1 (Lower Round 2)
-DTSTART:20260310T180000Z
-DTEND:20260310T200000Z
-DTSTAMP:20260309T073546Z
+SUMMARY:Valorant Masters Santiago 2026 - Paper Rex vs All Gamers (Lower Ro
+ und 2)
+DTSTART:20260310T210000Z
+DTEND:20260310T230000Z
+DTSTAMP:20260310T024815Z
 UID:match-626547@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/626547/tbd-valorant-masters-santiago
  -2026-lr2
@@ -1576,9 +1576,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Valorant Masters Santiago 2026 - G2 Esports vs BBL Esports (Lower 
  Round 2)
-DTSTART:20260310T210000Z
-DTEND:20260310T230000Z
-DTSTAMP:20260309T212202Z
+DTSTART:20260310T180000Z
+DTEND:20260310T200000Z
+DTSTAMP:20260310T024815Z
 UID:match-626548@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/626548/tbd-valorant-masters-santiago
  -2026-lr2
