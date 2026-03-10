@@ -1564,9 +1564,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Valorant Masters Santiago 2026 - Paper Rex vs All Gamers (Lower Ro
  und 2)
-DTSTART:20260310T210000Z
-DTEND:20260310T230000Z
-DTSTAMP:20260310T024815Z
+DTSTART:20260310T201000Z
+DTEND:20260310T221000Z
+DTSTAMP:20260310T220226Z
 UID:match-626547@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/626547/tbd-valorant-masters-santiago
  -2026-lr2
@@ -1586,11 +1586,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/626548/tbd-valorant-masters-santiago-2026-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Valorant Masters Santiago 2026 - 3:00 am WIB\, Mar 14 vs TBD (Lowe
- r Round 3)
+SUMMARY:Valorant Masters Santiago 2026 - G2 Esports vs 3:00 am WIB\, Mar 1
+ 4 (Lower Round 3)
 DTSTART:20260313T200000Z
 DTEND:20260313T220000Z
-DTSTAMP:20260307T163934Z
+DTSTAMP:20260310T220226Z
 UID:match-626549@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/626549/tbd-valorant-masters-santiago
  -2026-lr3
