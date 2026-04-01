@@ -2074,11 +2074,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 1 - TL vs KC (Match)
 DTSTART:20260401T193500Z
 DTEND:20260401T213500Z
-DTSTAMP:20260401T181701Z
+DTSTAMP:20260401T191801Z
 UID:match-644710@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644710/team-liquid-vs-karmine-corp-v
  ct-2026-emea-stage-1-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644710/team-liquid-vs-karmine-corp-vct-2026-emea-st
  age-1-w1
 END:VEVENT
