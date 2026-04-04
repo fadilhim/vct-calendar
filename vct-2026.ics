@@ -1762,11 +1762,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 1 - TYL vs TEC (Match)
 DTSTART:20260404T100000Z
 DTEND:20260404T120000Z
-DTSTAMP:20260403T020557Z
+DTSTAMP:20260404T113341Z
 UID:match-642922@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/642922/tyloo-vs-titan-esports-club-v
  ct-2026-china-stage-1-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/642922/tyloo-vs-titan-esports-club-vct-2026-china-s
  tage-1-w1
 END:VEVENT
@@ -1940,13 +1940,13 @@ URL:https://www.vlr.gg/642920/dragon-ranger-gaming-vs-nova-esports-vct-202
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 1 - WOL vs EDG (Match)
-DTSTART:20260404T120000Z
-DTEND:20260404T140000Z
-DTSTAMP:20260403T020557Z
+DTSTART:20260404T123000Z
+DTEND:20260404T143000Z
+DTSTAMP:20260404T113341Z
 UID:match-642923@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/642923/wolves-esports-vs-edward-gami
  ng-vct-2026-china-stage-1-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/642923/wolves-esports-vs-edward-gaming-vct-2026-chi
  na-stage-1-w1
 END:VEVENT
@@ -2445,11 +2445,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 1 - NS vs PRX (Match)
 DTSTART:20260404T090000Z
 DTEND:20260404T110000Z
-DTSTAMP:20260403T061239Z
+DTSTAMP:20260404T113341Z
 UID:match-644654@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644654/nongshim-redforce-vs-paper-re
  x-vct-2026-pacific-stage-1-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644654/nongshim-redforce-vs-paper-rex-vct-2026-paci
  fic-stage-1-w1
 END:VEVENT
@@ -2620,13 +2620,13 @@ URL:https://www.vlr.gg/644653/t1-vs-varrel-vct-2026-pacific-stage-1-w1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 1 - FS vs DFM (Match)
-DTSTART:20260404T120000Z
-DTEND:20260404T140000Z
-DTSTAMP:20260403T020557Z
+DTSTART:20260404T121000Z
+DTEND:20260404T141000Z
+DTSTAMP:20260404T113341Z
 UID:match-644655@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644655/full-sense-vs-detonation-focu
  sme-vct-2026-pacific-stage-1-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644655/full-sense-vs-detonation-focusme-vct-2026-pa
  cific-stage-1-w1
 END:VEVENT
