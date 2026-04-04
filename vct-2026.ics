@@ -1748,13 +1748,13 @@ URL:https://www.vlr.gg/642919/bilibili-gaming-vs-tyloo-vct-2026-china-stag
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 1 - FPX vs AG (Match)
-DTSTART:20260403T120000Z
-DTEND:20260403T140000Z
-DTSTAMP:20260403T020557Z
+DTSTART:20260403T121000Z
+DTEND:20260403T141000Z
+DTSTAMP:20260404T023215Z
 UID:match-642921@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/642921/funplus-phoenix-vs-all-gamers
  -vct-2026-china-stage-1-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/642921/funplus-phoenix-vs-all-gamers-vct-2026-china
  -stage-1-w1
 END:VEVENT
@@ -1930,11 +1930,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 1 - DRG vs NOVA (Match)
 DTSTART:20260403T100000Z
 DTEND:20260403T120000Z
-DTSTAMP:20260403T020557Z
+DTSTAMP:20260404T023215Z
 UID:match-642920@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/642920/dragon-ranger-gaming-vs-nova-
  esports-vct-2026-china-stage-1-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/642920/dragon-ranger-gaming-vs-nova-esports-vct-202
  6-china-stage-1-w1
 END:VEVENT
@@ -2098,11 +2098,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 1 - TH vs NAVI (Match)
 DTSTART:20260403T160000Z
 DTEND:20260403T180000Z
-DTSTAMP:20260403T020557Z
+DTSTAMP:20260404T023215Z
 UID:match-644713@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644713/team-heretics-vs-natus-vincer
  e-vct-2026-emea-stage-1-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644713/team-heretics-vs-natus-vincere-vct-2026-emea
  -stage-1-w1
 END:VEVENT
@@ -2276,13 +2276,13 @@ URL:https://www.vlr.gg/644711/team-vitality-vs-giantx-vct-2026-emea-stage-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 1 - BBL vs PCF (Match)
-DTSTART:20260403T190000Z
-DTEND:20260403T210000Z
-DTSTAMP:20260403T020557Z
+DTSTART:20260403T195500Z
+DTEND:20260403T215500Z
+DTSTAMP:20260404T023215Z
 UID:match-644714@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644714/bbl-esports-vs-pcific-esports
  -vct-2026-emea-stage-1-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644714/bbl-esports-vs-pcific-esports-vct-2026-emea-
  stage-1-w1
 END:VEVENT
@@ -2433,11 +2433,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 1 - GEN vs GE (Match)
 DTSTART:20260403T090000Z
 DTEND:20260403T110000Z
-DTSTAMP:20260403T061239Z
+DTSTAMP:20260404T023215Z
 UID:match-644652@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644652/gen-g-vs-global-esports-vct-2
  026-pacific-stage-1-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644652/gen-g-vs-global-esports-vct-2026-pacific-sta
  ge-1-w1
 END:VEVENT
@@ -2609,13 +2609,13 @@ URL:https://www.vlr.gg/644681/paper-rex-vs-drx-vct-2026-pacific-stage-1-w5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 1 - T1 vs VL (Match)
-DTSTART:20260403T120000Z
-DTEND:20260403T140000Z
-DTSTAMP:20260403T020557Z
+DTSTART:20260403T111500Z
+DTEND:20260403T131500Z
+DTSTAMP:20260404T023215Z
 UID:match-644653@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644653/t1-vs-varrel-vct-2026-pacific
  -stage-1-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644653/t1-vs-varrel-vct-2026-pacific-stage-1-w1
 END:VEVENT
 BEGIN:VEVENT
