@@ -1954,11 +1954,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 1 - TE vs XLG (Match)
 DTSTART:20260405T100000Z
 DTEND:20260405T120000Z
-DTSTAMP:20260403T020557Z
+DTSTAMP:20260405T095818Z
 UID:match-642924@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/642924/trace-esports-vs-xi-lai-gamin
  g-vct-2026-china-stage-1-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/642924/trace-esports-vs-xi-lai-gaming-vct-2026-chin
  a-stage-1-w1
 END:VEVENT
