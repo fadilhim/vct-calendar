@@ -1796,13 +1796,13 @@ URL:https://www.vlr.gg/642927/funplus-phoenix-vs-tyloo-vct-2026-china-stag
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 1 - TEC vs BLG (Match)
-DTSTART:20260407T130000Z
-DTEND:20260407T150000Z
-DTSTAMP:20260407T114326Z
+DTSTART:20260407T133000Z
+DTEND:20260407T153000Z
+DTSTAMP:20260407T133607Z
 UID:match-642928@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/642928/titan-esports-club-vs-bilibil
  i-gaming-vct-2026-china-stage-1-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/642928/titan-esports-club-vs-bilibili-gaming-vct-20
  26-china-stage-1-w2
 END:VEVENT
