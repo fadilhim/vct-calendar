@@ -1976,13 +1976,13 @@ URL:https://www.vlr.gg/642929/xi-lai-gaming-vs-nova-esports-vct-2026-china
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 1 - EDG vs TE (Match)
-DTSTART:20260408T120000Z
-DTEND:20260408T140000Z
-DTSTAMP:20260408T100849Z
+DTSTART:20260408T123000Z
+DTEND:20260408T143000Z
+DTSTAMP:20260408T125441Z
 UID:match-642930@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/642930/edward-gaming-vs-trace-esport
  s-vct-2026-china-stage-1-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/642930/edward-gaming-vs-trace-esports-vct-2026-chin
  a-stage-1-w2
 END:VEVENT
