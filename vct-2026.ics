@@ -2300,13 +2300,13 @@ URL:https://www.vlr.gg/644716/pcific-esports-vs-giantx-vct-2026-emea-stage
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 1 - BBL vs EF (Match)
-DTSTART:20260408T190000Z
-DTEND:20260408T210000Z
-DTSTAMP:20260408T100849Z
+DTSTART:20260408T192500Z
+DTEND:20260408T212500Z
+DTSTAMP:20260408T195442Z
 UID:match-644717@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644717/bbl-esports-vs-eternal-fire-v
  ct-2026-emea-stage-1-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644717/bbl-esports-vs-eternal-fire-vct-2026-emea-st
  age-1-w2
 END:VEVENT
