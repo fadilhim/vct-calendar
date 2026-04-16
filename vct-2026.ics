@@ -2144,13 +2144,13 @@ URL:https://www.vlr.gg/644721/gentle-mates-vs-karmine-corp-vct-2026-emea-s
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 1 - M8 vs NAVI (Match)
-DTSTART:20260415T190000Z
-DTEND:20260415T210000Z
-DTSTAMP:20260415T112718Z
+DTSTART:20260415T192000Z
+DTEND:20260415T212000Z
+DTSTAMP:20260416T013829Z
 UID:match-644723@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644723/gentle-mates-vs-natus-vincere
  -vct-2026-emea-stage-1-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644723/gentle-mates-vs-natus-vincere-vct-2026-emea-
  stage-1-w3
 END:VEVENT
@@ -2326,11 +2326,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 1 - BBL vs GX (Match)
 DTSTART:20260415T160000Z
 DTEND:20260415T180000Z
-DTSTAMP:20260415T112718Z
+DTSTAMP:20260416T013829Z
 UID:match-644722@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644722/bbl-esports-vs-giantx-vct-202
  6-emea-stage-1-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644722/bbl-esports-vs-giantx-vct-2026-emea-stage-1-
  w3
 END:VEVENT
@@ -3137,5 +3137,53 @@ DESCRIPTION:Watch: https://www.vlr.gg/645503/sentinels-vs-nrg-vct-2026-ame
 STATUS:TENTATIVE
 URL:https://www.vlr.gg/645503/sentinels-vs-nrg-vct-2026-americas-stage-1-w
  5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 1 - AG vs Seeding (Match)
+DTSTART:20260418T100000Z
+DTEND:20260418T120000Z
+DTSTAMP:20260416T013829Z
+UID:match-642945@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/642945/all-gamers-vs-tbd-vct-2026-ch
+ ina-stage-1-seeding
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/642945/all-gamers-vs-tbd-vct-2026-china-stage-1-see
+ ding
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 1 - JDG vs Seeding (Match)
+DTSTART:20260418T120000Z
+DTEND:20260418T140000Z
+DTSTAMP:20260416T013829Z
+UID:match-642946@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/642946/jdg-esports-vs-tbd-vct-2026-c
+ hina-stage-1-seeding
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/642946/jdg-esports-vs-tbd-vct-2026-china-stage-1-se
+ eding
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 1 - TYL vs DRG (Match)
+DTSTART:20260419T100000Z
+DTEND:20260419T120000Z
+DTSTAMP:20260416T013829Z
+UID:match-642947@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/642947/tyloo-vs-dragon-ranger-gaming
+ -vct-2026-china-stage-1-seeding
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/642947/tyloo-vs-dragon-ranger-gaming-vct-2026-china
+ -stage-1-seeding
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 1 - TEC vs TE (Match)
+DTSTART:20260419T120000Z
+DTEND:20260419T140000Z
+DTSTAMP:20260416T013829Z
+UID:match-642948@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/642948/titan-esports-club-vs-trace-e
+ sports-vct-2026-china-stage-1-seeding
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/642948/titan-esports-club-vs-trace-esports-vct-2026
+ -china-stage-1-seeding
 END:VEVENT
 END:VCALENDAR
