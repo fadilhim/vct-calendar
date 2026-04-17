@@ -2170,11 +2170,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 1 - FUT vs TL (Match)
 DTSTART:20260417T150000Z
 DTEND:20260417T170000Z
-DTSTAMP:20260416T053338Z
+DTSTAMP:20260417T175858Z
 UID:match-644726@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644726/fut-esports-vs-team-liquid-vc
  t-2026-emea-stage-1-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644726/fut-esports-vs-team-liquid-vct-2026-emea-sta
  ge-1-w3
 END:VEVENT
@@ -2348,13 +2348,13 @@ URL:https://www.vlr.gg/644724/eternal-fire-vs-team-vitality-vct-2026-emea-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 1 - PCF vs FNC (Match)
-DTSTART:20260417T180000Z
-DTEND:20260417T200000Z
-DTSTAMP:20260416T053338Z
+DTSTART:20260417T174000Z
+DTEND:20260417T194000Z
+DTSTAMP:20260417T175858Z
 UID:match-644727@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644727/pcific-esports-vs-fnatic-vct-
  2026-emea-stage-1-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644727/pcific-esports-vs-fnatic-vct-2026-emea-stage
  -1-w3
 END:VEVENT
@@ -2503,13 +2503,13 @@ URL:https://www.vlr.gg/644663/gen-g-vs-paper-rex-vct-2026-pacific-stage-1-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 1 - TS vs PRX (Match)
-DTSTART:20260417T110000Z
-DTEND:20260417T130000Z
-DTSTAMP:20260416T053338Z
+DTSTART:20260417T102000Z
+DTEND:20260417T122000Z
+DTSTAMP:20260417T175858Z
 UID:match-644666@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644666/team-secret-vs-paper-rex-vct-
  2026-pacific-stage-1-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644666/team-secret-vs-paper-rex-vct-2026-pacific-st
  age-1-w3
 END:VEVENT
@@ -2682,11 +2682,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 1 - FS vs VL (Match)
 DTSTART:20260417T080000Z
 DTEND:20260417T100000Z
-DTSTAMP:20260416T053338Z
+DTSTAMP:20260417T175858Z
 UID:match-644665@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644665/full-sense-vs-varrel-vct-2026
  -pacific-stage-1-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644665/full-sense-vs-varrel-vct-2026-pacific-stage-
  1-w3
 END:VEVENT
