@@ -2179,10 +2179,10 @@ URL:https://www.vlr.gg/644726/fut-esports-vs-team-liquid-vct-2026-emea-sta
  ge-1-w3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Stage 1 - M8 vs TH (Match)
+SUMMARY:VCT 2026 EMEA Stage 1 - NAVI vs TL (Match)
 DTSTART:20260422T180000Z
 DTEND:20260422T200000Z
-DTSTAMP:20260416T053338Z
+DTSTAMP:20260418T122033Z
 UID:match-644729@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644729/gentle-mates-vs-team-heretics
  -vct-2026-emea-stage-1-w4
@@ -2203,10 +2203,10 @@ URL:https://www.vlr.gg/644731/karmine-corp-vs-fut-esports-vct-2026-emea-st
  age-1-w4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Stage 1 - NAVI vs TL (Match)
+SUMMARY:VCT 2026 EMEA Stage 1 - M8 vs TH (Match)
 DTSTART:20260424T150000Z
 DTEND:20260424T170000Z
-DTSTAMP:20260416T053338Z
+DTSTAMP:20260418T122033Z
 UID:match-644732@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644732/natus-vincere-vs-team-liquid-
  vct-2026-emea-stage-1-w4
@@ -2517,11 +2517,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 1 - KRX vs GE (Match)
 DTSTART:20260418T080000Z
 DTEND:20260418T100000Z
-DTSTAMP:20260416T053338Z
+DTSTAMP:20260418T122033Z
 UID:match-644667@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644667/drx-vs-global-esports-vct-202
  6-pacific-stage-1-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644667/drx-vs-global-esports-vct-2026-pacific-stage
  -1-w3
 END:VEVENT
@@ -2692,13 +2692,13 @@ URL:https://www.vlr.gg/644665/full-sense-vs-varrel-vct-2026-pacific-stage-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 1 - ZETA vs DFM (Match)
-DTSTART:20260418T110000Z
-DTEND:20260418T130000Z
-DTSTAMP:20260416T053338Z
+DTSTART:20260418T102000Z
+DTEND:20260418T122000Z
+DTSTAMP:20260418T122033Z
 UID:match-644668@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/644668/zeta-division-vs-detonation-f
  ocusme-vct-2026-pacific-stage-1-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/644668/zeta-division-vs-detonation-focusme-vct-2026
  -pacific-stage-1-w3
 END:VEVENT
@@ -2824,11 +2824,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Stage 1 - C9 vs ENVY (Match)
 DTSTART:20260417T210000Z
 DTEND:20260417T230000Z
-DTSTAMP:20260416T053338Z
+DTSTAMP:20260418T122033Z
 UID:match-645480@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/645480/cloud9-vs-envy-vct-2026-ameri
  cas-stage-1-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/645480/cloud9-vs-envy-vct-2026-americas-stage-1-w2
 END:VEVENT
 BEGIN:VEVENT
@@ -2996,13 +2996,13 @@ URL:https://www.vlr.gg/645479/furia-vs-nrg-vct-2026-americas-stage-1-w1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Stage 1 - FUR vs EG (Match)
-DTSTART:20260418T000000Z
-DTEND:20260418T020000Z
-DTSTAMP:20260416T053338Z
+DTSTART:20260418T000500Z
+DTEND:20260418T020500Z
+DTSTAMP:20260418T122033Z
 UID:match-645481@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/645481/furia-vs-evil-geniuses-vct-20
  26-americas-stage-1-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/645481/furia-vs-evil-geniuses-vct-2026-americas-sta
  ge-1-w2
 END:VEVENT
