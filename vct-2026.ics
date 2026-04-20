@@ -3187,10 +3187,11 @@ URL:https://www.vlr.gg/642948/titan-esports-club-vs-trace-esports-vct-2026
  -china-stage-1-seeding
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 1 - #1 vs #8 (Upper Quarterfinals)
+SUMMARY:VCT 2026 China Stage 1 - Xi Lai Gaming vs Titan Esports Club (Uppe
+ r Quarterfinals)
 DTSTART:20260501T090000Z
 DTEND:20260501T110000Z
-DTSTAMP:20260419T074703Z
+DTSTAMP:20260420T055501Z
 UID:match-659474@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/659474/tbd-vct-2026-china-stage-1-ub
  qf
@@ -3211,10 +3212,11 @@ URL:https://www.vlr.gg/659475/jdg-esports-vs-tyloo-vct-2026-china-stage-1-
  ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 1 - #2 vs #7 (Upper Quarterfinals)
+SUMMARY:VCT 2026 China Stage 1 - All Gamers vs Trace Esports (Upper Quarte
+ rfinals)
 DTSTART:20260502T090000Z
 DTEND:20260502T110000Z
-DTSTAMP:20260419T074703Z
+DTSTAMP:20260420T055501Z
 UID:match-659476@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/659476/tbd-vct-2026-china-stage-1-ub
  qf
@@ -3349,5 +3351,277 @@ DESCRIPTION:Watch: https://www.vlr.gg/659487/tbd-vct-2026-china-stage-1-lb
  f
 STATUS:TENTATIVE
 URL:https://www.vlr.gg/659487/tbd-vct-2026-china-stage-1-lbf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 1 - Omega #2 vs Alpha #3 (Upper Round 1)
+DTSTART:20260514T210000Z
+DTEND:20260514T230000Z
+DTSTAMP:20260420T055501Z
+UID:match-660369@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660369/tbd-vct-2026-americas-stage-1
+ -ur1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660369/tbd-vct-2026-americas-stage-1-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 1 - Alpha #2 vs Omega #3 (Upper Round 1)
+DTSTART:20260515T000000Z
+DTEND:20260515T020000Z
+DTSTAMP:20260420T055501Z
+UID:match-660370@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660370/tbd-vct-2026-americas-stage-1
+ -ur1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660370/tbd-vct-2026-americas-stage-1-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 1 - Alpha #1 vs 4:00 am WIB\, May 17 (Uppe
+ r Semifinals)
+DTSTART:20260516T210000Z
+DTEND:20260516T230000Z
+DTSTAMP:20260420T055501Z
+UID:match-660371@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660371/tbd-vct-2026-americas-stage-1
+ -ubsf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660371/tbd-vct-2026-americas-stage-1-ubsf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 1 - Omega #1 vs 7:00 am WIB\, May 17 (Uppe
+ r Semifinals)
+DTSTART:20260517T000000Z
+DTEND:20260517T020000Z
+DTSTAMP:20260420T055501Z
+UID:match-660372@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660372/tbd-vct-2026-americas-stage-1
+ -ubsf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660372/tbd-vct-2026-americas-stage-1-ubsf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 1 - 4:00 am WIB\, May 23 vs TBD (Upper Fin
+ al)
+DTSTART:20260522T210000Z
+DTEND:20260522T230000Z
+DTSTAMP:20260420T055501Z
+UID:match-660373@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660373/tbd-vct-2026-americas-stage-1
+ -ubf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660373/tbd-vct-2026-americas-stage-1-ubf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 1 - 4:00 am WIB\, May 25 vs TBD (Grand Fin
+ al)
+DTSTART:20260524T210000Z
+DTEND:20260524T230000Z
+DTSTAMP:20260420T055501Z
+UID:match-660374@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660374/tbd-vct-2026-americas-stage-1
+ -gf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660374/tbd-vct-2026-americas-stage-1-gf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 1 - Omega #4 vs 4:00 am WIB\, May 16 (Lowe
+ r Round 1)
+DTSTART:20260515T210000Z
+DTEND:20260515T230000Z
+DTSTAMP:20260420T055501Z
+UID:match-660375@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660375/tbd-vct-2026-americas-stage-1
+ -lr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660375/tbd-vct-2026-americas-stage-1-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 1 - Alpha #4 vs 7:00 am WIB\, May 16 (Lowe
+ r Round 1)
+DTSTART:20260516T000000Z
+DTEND:20260516T020000Z
+DTSTAMP:20260420T055501Z
+UID:match-660376@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660376/tbd-vct-2026-americas-stage-1
+ -lr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660376/tbd-vct-2026-americas-stage-1-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 1 - 4:00 am WIB\, May 18 vs TBD (Lower Rou
+ nd 2)
+DTSTART:20260517T210000Z
+DTEND:20260517T230000Z
+DTSTAMP:20260420T055501Z
+UID:match-660377@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660377/tbd-vct-2026-americas-stage-1
+ -lr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660377/tbd-vct-2026-americas-stage-1-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 1 - 7:00 am WIB\, May 18 vs TBD (Lower Rou
+ nd 2)
+DTSTART:20260518T000000Z
+DTEND:20260518T020000Z
+DTSTAMP:20260420T055501Z
+UID:match-660378@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660378/tbd-vct-2026-americas-stage-1
+ -lr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660378/tbd-vct-2026-americas-stage-1-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 1 - 7:00 am WIB\, May 23 vs TBD (Lower Rou
+ nd 3)
+DTSTART:20260523T000000Z
+DTEND:20260523T020000Z
+DTSTAMP:20260420T055501Z
+UID:match-660379@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660379/tbd-vct-2026-americas-stage-1
+ -lr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660379/tbd-vct-2026-americas-stage-1-lr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 1 - 4:00 am WIB\, May 24 vs TBD (Lower Fin
+ al)
+DTSTART:20260523T210000Z
+DTEND:20260523T230000Z
+DTSTAMP:20260420T055501Z
+UID:match-660380@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660380/tbd-vct-2026-americas-stage-1
+ -lbf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660380/tbd-vct-2026-americas-stage-1-lbf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 1 - 10:00 pm WIB\, May 7 vs TBD (Upper Round 1
+ )
+DTSTART:20260507T150000Z
+DTEND:20260507T170000Z
+DTSTAMP:20260420T055501Z
+UID:match-660381@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660381/tbd-vct-2026-emea-stage-1-ur1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660381/tbd-vct-2026-emea-stage-1-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 1 - 1:00 am WIB\, May 8 vs TBD (Upper Round 1)
+DTSTART:20260507T180000Z
+DTEND:20260507T200000Z
+DTSTAMP:20260420T055501Z
+UID:match-660382@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660382/tbd-vct-2026-emea-stage-1-ur1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660382/tbd-vct-2026-emea-stage-1-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 1 - 10:00 pm WIB\, May 8 vs TBD (Upper Semifin
+ als)
+DTSTART:20260508T150000Z
+DTEND:20260508T170000Z
+DTSTAMP:20260420T055501Z
+UID:match-660383@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660383/tbd-vct-2026-emea-stage-1-ubs
+ f
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660383/tbd-vct-2026-emea-stage-1-ubsf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 1 - 1:00 am WIB\, May 9 vs TBD (Upper Semifina
+ ls)
+DTSTART:20260508T180000Z
+DTEND:20260508T200000Z
+DTSTAMP:20260420T055501Z
+UID:match-660384@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660384/tbd-vct-2026-emea-stage-1-ubs
+ f
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660384/tbd-vct-2026-emea-stage-1-ubsf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 1 - 10:00 pm WIB\, May 15 vs TBD (Upper Final)
+DTSTART:20260515T150000Z
+DTEND:20260515T170000Z
+DTSTAMP:20260420T055501Z
+UID:match-660385@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660385/tbd-vct-2026-emea-stage-1-ubf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660385/tbd-vct-2026-emea-stage-1-ubf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 1 - 11:00 pm WIB\, May 17 vs TBD (Grand Final)
+DTSTART:20260517T160000Z
+DTEND:20260517T180000Z
+DTSTAMP:20260420T055501Z
+UID:match-660386@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660386/tbd-vct-2026-emea-stage-1-gf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660386/tbd-vct-2026-emea-stage-1-gf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 1 - 10:00 pm WIB\, May 9 vs TBD (Lower Round 1
+ )
+DTSTART:20260509T150000Z
+DTEND:20260509T170000Z
+DTSTAMP:20260420T055501Z
+UID:match-660387@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660387/tbd-vct-2026-emea-stage-1-lr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660387/tbd-vct-2026-emea-stage-1-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 1 - 1:00 am WIB\, May 10 vs TBD (Lower Round 1
+ )
+DTSTART:20260509T180000Z
+DTEND:20260509T200000Z
+DTSTAMP:20260420T055501Z
+UID:match-660388@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660388/tbd-vct-2026-emea-stage-1-lr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660388/tbd-vct-2026-emea-stage-1-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 1 - 10:00 pm WIB\, May 10 vs TBD (Lower Round 
+ 2)
+DTSTART:20260510T150000Z
+DTEND:20260510T170000Z
+DTSTAMP:20260420T055501Z
+UID:match-660389@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660389/tbd-vct-2026-emea-stage-1-lr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660389/tbd-vct-2026-emea-stage-1-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 1 - 1:00 am WIB\, May 11 vs TBD (Lower Round 2
+ )
+DTSTART:20260510T180000Z
+DTEND:20260510T200000Z
+DTSTAMP:20260420T055501Z
+UID:match-660390@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660390/tbd-vct-2026-emea-stage-1-lr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660390/tbd-vct-2026-emea-stage-1-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 1 - 1:00 am WIB\, May 16 vs TBD (Lower Round 3
+ )
+DTSTART:20260515T180000Z
+DTEND:20260515T200000Z
+DTSTAMP:20260420T055501Z
+UID:match-660391@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660391/tbd-vct-2026-emea-stage-1-lr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660391/tbd-vct-2026-emea-stage-1-lr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 1 - 11:00 pm WIB\, May 16 vs TBD (Lower Final)
+DTSTART:20260516T160000Z
+DTEND:20260516T180000Z
+DTSTAMP:20260420T055501Z
+UID:match-660392@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/660392/tbd-vct-2026-emea-stage-1-lbf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/660392/tbd-vct-2026-emea-stage-1-lbf
 END:VEVENT
 END:VCALENDAR
