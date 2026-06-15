@@ -9,7 +9,6 @@ CALENDAR_FILE="${CALENDAR_FILE:-vct-2026.ics}"
 REMOTE="${REMOTE:-origin}"
 BRANCH="${BRANCH:-main}"
 PYTHON_BIN="${PYTHON_BIN:-$ROOT_DIR/.venv/bin/python}"
-STAGES=(kickoff masters stage1 stage2 champions)
 
 mkdir -p "$LOG_DIR"
 exec >>"$LOG_FILE" 2>&1
@@ -52,13 +51,8 @@ log "Fetching latest $REMOTE/$BRANCH"
 git fetch "$REMOTE" "$BRANCH"
 git pull --ff-only "$REMOTE" "$BRANCH"
 
-log "Refreshing all known stages: ${STAGES[*]}"
-"$PYTHON_BIN" update_calendar.py \
-  --stage kickoff \
-  --stage masters \
-  --stage stage1 \
-  --stage stage2 \
-  --stage champions
+log "Refreshing current and upcoming VCT calendar events"
+"$PYTHON_BIN" update_calendar.py
 
 changed_files="$(git diff --name-only)"
 if [[ -z "$changed_files" ]]; then

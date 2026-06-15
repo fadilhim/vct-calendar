@@ -2,7 +2,7 @@
 
 import re
 import time
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from typing import Optional
 from urllib.parse import urljoin
 
@@ -12,6 +12,9 @@ from dateutil import parser as date_parser
 
 from .config import BASE_URL, EXCLUDED_REGIONS, HEADERS, REQUEST_DELAY, STAGES
 from .models import Match, Tournament
+
+
+WIB_TZ = timezone(timedelta(hours=7))
 
 
 def get_soup(url: str) -> BeautifulSoup:
@@ -86,6 +89,54 @@ def extract_tournament_name(slug: str) -> str:
     return name
 
 
+def parse_tournament_dates(dates: str, year: int = 2026) -> tuple[Optional[date], Optional[date]]:
+    """Parse a VLR tournament date range into start and end dates."""
+    if not dates:
+        return None, None
+
+    normalized = dates.replace("Dates", "").strip()
+    parts = [part.strip() for part in re.split(r"[—-]", normalized, maxsplit=1)]
+    if not parts:
+        return None, None
+
+    start = parse_tournament_date_part(parts[0], year)
+    end = None
+    if len(parts) > 1 and parts[1].upper() != "TBD":
+        end = parse_tournament_date_part(parts[1], year, default_month=start.month if start else None)
+
+    return start, end
+
+
+def parse_tournament_date_part(
+    value: str, year: int, default_month: Optional[int] = None
+) -> Optional[date]:
+    """Parse one side of a VLR tournament date range."""
+    value = value.strip()
+    if not value or value.upper() == "TBD":
+        return None
+
+    if default_month and not re.search(r"[A-Za-z]", value):
+        value = f"{date(year, default_month, 1).strftime('%b')} {value}"
+
+    try:
+        dt = date_parser.parse(value, default=datetime(year, 1, 1), fuzzy=True)
+        return dt.date()
+    except (ValueError, TypeError):
+        return None
+
+
+def should_scrape_tournament(tournament: Tournament, reference_date: Optional[date] = None) -> bool:
+    """Return whether a tournament is current or upcoming."""
+    today = reference_date or datetime.now().date()
+    start, end = parse_tournament_dates(tournament.dates)
+
+    if end:
+        return end >= today
+    if start:
+        return start >= today
+    return True
+
+
 def parse_wib_datetime(
     datetime_str: str,
     year: int = 2026,
@@ -100,6 +151,8 @@ def parse_wib_datetime(
 
     ref = reference_datetime or datetime.now()
     normalized = datetime_str.strip()
+    timezone_match = re.search(r"\b(WIB|WITA|WIT)\b", normalized, re.I)
+    timezone_label = timezone_match.group(1).upper() if timezone_match else "WIB"
 
     # Handle relative labels commonly used on current match cards.
     lowered = normalized.lower()
@@ -116,14 +169,17 @@ def parse_wib_datetime(
         if time_match:
             normalized = f"{time_match.group(1)} {relative_day.strftime('%b %d %Y')}"
 
-    normalized = normalized.replace("WIB,", "").replace("WIB", "").strip()
+    normalized = re.sub(r"\b(?:WIB|WITA|WIT)\b,?", "", normalized, flags=re.I).strip()
     normalized = re.sub(r"\s+", " ", normalized)
 
     try:
         dt = date_parser.parse(normalized, fuzzy=True)
         if dt.year == 1900 or dt.year < 2020:
             dt = dt.replace(year=year)
-        return dt
+
+        timezone_offsets = {"WIB": 7, "WITA": 8, "WIT": 9}
+        source_tz = timezone(timedelta(hours=timezone_offsets.get(timezone_label, 7)))
+        return dt.replace(tzinfo=source_tz).astimezone(WIB_TZ).replace(tzinfo=None)
     except (ValueError, TypeError):
         return None
 
@@ -138,9 +194,9 @@ def extract_match_datetime_str(link_text: str) -> str:
     if not link_text:
         return ""
 
-    # Legacy VLR format with explicit WIB marker.
+    # Legacy VLR format with explicit Indonesian timezone marker.
     match = re.search(
-        r"(\d{1,2}:\d{2}\s*[ap]m\s*WIB,?\s*\w+\s*\d{1,2})",
+        r"(\d{1,2}:\d{2}\s*[ap]m\s*(?:WIB|WITA|WIT),?\s*\w+\s*\d{1,2})",
         link_text,
         re.I,
     )
@@ -392,13 +448,17 @@ def get_matches_from_tournament(tournament: Tournament) -> list[Match]:
 
 
 def scrape_all_matches(stage_key: str = "kickoff") -> list[Match]:
-    """Scrape all matches from all tournaments in a stage."""
+    """Scrape matches from current and upcoming tournaments in a stage."""
     tournaments = get_tournaments(stage_key)
     print(f"Found {len(tournaments)} tournaments for {stage_key}")
 
     all_matches = []
     for tournament in tournaments:
-        print(f"  Scraping {tournament.name}...")
+        if not should_scrape_tournament(tournament):
+            print(f"  Skipping past tournament {tournament.name} ({tournament.dates})")
+            continue
+
+        print(f"  Scraping {tournament.name} ({tournament.dates})...")
         matches = get_matches_from_tournament(tournament)
         print(f"    Found {len(matches)} matches")
         all_matches.extend(matches)
