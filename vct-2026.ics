@@ -3768,4 +3768,52 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/666499/global-esports-vs-paper-rex-vct-2026-pacific
  -stage-1-lbf
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valorant Masters London 2026 - XLG vs NRG (Round 1)
+DTSTART:20260606T150000Z
+DTEND:20260606T170000Z
+DTSTAMP:20260615T041425Z
+UID:match-684613@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/684613/xi-lai-gaming-vs-nrg-valorant
+ -masters-london-2026-r1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/684613/xi-lai-gaming-vs-nrg-valorant-masters-london
+ -2026-r1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valorant Masters London 2026 - VIT vs DRG (Round 1)
+DTSTART:20260606T173000Z
+DTEND:20260606T193000Z
+DTSTAMP:20260615T041425Z
+UID:match-684610@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/684610/team-vitality-vs-dragon-range
+ r-gaming-valorant-masters-london-2026-r1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/684610/team-vitality-vs-dragon-ranger-gaming-valora
+ nt-masters-london-2026-r1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valorant Masters London 2026 - FS vs FUT (Round 1)
+DTSTART:20260607T150000Z
+DTEND:20260607T170000Z
+DTSTAMP:20260615T041425Z
+UID:match-684611@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/684611/full-sense-vs-fut-esports-val
+ orant-masters-london-2026-r1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/684611/full-sense-vs-fut-esports-valorant-masters-l
+ ondon-2026-r1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Valorant Masters London 2026 - LEV vs GE (Round 1)
+DTSTART:20260607T170000Z
+DTEND:20260607T190000Z
+DTSTAMP:20260615T041425Z
+UID:match-684612@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/684612/leviat-n-vs-global-esports-va
+ lorant-masters-london-2026-r1
+STATUS:CONFIRMED
+URL:https://www.vlr.gg/684612/leviat-n-vs-global-esports-valorant-masters-
+ london-2026-r1
+END:VEVENT
 END:VCALENDAR
