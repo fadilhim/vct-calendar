@@ -2,7 +2,7 @@
 
 import re
 import time
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from typing import Optional
 from urllib.parse import urljoin
 
@@ -12,6 +12,9 @@ from dateutil import parser as date_parser
 
 from .config import BASE_URL, EXCLUDED_REGIONS, HEADERS, REQUEST_DELAY, STAGES
 from .models import Match, Tournament
+
+
+WIB_TZ = timezone(timedelta(hours=7))
 
 
 def get_soup(url: str) -> BeautifulSoup:
@@ -148,6 +151,8 @@ def parse_wib_datetime(
 
     ref = reference_datetime or datetime.now()
     normalized = datetime_str.strip()
+    timezone_match = re.search(r"\b(WIB|WITA|WIT)\b", normalized, re.I)
+    timezone_label = timezone_match.group(1).upper() if timezone_match else "WIB"
 
     # Handle relative labels commonly used on current match cards.
     lowered = normalized.lower()
@@ -164,14 +169,17 @@ def parse_wib_datetime(
         if time_match:
             normalized = f"{time_match.group(1)} {relative_day.strftime('%b %d %Y')}"
 
-    normalized = normalized.replace("WIB,", "").replace("WIB", "").strip()
+    normalized = re.sub(r"\b(?:WIB|WITA|WIT)\b,?", "", normalized, flags=re.I).strip()
     normalized = re.sub(r"\s+", " ", normalized)
 
     try:
         dt = date_parser.parse(normalized, fuzzy=True)
         if dt.year == 1900 or dt.year < 2020:
             dt = dt.replace(year=year)
-        return dt
+
+        timezone_offsets = {"WIB": 7, "WITA": 8, "WIT": 9}
+        source_tz = timezone(timedelta(hours=timezone_offsets.get(timezone_label, 7)))
+        return dt.replace(tzinfo=source_tz).astimezone(WIB_TZ).replace(tzinfo=None)
     except (ValueError, TypeError):
         return None
 
@@ -186,9 +194,9 @@ def extract_match_datetime_str(link_text: str) -> str:
     if not link_text:
         return ""
 
-    # Legacy VLR format with explicit WIB marker.
+    # Legacy VLR format with explicit Indonesian timezone marker.
     match = re.search(
-        r"(\d{1,2}:\d{2}\s*[ap]m\s*WIB,?\s*\w+\s*\d{1,2})",
+        r"(\d{1,2}:\d{2}\s*[ap]m\s*(?:WIB|WITA|WIT),?\s*\w+\s*\d{1,2})",
         link_text,
         re.I,
     )
