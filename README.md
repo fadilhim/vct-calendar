@@ -45,7 +45,7 @@ pip install -r requirements.txt
 Update current and upcoming VCT 2026 events with latest data from vlr.gg:
 
 ```bash
-python update_calendar.py
+python3 update_calendar.py
 ```
 
 For VPS automation that refreshes and pushes `vct-2026.ics` on a cron schedule, see [docs/vps-cron.md](docs/vps-cron.md).
@@ -57,7 +57,7 @@ This updates:
 
 ## 📅 VCT 2026 Stages
 
-The update command checks all configured VCT 2026 stages, including both Masters events, and only scrapes tournaments whose end date is today or later. Past tournaments stay in the calendar but are not refreshed.
+The update command checks all configured VCT 2026 stages, including both Masters events. Past tournaments stay in the calendar but are not refreshed, and future tournaments are only scraped starting H-7 (7 days before the tournament start date).
 
 ## ⚠️ Disclaimer
 

@@ -13,6 +13,9 @@ STAGES = {
 EXCLUDED_REGIONS = []  # Include all regions (Americas, EMEA, Pacific, China)
 
 REQUEST_DELAY = 1.0
+REQUEST_TIMEOUT = 30
+REQUEST_RETRIES = 2
+UPCOMING_SCRAPE_WINDOW_DAYS = 7
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"

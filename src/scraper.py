@@ -10,7 +10,16 @@ import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 
-from .config import BASE_URL, EXCLUDED_REGIONS, HEADERS, REQUEST_DELAY, STAGES
+from .config import (
+    BASE_URL,
+    EXCLUDED_REGIONS,
+    HEADERS,
+    REQUEST_DELAY,
+    REQUEST_RETRIES,
+    REQUEST_TIMEOUT,
+    STAGES,
+    UPCOMING_SCRAPE_WINDOW_DAYS,
+)
 from .models import Match, Tournament
 
 
@@ -19,10 +28,21 @@ WIB_TZ = timezone(timedelta(hours=7))
 
 def get_soup(url: str) -> BeautifulSoup:
     """Fetch a page and return BeautifulSoup object."""
-    response = requests.get(url, headers=HEADERS)
-    response.raise_for_status()
-    time.sleep(REQUEST_DELAY)
-    return BeautifulSoup(response.text, "html.parser")
+    last_error = None
+
+    for attempt in range(REQUEST_RETRIES + 1):
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+            response.raise_for_status()
+            time.sleep(REQUEST_DELAY)
+            return BeautifulSoup(response.text, "html.parser")
+        except requests.RequestException as error:
+            last_error = error
+            if attempt < REQUEST_RETRIES:
+                print(f"    Request failed, retrying ({attempt + 1}/{REQUEST_RETRIES}): {url}")
+                time.sleep(REQUEST_DELAY)
+
+    raise last_error
 
 
 def get_tournaments(stage_key: str = "kickoff") -> list[Tournament]:
@@ -32,7 +52,11 @@ def get_tournaments(stage_key: str = "kickoff") -> list[Tournament]:
         raise ValueError(f"Unknown stage: {stage_key}")
 
     url = f"{BASE_URL}/vct/?region=all&stage={stage['id']}"
-    soup = get_soup(url)
+    try:
+        soup = get_soup(url)
+    except requests.RequestException as error:
+        print(f"  Failed to fetch tournaments for {stage_key}: {error}")
+        return []
 
     tournaments = []
     event_links = soup.select('a[href^="/event/"]')
@@ -126,14 +150,17 @@ def parse_tournament_date_part(
 
 
 def should_scrape_tournament(tournament: Tournament, reference_date: Optional[date] = None) -> bool:
-    """Return whether a tournament is current or upcoming."""
+    """Return whether a tournament is current or starts within the scrape window."""
     today = reference_date or datetime.now().date()
     start, end = parse_tournament_dates(tournament.dates)
 
-    if end:
-        return end >= today
+    if end and end < today:
+        return False
+
     if start:
-        return start >= today
+        scrape_from = start - timedelta(days=UPCOMING_SCRAPE_WINDOW_DAYS)
+        return today >= scrape_from
+
     return True
 
 
@@ -455,7 +482,15 @@ def scrape_all_matches(stage_key: str = "kickoff") -> list[Match]:
     all_matches = []
     for tournament in tournaments:
         if not should_scrape_tournament(tournament):
-            print(f"  Skipping past tournament {tournament.name} ({tournament.dates})")
+            start, end = parse_tournament_dates(tournament.dates)
+            if end and end < datetime.now().date():
+                reason = "past tournament"
+            elif start:
+                scrape_from = start - timedelta(days=UPCOMING_SCRAPE_WINDOW_DAYS)
+                reason = f"starts outside H-{UPCOMING_SCRAPE_WINDOW_DAYS} window (scrape from {scrape_from})"
+            else:
+                reason = "outside scrape window"
+            print(f"  Skipping {reason} {tournament.name} ({tournament.dates})")
             continue
 
         print(f"  Scraping {tournament.name} ({tournament.dates})...")
