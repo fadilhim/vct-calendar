@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Update existing VCT 2026 ICS calendar with latest data from vlr.gg."""
 
-import argparse
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -10,12 +9,8 @@ from icalendar import Calendar, vDatetime
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from src.calendar_generator import (
-    UTC,
-    get_stages_in_calendar,
-    get_upcoming_stages_in_calendar,
-    match_to_event,
-)
+from src.calendar_generator import UTC, match_to_event
+from src.config import STAGES
 from src.scraper import scrape_all_matches
 
 CALENDAR_FILE = "vct-2026.ics"
@@ -36,33 +31,18 @@ def load_existing_calendar(path: str) -> tuple[Calendar, dict]:
     return cal, existing_uids
 
 
-def update_calendar(calendar_path: str, stages: list[str] = None) -> dict:
-    """Update existing calendar with fresh data from vlr.gg.
-    
+def update_calendar(calendar_path: str) -> dict:
+    """Update the calendar with fresh data from current and upcoming VCT events.
+
     Updates existing events and appends new ones.
-    If stages is None, auto-detects stages from the calendar.
     """
     print(f"Loading existing calendar from {calendar_path}...")
     cal, existing_uids = load_existing_calendar(calendar_path)
     print(f"Found {len(existing_uids)} existing events")
 
-    if stages is None:
-        all_stages = get_stages_in_calendar(calendar_path)
-        upcoming_stages = get_upcoming_stages_in_calendar(calendar_path)
-        ended_stages = sorted(all_stages - upcoming_stages)
-        stages = sorted(upcoming_stages)
+    stages = list(STAGES)
 
-        print(f"Auto-detected upcoming stages: {', '.join(stages) if stages else 'none'}")
-        if ended_stages:
-            print(f"Skipping ended stages: {', '.join(ended_stages)}")
-    else:
-        stages = list(stages)
-
-    if not stages:
-        print("\nNo upcoming stages to update. Calendar is already up to date for future events.")
-        return {"added": 0, "updated": 0, "unchanged": 0, "skipped_no_time": 0}
-
-    print(f"\nScraping latest data from vlr.gg...")
+    print(f"\nScraping latest data from vlr.gg for current and upcoming events: {', '.join(stages)}")
     matches = []
     for stage in stages:
         print(f"  Fetching {stage}...")
@@ -140,21 +120,11 @@ def update_calendar(calendar_path: str, stages: list[str] = None) -> dict:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Update VCT 2026 calendar with latest data")
-    parser.add_argument(
-        "--stage",
-        choices=["kickoff", "masters", "stage1", "stage2", "champions"],
-        action="append",
-        dest="stages",
-        help="Stage(s) to update. Can be specified multiple times. If not specified, auto-detects from calendar.",
-    )
-    args = parser.parse_args()
-
     if not Path(CALENDAR_FILE).exists():
         print(f"Error: {CALENDAR_FILE} not found. Run generate_calendar.py first.")
         sys.exit(1)
 
-    update_calendar(CALENDAR_FILE, args.stages)
+    update_calendar(CALENDAR_FILE)
 
 
 if __name__ == "__main__":

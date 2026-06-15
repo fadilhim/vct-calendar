@@ -40,21 +40,9 @@ VCT 2026 Pacific Kickoff - Paper Rex vs T1 (Upper Round 2)
 pip install -r requirements.txt
 ```
 
-### Generate (New Tournament)
-
-Add a new stage/tournament to the calendar:
-
-```bash
-# First stage (creates file)
-python generate_calendar.py --stage kickoff
-
-# Additional stages (appends to existing)
-python generate_calendar.py --stage masters --append
-```
-
 ### Update (Refresh Data)
 
-Update existing events with latest data from vlr.gg:
+Update current and upcoming VCT 2026 events with latest data from vlr.gg:
 
 ```bash
 python update_calendar.py
@@ -67,22 +55,9 @@ This updates:
 - Match times (reschedules)
 - Match status (completed)
 
-Update specific stage(s) only:
-
-```bash
-python update_calendar.py --stage kickoff
-python update_calendar.py --stage kickoff --stage masters
-```
-
 ## 📅 VCT 2026 Stages
 
-| Stage     | Timing  | Command             |
-|-----------|---------|---------------------|
-| Kickoff   | Jan-Feb | `--stage kickoff`   |
-| Masters   | Mar-Apr | `--stage masters`   |
-| Stage 1   | May-Jun | `--stage stage1`    |
-| Stage 2   | Jul-Aug | `--stage stage2`    |
-| Champions | Sep     | `--stage champions` |
+The update command checks all configured VCT 2026 stages, including both Masters events, and only scrapes tournaments whose end date is today or later. Past tournaments stay in the calendar but are not refreshed.
 
 ## ⚠️ Disclaimer
 
