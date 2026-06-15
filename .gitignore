@@ -54,3 +54,6 @@ htmlcov/
 
 # Windows scripts
 scripts/windows/
+
+docs/
+CONTEXT.md

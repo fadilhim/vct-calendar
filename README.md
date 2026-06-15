@@ -60,6 +60,8 @@ Update existing events with latest data from vlr.gg:
 python update_calendar.py
 ```
 
+For VPS automation that refreshes and pushes `vct-2026.ics` on a cron schedule, see [docs/vps-cron.md](docs/vps-cron.md).
+
 This updates:
 - Team names (TBD → actual teams)
 - Match times (reschedules)
