@@ -3884,9 +3884,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Valorant Masters London 2026 - Paper Rex vs Team Vitality (Upper S
  emifinals)
-DTSTART:20260615T170000Z
-DTEND:20260615T190000Z
-DTSTAMP:20260615T044306Z
+DTSTART:20260615T171500Z
+DTEND:20260615T191500Z
+DTSTAMP:20260618T052330Z
 UID:match-670469@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/670469/paper-rex-vs-team-vitality-va
  lorant-masters-london-2026-ubsf
@@ -3895,11 +3895,11 @@ URL:https://www.vlr.gg/670469/paper-rex-vs-team-vitality-valorant-masters-
  london-2026-ubsf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Valorant Masters London 2026 - 9:00 pm WITA\, Jun 19 vs TBD (Upper
-  Final)
+SUMMARY:Valorant Masters London 2026 - EDward Gaming vs Paper Rex (Upper F
+ inal)
 DTSTART:20260619T130000Z
 DTEND:20260619T150000Z
-DTSTAMP:20260615T044306Z
+DTSTAMP:20260618T052330Z
 UID:match-670470@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/670470/tbd-valorant-masters-london-2
  026-ubf
@@ -3945,11 +3945,11 @@ URL:https://www.vlr.gg/670473/leviat-n-vs-team-heretics-valorant-masters-l
  ondon-2026-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Valorant Masters London 2026 - FUT Esports vs 1:00 am WITA\, Jun 1
- 7 (Lower Round 2)
-DTSTART:20260616T170000Z
-DTEND:20260616T190000Z
-DTSTAMP:20260615T044306Z
+SUMMARY:Valorant Masters London 2026 - Team Vitality vs FUT Esports (Lower
+  Round 2)
+DTSTART:20260616T160500Z
+DTEND:20260616T180500Z
+DTSTAMP:20260618T052330Z
 UID:match-670474@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/670474/fut-esports-vs-tbd-valorant-m
  asters-london-2026-lr2
@@ -3958,11 +3958,11 @@ URL:https://www.vlr.gg/670474/fut-esports-vs-tbd-valorant-masters-london-2
  026-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Valorant Masters London 2026 - LEVIATÁN vs 10:00 pm WITA\, Jun 16
-  (Lower Round 2)
+SUMMARY:Valorant Masters London 2026 - Xi Lai Gaming vs LEVIATÁN (Lower R
+ ound 2)
 DTSTART:20260616T140000Z
 DTEND:20260616T160000Z
-DTSTAMP:20260615T044306Z
+DTSTAMP:20260618T052330Z
 UID:match-670475@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/670475/leviat-n-vs-tbd-valorant-mast
  ers-london-2026-lr2
@@ -3971,11 +3971,11 @@ URL:https://www.vlr.gg/670475/leviat-n-vs-tbd-valorant-masters-london-2026
  -lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Valorant Masters London 2026 - 12:00 am WITA\, Jun 20 vs TBD (Lowe
- r Round 3)
+SUMMARY:Valorant Masters London 2026 - Team Vitality vs LEVIATÁN (Lower R
+ ound 3)
 DTSTART:20260619T160000Z
 DTEND:20260619T180000Z
-DTSTAMP:20260615T044306Z
+DTSTAMP:20260618T052330Z
 UID:match-670476@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/670476/tbd-valorant-masters-london-2
  026-lr3
