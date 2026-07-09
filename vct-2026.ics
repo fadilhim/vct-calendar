@@ -4711,4 +4711,356 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/698914/varrel-vs-paper-rex-vct-2026-pacific-stage-2
  -w4
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - LEV vs FUR (Match)
+DTSTART:20260716T220000Z
+DTEND:20260717T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706349@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706349/leviat-n-vs-furia-vct-2026-am
+ ericas-stage-2-w1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706349/leviat-n-vs-furia-vct-2026-americas-stage-2-
+ w1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - ENVY vs EG (Match)
+DTSTART:20260717T220000Z
+DTEND:20260718T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706351@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706351/envy-vs-evil-geniuses-vct-202
+ 6-americas-stage-2-w1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706351/envy-vs-evil-geniuses-vct-2026-americas-stag
+ e-2-w1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - NRG vs MIBR (Match)
+DTSTART:20260719T010000Z
+DTEND:20260719T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706354@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706354/nrg-vs-mibr-vct-2026-americas
+ -stage-2-w1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706354/nrg-vs-mibr-vct-2026-americas-stage-2-w1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - EG vs LEV (Match)
+DTSTART:20260723T220000Z
+DTEND:20260724T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706355@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706355/evil-geniuses-vs-leviat-n-vct
+ -2026-americas-stage-2-w2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706355/evil-geniuses-vs-leviat-n-vct-2026-americas-
+ stage-2-w2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - ENVY vs MIBR (Match)
+DTSTART:20260724T010000Z
+DTEND:20260724T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706356@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706356/envy-vs-mibr-vct-2026-america
+ s-stage-2-w2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706356/envy-vs-mibr-vct-2026-americas-stage-2-w2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - FUR vs NRG (Match)
+DTSTART:20260724T220000Z
+DTEND:20260725T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706357@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706357/furia-vs-nrg-vct-2026-america
+ s-stage-2-w2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706357/furia-vs-nrg-vct-2026-americas-stage-2-w2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - ENVY vs LEV (Match)
+DTSTART:20260726T220000Z
+DTEND:20260727T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706361@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706361/envy-vs-leviat-n-vct-2026-ame
+ ricas-stage-2-w2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706361/envy-vs-leviat-n-vct-2026-americas-stage-2-w
+ 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - FUR vs MIBR (Match)
+DTSTART:20260727T010000Z
+DTEND:20260727T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706362@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706362/furia-vs-mibr-vct-2026-americ
+ as-stage-2-w2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706362/furia-vs-mibr-vct-2026-americas-stage-2-w2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - EG vs MIBR (Match)
+DTSTART:20260801T010000Z
+DTEND:20260801T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706367@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706367/evil-geniuses-vs-mibr-vct-202
+ 6-americas-stage-2-w3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706367/evil-geniuses-vs-mibr-vct-2026-americas-stag
+ e-2-w3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - ENVY vs FUR (Match)
+DTSTART:20260801T220000Z
+DTEND:20260802T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706368@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706368/envy-vs-furia-vct-2026-americ
+ as-stage-2-w3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706368/envy-vs-furia-vct-2026-americas-stage-2-w3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - LEV vs NRG (Match)
+DTSTART:20260802T010000Z
+DTEND:20260802T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706369@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706369/leviat-n-vs-nrg-vct-2026-amer
+ icas-stage-2-w3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706369/leviat-n-vs-nrg-vct-2026-americas-stage-2-w3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - EG vs FUR (Match)
+DTSTART:20260806T220000Z
+DTEND:20260807T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706372@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706372/evil-geniuses-vs-furia-vct-20
+ 26-americas-stage-2-w4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706372/evil-geniuses-vs-furia-vct-2026-americas-sta
+ ge-2-w4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - ENVY vs NRG (Match)
+DTSTART:20260807T010000Z
+DTEND:20260807T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706373@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706373/envy-vs-nrg-vct-2026-americas
+ -stage-2-w4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706373/envy-vs-nrg-vct-2026-americas-stage-2-w4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - LEV vs MIBR (Match)
+DTSTART:20260809T010000Z
+DTEND:20260809T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706377@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706377/leviat-n-vs-mibr-vct-2026-ame
+ ricas-stage-2-w4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706377/leviat-n-vs-mibr-vct-2026-americas-stage-2-w
+ 4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - EG vs NRG (Match)
+DTSTART:20260809T220000Z
+DTEND:20260810T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706378@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706378/evil-geniuses-vs-nrg-vct-2026
+ -americas-stage-2-w4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706378/evil-geniuses-vs-nrg-vct-2026-americas-stage
+ -2-w4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - SEN vs C9 (Match)
+DTSTART:20260717T010000Z
+DTEND:20260717T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706350@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706350/sentinels-vs-cloud9-vct-2026-
+ americas-stage-2-w1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706350/sentinels-vs-cloud9-vct-2026-americas-stage-
+ 2-w1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - KRÜ vs LOUD (Match)
+DTSTART:20260718T010000Z
+DTEND:20260718T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706352@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706352/kr-esports-vs-loud-vct-2026-a
+ mericas-stage-2-w1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706352/kr-esports-vs-loud-vct-2026-americas-stage-2
+ -w1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - G2 vs 100T (Match)
+DTSTART:20260718T220000Z
+DTEND:20260719T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706353@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706353/g2-esports-vs-100-thieves-vct
+ -2026-americas-stage-2-w1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706353/g2-esports-vs-100-thieves-vct-2026-americas-
+ stage-2-w1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - 100T vs KRÜ (Match)
+DTSTART:20260725T010000Z
+DTEND:20260725T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706358@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706358/100-thieves-vs-kr-esports-vct
+ -2026-americas-stage-2-w2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706358/100-thieves-vs-kr-esports-vct-2026-americas-
+ stage-2-w2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - G2 vs C9 (Match)
+DTSTART:20260725T220000Z
+DTEND:20260726T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706359@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706359/g2-esports-vs-cloud9-vct-2026
+ -americas-stage-2-w2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706359/g2-esports-vs-cloud9-vct-2026-americas-stage
+ -2-w2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - SEN vs LOUD (Match)
+DTSTART:20260726T010000Z
+DTEND:20260726T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706360@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706360/sentinels-vs-loud-vct-2026-am
+ ericas-stage-2-w2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706360/sentinels-vs-loud-vct-2026-americas-stage-2-
+ w2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - KRÜ vs G2 (Match)
+DTSTART:20260730T220000Z
+DTEND:20260731T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706364@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706364/kr-esports-vs-g2-esports-vct-
+ 2026-americas-stage-2-w3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706364/kr-esports-vs-g2-esports-vct-2026-americas-s
+ tage-2-w3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - 100T vs SEN (Match)
+DTSTART:20260731T010000Z
+DTEND:20260731T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706365@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706365/100-thieves-vs-sentinels-vct-
+ 2026-americas-stage-2-w3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706365/100-thieves-vs-sentinels-vct-2026-americas-s
+ tage-2-w3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - C9 vs LOUD (Match)
+DTSTART:20260731T220000Z
+DTEND:20260801T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706366@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706366/cloud9-vs-loud-vct-2026-ameri
+ cas-stage-2-w3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706366/cloud9-vs-loud-vct-2026-americas-stage-2-w3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - C9 vs KRÜ (Match)
+DTSTART:20260802T220000Z
+DTEND:20260803T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706370@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706370/cloud9-vs-kr-esports-vct-2026
+ -americas-stage-2-w3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706370/cloud9-vs-kr-esports-vct-2026-americas-stage
+ -2-w3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - G2 vs SEN (Match)
+DTSTART:20260803T010000Z
+DTEND:20260803T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706371@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706371/g2-esports-vs-sentinels-vct-2
+ 026-americas-stage-2-w3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706371/g2-esports-vs-sentinels-vct-2026-americas-st
+ age-2-w3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - 100T vs C9 (Match)
+DTSTART:20260807T220000Z
+DTEND:20260808T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706374@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706374/100-thieves-vs-cloud9-vct-202
+ 6-americas-stage-2-w4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706374/100-thieves-vs-cloud9-vct-2026-americas-stag
+ e-2-w4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - G2 vs LOUD (Match)
+DTSTART:20260808T010000Z
+DTEND:20260808T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706375@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706375/g2-esports-vs-loud-vct-2026-a
+ mericas-stage-2-w4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706375/g2-esports-vs-loud-vct-2026-americas-stage-2
+ -w4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - KRÜ vs SEN (Match)
+DTSTART:20260808T220000Z
+DTEND:20260809T000000Z
+DTSTAMP:20260709T204136Z
+UID:match-706376@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706376/kr-esports-vs-sentinels-vct-2
+ 026-americas-stage-2-w4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706376/kr-esports-vs-sentinels-vct-2026-americas-st
+ age-2-w4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 Americas Stage 2 - LOUD vs 100T (Match)
+DTSTART:20260810T010000Z
+DTEND:20260810T030000Z
+DTSTAMP:20260709T204136Z
+UID:match-706379@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/706379/loud-vs-100-thieves-vct-2026-
+ americas-stage-2-w4
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/706379/loud-vs-100-thieves-vct-2026-americas-stage-
+ 2-w4
+END:VEVENT
 END:VCALENDAR
