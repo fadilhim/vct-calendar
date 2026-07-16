@@ -5067,11 +5067,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 2 - FUT vs NAVI (Match)
 DTSTART:20260715T160000Z
 DTEND:20260715T180000Z
-DTSTAMP:20260715T142203Z
+DTSTAMP:20260716T045135Z
 UID:match-712803@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/712803/fut-esports-vs-natus-vincere-
  vct-2026-emea-stage-2-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/712803/fut-esports-vs-natus-vincere-vct-2026-emea-s
  tage-2-w1
 END:VEVENT
@@ -5245,13 +5245,13 @@ URL:https://www.vlr.gg/712832/bbl-esports-vs-pcific-esports-vct-2026-emea-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 2 - TL vs EF (Match)
-DTSTART:20260715T190000Z
-DTEND:20260715T210000Z
-DTSTAMP:20260715T142203Z
+DTSTART:20260715T181000Z
+DTEND:20260715T201000Z
+DTSTAMP:20260716T045135Z
 UID:match-712804@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/712804/team-liquid-vs-eternal-fire-v
  ct-2026-emea-stage-2-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/712804/team-liquid-vs-eternal-fire-vct-2026-emea-st
  age-2-w1
 END:VEVENT
