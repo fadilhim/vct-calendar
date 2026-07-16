@@ -4250,23 +4250,23 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 2 - AG vs BLG (Match)
 DTSTART:20260716T100000Z
 DTEND:20260716T120000Z
-DTSTAMP:20260715T142203Z
+DTSTAMP:20260716T135101Z
 UID:match-701040@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/701040/all-gamers-vs-bilibili-gaming
  -vct-2026-china-stage-2-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/701040/all-gamers-vs-bilibili-gaming-vct-2026-china
  -stage-2-w2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 2 - XLG vs DRG (Match)
-DTSTART:20260716T130000Z
-DTEND:20260716T150000Z
-DTSTAMP:20260715T142203Z
+DTSTART:20260716T132500Z
+DTEND:20260716T152500Z
+DTSTAMP:20260716T135101Z
 UID:match-701041@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/701041/xi-lai-gaming-vs-dragon-range
  r-gaming-vct-2026-china-stage-2-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/701041/xi-lai-gaming-vs-dragon-ranger-gaming-vct-20
  26-china-stage-2-w2
 END:VEVENT
@@ -4358,11 +4358,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - GEN vs ZETA (Match)
 DTSTART:20260716T090000Z
 DTEND:20260716T110000Z
-DTSTAMP:20260715T142203Z
+DTSTAMP:20260716T135101Z
 UID:match-698884@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698884/gen-g-vs-zeta-division-vct-20
  26-pacific-stage-2-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698884/gen-g-vs-zeta-division-vct-2026-pacific-stag
  e-2-w1
 END:VEVENT
@@ -4536,13 +4536,13 @@ URL:https://www.vlr.gg/698915/nongshim-redforce-vs-rex-regum-qeon-vct-2026
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - TS vs VL (Match)
-DTSTART:20260716T110000Z
-DTEND:20260716T130000Z
-DTSTAMP:20260715T142203Z
+DTSTART:20260716T120500Z
+DTEND:20260716T140500Z
+DTSTAMP:20260716T135101Z
 UID:match-698885@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698885/team-secret-vs-varrel-vct-202
  6-pacific-stage-2-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698885/team-secret-vs-varrel-vct-2026-pacific-stage
  -2-w1
 END:VEVENT
