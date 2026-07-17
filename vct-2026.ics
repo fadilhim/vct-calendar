@@ -4070,11 +4070,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 2 - NOVA vs JDG (Match)
 DTSTART:20260717T070000Z
 DTEND:20260717T090000Z
-DTSTAMP:20260717T061514Z
+DTSTAMP:20260717T071644Z
 UID:match-701042@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/701042/nova-esports-vs-jdg-esports-v
  ct-2026-china-stage-2-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/701042/nova-esports-vs-jdg-esports-vct-2026-china-s
  tage-2-w2
 END:VEVENT
