@@ -4715,11 +4715,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Stage 2 - LEV vs FUR (Match)
 DTSTART:20260716T220000Z
 DTEND:20260717T000000Z
-DTSTAMP:20260715T142203Z
+DTSTAMP:20260717T013614Z
 UID:match-706349@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/706349/leviat-n-vs-furia-vct-2026-am
  ericas-stage-2-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/706349/leviat-n-vs-furia-vct-2026-americas-stage-2-
  w1
 END:VEVENT
@@ -4886,13 +4886,13 @@ URL:https://www.vlr.gg/706378/evil-geniuses-vs-nrg-vct-2026-americas-stage
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Stage 2 - SEN vs C9 (Match)
-DTSTART:20260717T010000Z
-DTEND:20260717T030000Z
-DTSTAMP:20260715T142203Z
+DTSTART:20260717T012000Z
+DTEND:20260717T032000Z
+DTSTAMP:20260717T013614Z
 UID:match-706350@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/706350/sentinels-vs-cloud9-vct-2026-
  americas-stage-2-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/706350/sentinels-vs-cloud9-vct-2026-americas-stage-
  2-w1
 END:VEVENT
@@ -5077,13 +5077,13 @@ URL:https://www.vlr.gg/712803/fut-esports-vs-natus-vincere-vct-2026-emea-s
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 2 - PCF vs M8 (Match)
-DTSTART:20260716T190000Z
-DTEND:20260716T210000Z
-DTSTAMP:20260715T142203Z
+DTSTART:20260716T183500Z
+DTEND:20260716T203500Z
+DTSTAMP:20260717T013614Z
 UID:match-712806@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/712806/pcific-esports-vs-gentle-mate
  s-vct-2026-emea-stage-2-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/712806/pcific-esports-vs-gentle-mates-vct-2026-emea
  -stage-2-w1
 END:VEVENT
