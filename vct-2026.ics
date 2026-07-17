@@ -4370,11 +4370,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - FS vs NS (Match)
 DTSTART:20260717T080000Z
 DTEND:20260717T100000Z
-DTSTAMP:20260717T061514Z
+DTSTAMP:20260717T081911Z
 UID:match-698886@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698886/full-sense-vs-nongshim-redfor
  ce-vct-2026-pacific-stage-2-w1
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698886/full-sense-vs-nongshim-redforce-vct-2026-pac
  ific-stage-2-w1
 END:VEVENT
