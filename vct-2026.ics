@@ -4334,11 +4334,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 2 - XLG vs WOL (Match)
 DTSTART:20260722T090000Z
 DTEND:20260722T110000Z
-DTSTAMP:20260722T060226Z
+DTSTAMP:20260722T090438Z
 UID:match-701054@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/701054/xi-lai-gaming-vs-wolves-espor
  ts-vct-2026-china-stage-2-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/701054/xi-lai-gaming-vs-wolves-esports-vct-2026-chi
  na-stage-2-w3
 END:VEVENT
