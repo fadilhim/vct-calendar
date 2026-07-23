@@ -4406,11 +4406,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - GE vs FS (Match)
 DTSTART:20260723T080000Z
 DTEND:20260723T100000Z
-DTSTAMP:20260722T060226Z
+DTSTAMP:20260723T084709Z
 UID:match-698892@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698892/global-esports-vs-full-sense-
  vct-2026-pacific-stage-2-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698892/global-esports-vs-full-sense-vct-2026-pacifi
  c-stage-2-w2
 END:VEVENT
