@@ -4344,13 +4344,13 @@ URL:https://www.vlr.gg/701054/xi-lai-gaming-vs-wolves-esports-vct-2026-chi
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 2 - AG vs DRG (Match)
-DTSTART:20260722T120000Z
-DTEND:20260722T140000Z
-DTSTAMP:20260722T060226Z
+DTSTART:20260722T122000Z
+DTEND:20260722T142000Z
+DTSTAMP:20260723T062404Z
 UID:match-701055@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/701055/all-gamers-vs-dragon-ranger-g
  aming-vct-2026-china-stage-2-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/701055/all-gamers-vs-dragon-ranger-gaming-vct-2026-
  china-stage-2-w3
 END:VEVENT
@@ -5127,11 +5127,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 2 - FUT vs PCF (Match)
 DTSTART:20260722T150000Z
 DTEND:20260722T170000Z
-DTSTAMP:20260722T060226Z
+DTSTAMP:20260723T062404Z
 UID:match-712814@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/712814/fut-esports-vs-pcific-esports
  -vct-2026-emea-stage-2-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/712814/fut-esports-vs-pcific-esports-vct-2026-emea-
  stage-2-w2
 END:VEVENT
@@ -5304,13 +5304,13 @@ URL:https://www.vlr.gg/712811/giantx-vs-karmine-corp-vct-2026-emea-stage-2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 2 - FNC vs KC (Match)
-DTSTART:20260722T180000Z
-DTEND:20260722T200000Z
-DTSTAMP:20260722T060226Z
+DTSTART:20260722T181500Z
+DTEND:20260722T201500Z
+DTSTAMP:20260723T062404Z
 UID:match-712815@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/712815/fnatic-vs-karmine-corp-vct-20
  26-emea-stage-2-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/712815/fnatic-vs-karmine-corp-vct-2026-emea-stage-2
  -w2
 END:VEVENT
