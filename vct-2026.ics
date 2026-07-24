@@ -4418,11 +4418,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - RRQ vs ZETA (Match)
 DTSTART:20260724T080000Z
 DTEND:20260724T100000Z
-DTSTAMP:20260724T071017Z
+DTSTAMP:20260724T084632Z
 UID:match-698894@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698894/rex-regum-qeon-vs-zeta-divisi
  on-vct-2026-pacific-stage-2-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698894/rex-regum-qeon-vs-zeta-division-vct-2026-pac
  ific-stage-2-w2
 END:VEVENT
