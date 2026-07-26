@@ -5175,11 +5175,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 2 - BBL vs NAVI (Match)
 DTSTART:20260726T160000Z
 DTEND:20260726T180000Z
-DTSTAMP:20260725T132950Z
+DTSTAMP:20260726T151001Z
 UID:match-712822@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/712822/bbl-esports-vs-natus-vincere-
  vct-2026-emea-stage-2-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/712822/bbl-esports-vs-natus-vincere-vct-2026-emea-s
  tage-2-w2
 END:VEVENT
