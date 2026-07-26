@@ -4442,11 +4442,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - GEN vs RRQ (Match)
 DTSTART:20260726T105000Z
 DTEND:20260726T125000Z
-DTSTAMP:20260726T094616Z
+DTSTAMP:20260726T130118Z
 UID:match-698901@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698901/gen-g-vs-rex-regum-qeon-vct-2
  026-pacific-stage-2-w2
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698901/gen-g-vs-rex-regum-qeon-vct-2026-pacific-sta
  ge-2-w2
 END:VEVENT
