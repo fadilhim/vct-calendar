@@ -5576,4 +5576,200 @@ DESCRIPTION:Watch: https://www.vlr.gg/724651/tbd-vct-2026-china-stage-2-lb
 STATUS:TENTATIVE
 URL:https://www.vlr.gg/724651/tbd-vct-2026-china-stage-2-lbf
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - Trace Esports vs 3:00 pm WIB\, Aug 5 (Upp
+ er Round 1)
+DTSTART:20260805T080000Z
+DTEND:20260805T100000Z
+DTSTAMP:20260729T051402Z
+UID:match-724619@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724619/trace-esports-vs-tbd-vct-2026
+ -china-stage-2-ur1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724619/trace-esports-vs-tbd-vct-2026-china-stage-2-
+ ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - Titan Esports Club vs 5:00 pm WIB\, Aug 5
+  (Upper Round 1)
+DTSTART:20260805T100000Z
+DTEND:20260805T120000Z
+DTSTAMP:20260729T051402Z
+UID:match-724620@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724620/titan-esports-club-vs-tbd-vct
+ -2026-china-stage-2-ur1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724620/titan-esports-club-vs-tbd-vct-2026-china-sta
+ ge-2-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - All Gamers vs 3:00 pm WIB\, Aug 7 (Upper 
+ Quarterfinals)
+DTSTART:20260807T080000Z
+DTEND:20260807T100000Z
+DTSTAMP:20260729T051402Z
+UID:match-724623@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724623/all-gamers-vs-tbd-vct-2026-ch
+ ina-stage-2-ubqf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724623/all-gamers-vs-tbd-vct-2026-china-stage-2-ubq
+ f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - FunPlus Phoenix vs JDG Esports (Upper Qua
+ rterfinals)
+DTSTART:20260806T080000Z
+DTEND:20260806T100000Z
+DTSTAMP:20260729T051402Z
+UID:match-724621@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724621/funplus-phoenix-vs-jdg-esport
+ s-vct-2026-china-stage-2-ubqf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724621/funplus-phoenix-vs-jdg-esports-vct-2026-chin
+ a-stage-2-ubqf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - EDward Gaming vs 6:00 pm WIB\, Aug 7 (Upp
+ er Quarterfinals)
+DTSTART:20260807T110000Z
+DTEND:20260807T130000Z
+DTSTAMP:20260729T051402Z
+UID:match-724624@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724624/edward-gaming-vs-tbd-vct-2026
+ -china-stage-2-ubqf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724624/edward-gaming-vs-tbd-vct-2026-china-stage-2-
+ ubqf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - Wolves Esports vs Dragon Ranger Gaming (U
+ pper Quarterfinals)
+DTSTART:20260806T110000Z
+DTEND:20260806T130000Z
+DTSTAMP:20260729T051402Z
+UID:match-724622@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724622/wolves-esports-vs-dragon-rang
+ er-gaming-vct-2026-china-stage-2-ubqf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724622/wolves-esports-vs-dragon-ranger-gaming-vct-2
+ 026-china-stage-2-ubqf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - 3:00 pm WIB\, Aug 10 vs TBD (Upper Semifi
+ nals)
+DTSTART:20260810T080000Z
+DTEND:20260810T100000Z
+DTSTAMP:20260729T051402Z
+UID:match-724629@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724629/tbd-vct-2026-china-stage-2-ub
+ sf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724629/tbd-vct-2026-china-stage-2-ubsf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - 5:00 pm WIB\, Aug 10 vs TBD (Upper Semifi
+ nals)
+DTSTART:20260810T100000Z
+DTEND:20260810T120000Z
+DTSTAMP:20260729T051402Z
+UID:match-724630@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724630/tbd-vct-2026-china-stage-2-ub
+ sf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724630/tbd-vct-2026-china-stage-2-ubsf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - 3:00 pm WIB\, Aug 12 vs TBD (Upper Final)
+DTSTART:20260812T080000Z
+DTEND:20260812T100000Z
+DTSTAMP:20260729T051402Z
+UID:match-724633@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724633/tbd-vct-2026-china-stage-2-ub
+ f
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724633/tbd-vct-2026-china-stage-2-ubf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - 3:00 pm WIB\, Aug 8 vs TBD (Lower Round 1
+ )
+DTSTART:20260808T080000Z
+DTEND:20260808T100000Z
+DTSTAMP:20260729T051402Z
+UID:match-724625@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724625/tbd-vct-2026-china-stage-2-lr
+ 1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724625/tbd-vct-2026-china-stage-2-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - 5:00 pm WIB\, Aug 8 vs TBD (Lower Round 1
+ )
+DTSTART:20260808T100000Z
+DTEND:20260808T120000Z
+DTSTAMP:20260729T051402Z
+UID:match-724626@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724626/tbd-vct-2026-china-stage-2-lr
+ 1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724626/tbd-vct-2026-china-stage-2-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - 3:00 pm WIB\, Aug 9 vs TBD (Lower Round 2
+ )
+DTSTART:20260809T080000Z
+DTEND:20260809T100000Z
+DTSTAMP:20260729T051402Z
+UID:match-724627@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724627/tbd-vct-2026-china-stage-2-lr
+ 2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724627/tbd-vct-2026-china-stage-2-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - 5:00 pm WIB\, Aug 9 vs TBD (Lower Round 2
+ )
+DTSTART:20260809T100000Z
+DTEND:20260809T120000Z
+DTSTAMP:20260729T051402Z
+UID:match-724628@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724628/tbd-vct-2026-china-stage-2-lr
+ 2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724628/tbd-vct-2026-china-stage-2-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - 3:00 pm WIB\, Aug 11 vs TBD (Lower Round 
+ 3)
+DTSTART:20260811T080000Z
+DTEND:20260811T100000Z
+DTSTAMP:20260729T051402Z
+UID:match-724631@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724631/tbd-vct-2026-china-stage-2-lr
+ 3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724631/tbd-vct-2026-china-stage-2-lr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - 5:00 pm WIB\, Aug 11 vs TBD (Lower Round 
+ 3)
+DTSTART:20260811T100000Z
+DTEND:20260811T120000Z
+DTSTAMP:20260729T051402Z
+UID:match-724632@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724632/tbd-vct-2026-china-stage-2-lr
+ 3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724632/tbd-vct-2026-china-stage-2-lr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - 5:00 pm WIB\, Aug 12 vs TBD (Lower Final)
+DTSTART:20260812T100000Z
+DTEND:20260812T120000Z
+DTSTAMP:20260729T051402Z
+UID:match-724634@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724634/tbd-vct-2026-china-stage-2-lb
+ f
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724634/tbd-vct-2026-china-stage-2-lbf
+END:VEVENT
 END:VCALENDAR
