@@ -4632,11 +4632,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - VL vs DFM (Match)
 DTSTART:20260730T080000Z
 DTEND:20260730T100000Z
-DTSTAMP:20260730T052603Z
+DTSTAMP:20260730T080503Z
 UID:match-698902@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698902/varrel-vs-detonation-focusme-
  vct-2026-pacific-stage-2-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698902/varrel-vs-detonation-focusme-vct-2026-pacifi
  c-stage-2-w3
 END:VEVENT
