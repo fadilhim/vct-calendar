@@ -5211,11 +5211,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 2 - BBL vs M8 (Match)
 DTSTART:20260731T160000Z
 DTEND:20260731T180000Z
-DTSTAMP:20260730T150034Z
+DTSTAMP:20260731T153231Z
 UID:match-712828@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/712828/bbl-esports-vs-gentle-mates-v
  ct-2026-emea-stage-2-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/712828/bbl-esports-vs-gentle-mates-vct-2026-emea-st
  age-2-w3
 END:VEVENT
