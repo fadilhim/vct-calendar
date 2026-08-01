@@ -4805,13 +4805,13 @@ URL:https://www.vlr.gg/706362/furia-vs-mibr-vct-2026-americas-stage-2-w2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Stage 2 - EG vs MIBR (Match)
-DTSTART:20260801T010000Z
-DTEND:20260801T030000Z
-DTSTAMP:20260730T150034Z
+DTSTART:20260801T012500Z
+DTEND:20260801T032500Z
+DTSTAMP:20260801T004335Z
 UID:match-706367@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/706367/evil-geniuses-vs-mibr-vct-202
  6-americas-stage-2-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/706367/evil-geniuses-vs-mibr-vct-2026-americas-stag
  e-2-w3
 END:VEVENT
