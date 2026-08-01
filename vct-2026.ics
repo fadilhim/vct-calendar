@@ -5223,11 +5223,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 2 - FUT vs VIT (Match)
 DTSTART:20260801T160000Z
 DTEND:20260801T180000Z
-DTSTAMP:20260730T150034Z
+DTSTAMP:20260801T154834Z
 UID:match-712830@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/712830/fut-esports-vs-team-vitality-
  vct-2026-emea-stage-2-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/712830/fut-esports-vs-team-vitality-vct-2026-emea-s
  tage-2-w3
 END:VEVENT
