@@ -4656,11 +4656,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - T1 vs DFM (Match)
 DTSTART:20260801T090000Z
 DTEND:20260801T110000Z
-DTSTAMP:20260730T150034Z
+DTSTAMP:20260801T083945Z
 UID:match-698906@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698906/t1-vs-detonation-focusme-vct-
  2026-pacific-stage-2-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698906/t1-vs-detonation-focusme-vct-2026-pacific-st
  age-2-w3
 END:VEVENT
