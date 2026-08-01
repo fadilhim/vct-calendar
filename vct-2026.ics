@@ -4476,13 +4476,13 @@ URL:https://www.vlr.gg/698905/global-esports-vs-gen-g-vct-2026-pacific-sta
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - FS vs RRQ (Match)
-DTSTART:20260801T120000Z
-DTEND:20260801T140000Z
-DTSTAMP:20260801T104220Z
+DTSTART:20260801T122500Z
+DTEND:20260801T142500Z
+DTSTAMP:20260801T114333Z
 UID:match-698907@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698907/full-sense-vs-rex-regum-qeon-
  vct-2026-pacific-stage-2-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698907/full-sense-vs-rex-regum-qeon-vct-2026-pacifi
  c-stage-2-w3
 END:VEVENT
