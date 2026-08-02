@@ -4490,11 +4490,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - ZETA vs NS (Match)
 DTSTART:20260802T120000Z
 DTEND:20260802T140000Z
-DTSTAMP:20260802T101220Z
+DTSTAMP:20260802T111333Z
 UID:match-698909@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698909/zeta-division-vs-nongshim-red
  force-vct-2026-pacific-stage-2-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698909/zeta-division-vs-nongshim-redforce-vct-2026-
  pacific-stage-2-w3
 END:VEVENT
