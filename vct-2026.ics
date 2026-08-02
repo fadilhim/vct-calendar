@@ -4995,11 +4995,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Stage 2 - C9 vs KRÜ (Match)
 DTSTART:20260802T220000Z
 DTEND:20260803T000000Z
-DTSTAMP:20260730T150034Z
+DTSTAMP:20260802T212945Z
 UID:match-706370@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/706370/cloud9-vs-kr-esports-vct-2026
  -americas-stage-2-w3
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/706370/cloud9-vs-kr-esports-vct-2026-americas-stage
  -2-w3
 END:VEVENT
