@@ -4680,11 +4680,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - TS vs DFM (Match)
 DTSTART:20260807T080000Z
 DTEND:20260807T100000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T081904Z
 UID:match-698910@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698910/team-secret-vs-detonation-foc
  usme-vct-2026-pacific-stage-2-w4
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698910/team-secret-vs-detonation-focusme-vct-2026-p
  acific-stage-2-w4
 END:VEVENT
