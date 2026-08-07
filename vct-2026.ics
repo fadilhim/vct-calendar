@@ -4841,23 +4841,23 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Stage 2 - EG vs FUR (Match)
 DTSTART:20260806T210000Z
 DTEND:20260806T230000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-706372@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/706372/evil-geniuses-vs-furia-vct-20
  26-americas-stage-2-w4
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/706372/evil-geniuses-vs-furia-vct-2026-americas-sta
  ge-2-w4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Stage 2 - ENVY vs NRG (Match)
-DTSTART:20260807T000000Z
-DTEND:20260807T020000Z
-DTSTAMP:20260806T044511Z
+DTSTART:20260806T231500Z
+DTEND:20260807T011500Z
+DTSTAMP:20260807T060045Z
 UID:match-706373@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/706373/envy-vs-nrg-vct-2026-americas
  -stage-2-w4
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/706373/envy-vs-nrg-vct-2026-americas-stage-2-w4
 END:VEVENT
 BEGIN:VEVENT
@@ -5423,11 +5423,11 @@ URL:https://www.vlr.gg/712833/fnatic-vs-team-heretics-vct-2026-emea-stage-
  2-w3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 2 - 3:00 pm WIB\, Aug 14 vs TBD (Upper Quarte
- rfinals)
+SUMMARY:VCT 2026 China Stage 2 - TYLOO vs Play-Ins #1 (Upper Quarterfinals
+ )
 DTSTART:20260814T080000Z
 DTEND:20260814T100000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-724638@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/724638/tbd-vct-2026-china-stage-2-ub
  qf
@@ -5435,11 +5435,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/724638/tbd-vct-2026-china-stage-2-ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 2 - 5:00 pm WIB\, Aug 14 vs TBD (Upper Quarte
+SUMMARY:VCT 2026 China Stage 2 - Nova Esports vs Play-Ins #4 (Upper Quarte
  rfinals)
 DTSTART:20260814T100000Z
 DTEND:20260814T120000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-724639@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/724639/tbd-vct-2026-china-stage-2-ub
  qf
@@ -5447,11 +5447,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/724639/tbd-vct-2026-china-stage-2-ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 2 - 3:00 pm WIB\, Aug 15 vs TBD (Upper Quarte
- rfinals)
+SUMMARY:VCT 2026 China Stage 2 - Xi Lai Gaming vs Play-Ins #2 (Upper Quart
+ erfinals)
 DTSTART:20260815T080000Z
 DTEND:20260815T100000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-724640@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/724640/tbd-vct-2026-china-stage-2-ub
  qf
@@ -5459,11 +5459,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/724640/tbd-vct-2026-china-stage-2-ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 2 - 5:00 pm WIB\, Aug 15 vs TBD (Upper Quarte
- rfinals)
+SUMMARY:VCT 2026 China Stage 2 - Bilibili Gaming vs Play-Ins #3 (Upper Qua
+ rterfinals)
 DTSTART:20260815T100000Z
 DTEND:20260815T120000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-724641@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/724641/tbd-vct-2026-china-stage-2-ub
  qf
@@ -5654,11 +5654,11 @@ URL:https://www.vlr.gg/724622/wolves-esports-vs-dragon-ranger-gaming-vct-2
  026-china-stage-2-ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 2 - 3:00 pm WIB\, Aug 10 vs TBD (Upper Semifi
- nals)
+SUMMARY:VCT 2026 China Stage 2 - JDG Esports vs 3:00 pm WIB\, Aug 10 (Uppe
+ r Semifinals)
 DTSTART:20260810T080000Z
 DTEND:20260810T100000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-724629@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/724629/tbd-vct-2026-china-stage-2-ub
  sf
@@ -5666,11 +5666,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/724629/tbd-vct-2026-china-stage-2-ubsf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 2 - 5:00 pm WIB\, Aug 10 vs TBD (Upper Semifi
- nals)
+SUMMARY:VCT 2026 China Stage 2 - Dragon Ranger Gaming vs 5:00 pm WIB\, Aug
+  10 (Upper Semifinals)
 DTSTART:20260810T100000Z
 DTEND:20260810T120000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-724630@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/724630/tbd-vct-2026-china-stage-2-ub
  sf
@@ -5689,11 +5689,10 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/724633/tbd-vct-2026-china-stage-2-ubf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 2 - A Team vs 3:00 pm WIB\, Aug 8 (Lower Roun
- d 1)
+SUMMARY:VCT 2026 China Stage 2 - A Team vs Wolves Esports (Lower Round 1)
 DTSTART:20260808T080000Z
 DTEND:20260808T100000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-724625@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/724625/tbd-vct-2026-china-stage-2-lr
  1
@@ -5701,11 +5700,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/724625/tbd-vct-2026-china-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 2 - KeepBest Gaming vs 5:00 pm WIB\, Aug 8 (L
- ower Round 1)
+SUMMARY:VCT 2026 China Stage 2 - KeepBest Gaming vs FunPlus Phoenix (Lower
+  Round 1)
 DTSTART:20260808T100000Z
 DTEND:20260808T120000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-724626@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/724626/tbd-vct-2026-china-stage-2-lr
  1
@@ -5784,19 +5783,20 @@ URL:https://www.vlr.gg/729664/tbd-vct-2026-emea-stage-2-ur1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 EMEA Stage 2 - Natus Vincere vs Joblife (Upper Round 1)
-DTSTART:20260806T180000Z
-DTEND:20260806T200000Z
-DTSTAMP:20260803T003345Z
+DTSTART:20260806T182000Z
+DTEND:20260806T202000Z
+DTSTAMP:20260807T060045Z
 UID:match-729665@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729665/tbd-vct-2026-emea-stage-2-ur1
 STATUS:TENTATIVE
 URL:https://www.vlr.gg/729665/tbd-vct-2026-emea-stage-2-ur1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Stage 2 - PCIFIC Esports vs REBORN (Upper Round 1)
+SUMMARY:VCT 2026 EMEA Stage 2 - PCIFIC Esports vs Fire Flux Esports (Upper
+  Round 1)
 DTSTART:20260807T150000Z
 DTEND:20260807T170000Z
-DTSTAMP:20260803T003345Z
+DTSTAMP:20260807T060045Z
 UID:match-729666@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729666/tbd-vct-2026-emea-stage-2-ur1
 STATUS:TENTATIVE
@@ -5814,11 +5814,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/729667/tbd-vct-2026-emea-stage-2-ur1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Stage 2 - FUT Esports vs 10:00 pm WIB\, Aug 8 (Upper
-  Quarterfinals)
+SUMMARY:VCT 2026 EMEA Stage 2 - FUT Esports vs GIANTX (Upper Quarterfinals
+ )
 DTSTART:20260808T150000Z
 DTEND:20260808T170000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-729668@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729668/tbd-vct-2026-emea-stage-2-ubq
  f
@@ -5826,11 +5826,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/729668/tbd-vct-2026-emea-stage-2-ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Stage 2 - Eternal Fire vs 1:00 am WIB\, Aug 9 (Upper
-  Quarterfinals)
+SUMMARY:VCT 2026 EMEA Stage 2 - Eternal Fire vs Joblife (Upper Quarterfina
+ ls)
 DTSTART:20260808T180000Z
 DTEND:20260808T200000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-729669@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729669/tbd-vct-2026-emea-stage-2-ubq
  f
@@ -5886,22 +5886,22 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/729673/tbd-vct-2026-emea-stage-2-ubsf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Stage 2 - 10:00 pm WIB\, Aug 12 vs TBD (Lower Round 
- 1)
+SUMMARY:VCT 2026 EMEA Stage 2 - Eintracht Frankfurt vs 10:00 pm WIB\, Aug 
+ 12 (Lower Round 1)
 DTSTART:20260812T150000Z
 DTEND:20260812T170000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-729674@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729674/tbd-vct-2026-emea-stage-2-lr1
 STATUS:TENTATIVE
 URL:https://www.vlr.gg/729674/tbd-vct-2026-emea-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Stage 2 - 1:00 am WIB\, Aug 13 vs TBD (Lower Round 1
- )
+SUMMARY:VCT 2026 EMEA Stage 2 - Natus Vincere vs 1:00 am WIB\, Aug 13 (Low
+ er Round 1)
 DTSTART:20260812T180000Z
 DTEND:20260812T200000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260807T060045Z
 UID:match-729675@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729675/tbd-vct-2026-emea-stage-2-lr1
 STATUS:TENTATIVE
@@ -6188,5 +6188,151 @@ DESCRIPTION:Watch: https://www.vlr.gg/730552/tbd-vct-2026-pacific-stage-2-
  lr3
 STATUS:TENTATIVE
 URL:https://www.vlr.gg/730552/tbd-vct-2026-pacific-stage-2-lr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 2 - Team Liquid vs Play-Ins (#1-2) (Upper Roun
+ d 1)
+DTSTART:20260820T150000Z
+DTEND:20260820T170000Z
+DTSTAMP:20260807T060045Z
+UID:match-731396@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/731396/team-liquid-vs-tbd-vct-2026-e
+ mea-stage-2-ur1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/731396/team-liquid-vs-tbd-vct-2026-emea-stage-2-ur1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 2 - Team Vitality vs Play-In (#1-2) (Upper Rou
+ nd 1)
+DTSTART:20260820T180000Z
+DTEND:20260820T200000Z
+DTSTAMP:20260807T060045Z
+UID:match-731397@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/731397/team-vitality-vs-tbd-vct-2026
+ -emea-stage-2-ur1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/731397/team-vitality-vs-tbd-vct-2026-emea-stage-2-u
+ r1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 2 - BBL Esports vs 10:00 pm WIB\, Aug 21 (Uppe
+ r Semifinals)
+DTSTART:20260821T150000Z
+DTEND:20260821T170000Z
+DTSTAMP:20260807T060045Z
+UID:match-731398@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/731398/bbl-esports-vs-tbd-vct-2026-e
+ mea-stage-2-ubsf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/731398/bbl-esports-vs-tbd-vct-2026-emea-stage-2-ubs
+ f
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 2 - Karmine Corp vs 1:00 am WIB\, Aug 22 (Uppe
+ r Semifinals)
+DTSTART:20260821T180000Z
+DTEND:20260821T200000Z
+DTSTAMP:20260807T060045Z
+UID:match-731399@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/731399/karmine-corp-vs-tbd-vct-2026-
+ emea-stage-2-ubsf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/731399/karmine-corp-vs-tbd-vct-2026-emea-stage-2-ub
+ sf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 2 - 10:00 pm WIB\, Aug 28 vs TBD (Upper Final)
+DTSTART:20260828T150000Z
+DTEND:20260828T170000Z
+DTSTAMP:20260807T060045Z
+UID:match-731400@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/731400/tbd-vct-2026-emea-stage-2-ubf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/731400/tbd-vct-2026-emea-stage-2-ubf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 2 - 11:00 pm WIB\, Aug 30 vs TBD (Grand Final)
+DTSTART:20260830T160000Z
+DTEND:20260830T180000Z
+DTSTAMP:20260807T060045Z
+UID:match-731401@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/731401/tbd-vct-2026-emea-stage-2-gf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/731401/tbd-vct-2026-emea-stage-2-gf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 2 - Play-Ins (#3-4) vs 10:00 pm WIB\, Aug 22 (
+ Lower Round 1)
+DTSTART:20260822T150000Z
+DTEND:20260822T170000Z
+DTSTAMP:20260807T060045Z
+UID:match-731402@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/731402/tbd-vct-2026-emea-stage-2-lr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/731402/tbd-vct-2026-emea-stage-2-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 2 - Play-Ins (#3-4) vs 1:00 am WIB\, Aug 23 (L
+ ower Round 1)
+DTSTART:20260822T180000Z
+DTEND:20260822T200000Z
+DTSTAMP:20260807T060045Z
+UID:match-731403@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/731403/tbd-vct-2026-emea-stage-2-lr1
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/731403/tbd-vct-2026-emea-stage-2-lr1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 2 - 10:00 pm WIB\, Aug 23 vs TBD (Lower Round 
+ 2)
+DTSTART:20260823T150000Z
+DTEND:20260823T170000Z
+DTSTAMP:20260807T060045Z
+UID:match-731404@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/731404/tbd-vct-2026-emea-stage-2-lr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/731404/tbd-vct-2026-emea-stage-2-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 2 - 1:00 am WIB\, Aug 24 vs TBD (Lower Round 2
+ )
+DTSTART:20260823T180000Z
+DTEND:20260823T200000Z
+DTSTAMP:20260807T060045Z
+UID:match-731406@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/731406/tbd-vct-2026-emea-stage-2-lr2
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/731406/tbd-vct-2026-emea-stage-2-lr2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 2 - 1:00 am WIB\, Aug 29 vs TBD (Lower Round 3
+ )
+DTSTART:20260828T180000Z
+DTEND:20260828T200000Z
+DTSTAMP:20260807T060045Z
+UID:match-731407@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/731407/tbd-vct-2026-emea-stage-2-lr3
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/731407/tbd-vct-2026-emea-stage-2-lr3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 EMEA Stage 2 - 11:00 pm WIB\, Aug 29 vs TBD (Lower Final)
+DTSTART:20260829T160000Z
+DTEND:20260829T180000Z
+DTSTAMP:20260807T060045Z
+UID:match-731408@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/731408/tbd-vct-2026-emea-stage-2-lbf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/731408/tbd-vct-2026-emea-stage-2-lbf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VCT 2026 China Stage 2 - 3:00 pm WIB\, Aug 23 vs TBD (Grand Final)
+DTSTART:20260823T080000Z
+DTEND:20260823T100000Z
+DTSTAMP:20260807T060045Z
+UID:match-724645@vlr.gg
+DESCRIPTION:Watch: https://www.vlr.gg/724645/tbd-vct-2026-china-stage-2-gf
+STATUS:TENTATIVE
+URL:https://www.vlr.gg/724645/tbd-vct-2026-china-stage-2-gf
 END:VEVENT
 END:VCALENDAR
