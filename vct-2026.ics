@@ -4876,11 +4876,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Stage 2 - EG vs NRG (Match)
 DTSTART:20260809T220000Z
 DTEND:20260810T000000Z
-DTSTAMP:20260807T140554Z
+DTSTAMP:20260809T214943Z
 UID:match-706378@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/706378/evil-geniuses-vs-nrg-vct-2026
  -americas-stage-2-w4
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/706378/evil-geniuses-vs-nrg-vct-2026-americas-stage
  -2-w4
 END:VEVENT
