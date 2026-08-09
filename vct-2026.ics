@@ -5878,11 +5878,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/729672/tbd-vct-2026-emea-stage-2-ubsf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Stage 2 - Fire Flux Esports vs 2:00 am WITA\, Aug 16
-  (Upper Semifinals)
+SUMMARY:VCT 2026 EMEA Stage 2 - Fire Flux Esports vs Enterprise Esports (U
+ pper Semifinals)
 DTSTART:20260815T180000Z
 DTEND:20260815T200000Z
-DTSTAMP:20260809T174431Z
+DTSTAMP:20260809T204825Z
 UID:match-729673@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729673/tbd-vct-2026-emea-stage-2-ubs
  f
@@ -5890,11 +5890,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/729673/tbd-vct-2026-emea-stage-2-ubsf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Stage 2 - Eintracht Frankfurt vs 11:00 pm WITA\, Aug
-  12 (Lower Round 1)
+SUMMARY:VCT 2026 EMEA Stage 2 - Gentle Mates vs Eintracht Frankfurt (Lower
+  Round 1)
 DTSTART:20260812T150000Z
 DTEND:20260812T170000Z
-DTSTAMP:20260807T140554Z
+DTSTAMP:20260809T204825Z
 UID:match-729674@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729674/tbd-vct-2026-emea-stage-2-lr1
 STATUS:TENTATIVE
