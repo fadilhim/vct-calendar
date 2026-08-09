@@ -4524,13 +4524,13 @@ URL:https://www.vlr.gg/698913/global-esports-vs-zeta-division-vct-2026-pac
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - NS vs RRQ (Match)
-DTSTART:20260809T110000Z
-DTEND:20260809T130000Z
-DTSTAMP:20260807T140554Z
+DTSTART:20260809T112500Z
+DTEND:20260809T132500Z
+DTSTAMP:20260809T123754Z
 UID:match-698915@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698915/nongshim-redforce-vs-rex-regu
  m-qeon-vct-2026-pacific-stage-2-w4
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698915/nongshim-redforce-vs-rex-regum-qeon-vct-2026
  -pacific-stage-2-w4
 END:VEVENT
@@ -4703,11 +4703,11 @@ BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - VL vs PRX (Match)
 DTSTART:20260809T090000Z
 DTEND:20260809T110000Z
-DTSTAMP:20260807T140554Z
+DTSTAMP:20260809T123754Z
 UID:match-698914@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/698914/varrel-vs-paper-rex-vct-2026-
  pacific-stage-2-w4
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 URL:https://www.vlr.gg/698914/varrel-vs-paper-rex-vct-2026-pacific-stage-2
  -w4
 END:VEVENT
@@ -5729,9 +5729,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 China Stage 2 - Trace Esports vs FunPlus Phoenix (Lower R
  ound 2)
-DTSTART:20260809T100000Z
-DTEND:20260809T120000Z
-DTSTAMP:20260809T033624Z
+DTSTART:20260809T112500Z
+DTEND:20260809T132500Z
+DTSTAMP:20260809T123754Z
 UID:match-724628@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/724628/tbd-vct-2026-china-stage-2-lr
  2
@@ -5739,11 +5739,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/724628/tbd-vct-2026-china-stage-2-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 2 - 4:00 pm WITA\, Aug 11 vs TBD (Lower Round
-  3)
+SUMMARY:VCT 2026 China Stage 2 - EDward Gaming vs 4:00 pm WITA\, Aug 11 (L
+ ower Round 3)
 DTSTART:20260811T080000Z
 DTEND:20260811T100000Z
-DTSTAMP:20260807T140554Z
+DTSTAMP:20260809T123754Z
 UID:match-724631@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/724631/tbd-vct-2026-china-stage-2-lr
  3
@@ -5976,11 +5976,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/729682/tbd-vct-2026-emea-stage-2-lr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - Omega (#6) vs Challengers Team (Upper R
- ound 1)
+SUMMARY:VCT 2026 Pacific Stage 2 - KIWOOM DRX vs ONSIDE GAMING (Upper Roun
+ d 1)
 DTSTART:20260813T080000Z
 DTEND:20260813T100000Z
-DTSTAMP:20260805T094654Z
+DTSTAMP:20260809T123754Z
 UID:match-730535@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730535/tbd-vct-2026-pacific-stage-2-
  ur1
@@ -5988,11 +5988,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730535/tbd-vct-2026-pacific-stage-2-ur1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - Alpha (#5) vs Challengers Team (Upper R
- ound 1)
+SUMMARY:VCT 2026 Pacific Stage 2 - Alpha (#5) vs Sharper Esports (Upper Ro
+ und 1)
 DTSTART:20260813T110000Z
 DTEND:20260813T130000Z
-DTSTAMP:20260805T094654Z
+DTSTAMP:20260809T123754Z
 UID:match-730536@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730536/tbd-vct-2026-pacific-stage-2-
  ur1
@@ -6000,11 +6000,10 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730536/tbd-vct-2026-pacific-stage-2-ur1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - Alpha (#6) vs Challengers Team (Upper R
- ound 1)
+SUMMARY:VCT 2026 Pacific Stage 2 - FULL SENSE vs QT DIG∞ (Upper Round 1)
 DTSTART:20260814T080000Z
 DTEND:20260814T100000Z
-DTSTAMP:20260805T094654Z
+DTSTAMP:20260809T123754Z
 UID:match-730537@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730537/tbd-vct-2026-pacific-stage-2-
  ur1
@@ -6012,11 +6011,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730537/tbd-vct-2026-pacific-stage-2-ur1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - Omega (#5) vs Challengers Team (Upper R
- ound 1)
+SUMMARY:VCT 2026 Pacific Stage 2 - Team Secret vs Xipto Esports (Upper Rou
+ nd 1)
 DTSTART:20260814T110000Z
 DTEND:20260814T130000Z
-DTSTAMP:20260805T094654Z
+DTSTAMP:20260809T123754Z
 UID:match-730538@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730538/tbd-vct-2026-pacific-stage-2-
  ur1
@@ -6024,11 +6023,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730538/tbd-vct-2026-pacific-stage-2-ur1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - Alpha (#3) vs 3:00 pm WIB\, Aug 15 (Upp
- er Quarterfinals)
+SUMMARY:VCT 2026 Pacific Stage 2 - Alpha (#3) vs 4:00 pm WITA\, Aug 15 (Up
+ per Quarterfinals)
 DTSTART:20260815T080000Z
 DTEND:20260815T100000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730539@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730539/tbd-vct-2026-pacific-stage-2-
  ubqf
@@ -6036,11 +6035,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730539/tbd-vct-2026-pacific-stage-2-ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - Omega (#4) vs 6:00 pm WIB\, Aug 15 (Upp
- er Quarterfinals)
+SUMMARY:VCT 2026 Pacific Stage 2 - T1 vs 7:00 pm WITA\, Aug 15 (Upper Quar
+ terfinals)
 DTSTART:20260815T110000Z
 DTEND:20260815T130000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730540@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730540/tbd-vct-2026-pacific-stage-2-
  ubqf
@@ -6048,11 +6047,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730540/tbd-vct-2026-pacific-stage-2-ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - Omega (#3) vs 3:00 pm WIB\, Aug 16 (Upp
- er Quarterfinals)
+SUMMARY:VCT 2026 Pacific Stage 2 - DetonatioN FocusMe vs 4:00 pm WITA\, Au
+ g 16 (Upper Quarterfinals)
 DTSTART:20260816T080000Z
 DTEND:20260816T100000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730541@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730541/tbd-vct-2026-pacific-stage-2-
  ubqf
@@ -6060,11 +6059,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730541/tbd-vct-2026-pacific-stage-2-ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - Alpha (#4) vs 6:00 pm WIB\, Aug 16 (Upp
- er Quarterfinals)
+SUMMARY:VCT 2026 Pacific Stage 2 - Alpha (#4) vs 7:00 pm WITA\, Aug 16 (Up
+ per Quarterfinals)
 DTSTART:20260816T110000Z
 DTEND:20260816T130000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730542@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730542/tbd-vct-2026-pacific-stage-2-
  ubqf
@@ -6072,11 +6071,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730542/tbd-vct-2026-pacific-stage-2-ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 3:00 pm WIB\, Aug 21 vs TBD (Upper Semi
- finals)
+SUMMARY:VCT 2026 Pacific Stage 2 - 4:00 pm WITA\, Aug 21 vs TBD (Upper Sem
+ ifinals)
 DTSTART:20260821T080000Z
 DTEND:20260821T100000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730543@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730543/tbd-vct-2026-pacific-stage-2-
  ubsf
@@ -6084,11 +6083,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730543/tbd-vct-2026-pacific-stage-2-ubsf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 6:00 pm WIB\, Aug 21 vs TBD (Upper Semi
- finals)
+SUMMARY:VCT 2026 Pacific Stage 2 - 7:00 pm WITA\, Aug 21 vs TBD (Upper Sem
+ ifinals)
 DTSTART:20260821T110000Z
 DTEND:20260821T130000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730544@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730544/tbd-vct-2026-pacific-stage-2-
  ubsf
@@ -6096,11 +6095,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730544/tbd-vct-2026-pacific-stage-2-ubsf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 3:00 pm WIB\, Aug 19 vs TBD (Lower Roun
- d 1)
+SUMMARY:VCT 2026 Pacific Stage 2 - 4:00 pm WITA\, Aug 19 vs TBD (Lower Rou
+ nd 1)
 DTSTART:20260819T080000Z
 DTEND:20260819T100000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730545@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730545/tbd-vct-2026-pacific-stage-2-
  lr1
@@ -6108,11 +6107,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730545/tbd-vct-2026-pacific-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 6:00 pm WIB\, Aug 19 vs TBD (Lower Roun
- d 1)
+SUMMARY:VCT 2026 Pacific Stage 2 - 7:00 pm WITA\, Aug 19 vs TBD (Lower Rou
+ nd 1)
 DTSTART:20260819T110000Z
 DTEND:20260819T130000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730546@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730546/tbd-vct-2026-pacific-stage-2-
  lr1
@@ -6120,11 +6119,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730546/tbd-vct-2026-pacific-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 3:00 pm WIB\, Aug 20 vs TBD (Lower Roun
- d 1)
+SUMMARY:VCT 2026 Pacific Stage 2 - 4:00 pm WITA\, Aug 20 vs TBD (Lower Rou
+ nd 1)
 DTSTART:20260820T080000Z
 DTEND:20260820T100000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730547@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730547/tbd-vct-2026-pacific-stage-2-
  lr1
@@ -6132,11 +6131,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730547/tbd-vct-2026-pacific-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 6:00 pm WIB\, Aug 20 vs TBD (Lower Roun
- d 1)
+SUMMARY:VCT 2026 Pacific Stage 2 - 7:00 pm WITA\, Aug 20 vs TBD (Lower Rou
+ nd 1)
 DTSTART:20260820T110000Z
 DTEND:20260820T130000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730548@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730548/tbd-vct-2026-pacific-stage-2-
  lr1
@@ -6144,11 +6143,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730548/tbd-vct-2026-pacific-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 3:00 pm WIB\, Aug 22 vs TBD (Lower Roun
- d 2)
+SUMMARY:VCT 2026 Pacific Stage 2 - 4:00 pm WITA\, Aug 22 vs TBD (Lower Rou
+ nd 2)
 DTSTART:20260822T080000Z
 DTEND:20260822T100000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730549@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730549/tbd-vct-2026-pacific-stage-2-
  lr2
@@ -6156,11 +6155,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730549/tbd-vct-2026-pacific-stage-2-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 6:00 pm WIB\, Aug 22 vs TBD (Lower Roun
- d 2)
+SUMMARY:VCT 2026 Pacific Stage 2 - 7:00 pm WITA\, Aug 22 vs TBD (Lower Rou
+ nd 2)
 DTSTART:20260822T110000Z
 DTEND:20260822T130000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730550@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730550/tbd-vct-2026-pacific-stage-2-
  lr2
@@ -6168,11 +6167,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730550/tbd-vct-2026-pacific-stage-2-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 3:00 pm WIB\, Aug 23 vs TBD (Lower Roun
- d 3)
+SUMMARY:VCT 2026 Pacific Stage 2 - 4:00 pm WITA\, Aug 23 vs TBD (Lower Rou
+ nd 3)
 DTSTART:20260823T080000Z
 DTEND:20260823T100000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730551@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730551/tbd-vct-2026-pacific-stage-2-
  lr3
@@ -6180,11 +6179,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730551/tbd-vct-2026-pacific-stage-2-lr3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 6:00 pm WIB\, Aug 23 vs TBD (Lower Roun
- d 3)
+SUMMARY:VCT 2026 Pacific Stage 2 - 7:00 pm WITA\, Aug 23 vs TBD (Lower Rou
+ nd 3)
 DTSTART:20260823T110000Z
 DTEND:20260823T130000Z
-DTSTAMP:20260806T044511Z
+DTSTAMP:20260809T123754Z
 UID:match-730552@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730552/tbd-vct-2026-pacific-stage-2-
  lr3
