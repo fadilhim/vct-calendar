@@ -6498,9 +6498,9 @@ URL:https://www.vlr.gg/729742/kr-esports-vs-bestia-vct-2026-americas-stage
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Stage 2 - ENVY vs M80 (Upper Round 1)
-DTSTART:20260814T000000Z
-DTEND:20260814T020000Z
-DTSTAMP:20260810T035709Z
+DTSTART:20260813T235500Z
+DTEND:20260814T015500Z
+DTSTAMP:20260813T235159Z
 UID:match-729743@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729743/envy-vs-m80-vct-2026-americas
  -stage-2-ur1
@@ -6532,11 +6532,11 @@ URL:https://www.vlr.gg/729745/cloud9-vs-fluxo-w7m-vct-2026-americas-stage-
  2-ur1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - MIBR vs 5:00 am WITA\, Aug 16 (Upper Q
- uarterfinals)
+SUMMARY:VCT 2026 Americas Stage 2 - MIBR vs KRÜ Esports (Upper Quarterfin
+ als)
 DTSTART:20260815T210000Z
 DTEND:20260815T230000Z
-DTSTAMP:20260813T111841Z
+DTSTAMP:20260813T235159Z
 UID:match-729746@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729746/mibr-vs-tbd-vct-2026-americas
  -stage-2-ubqf
@@ -6607,11 +6607,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/729751/tbd-vct-2026-americas-stage-2-ubsf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - 5:00 am WITA\, Aug 20 vs TBD (Lower Ro
- und 1)
+SUMMARY:VCT 2026 Americas Stage 2 - BESTIA vs 5:00 am WITA\, Aug 20 (Lower
+  Round 1)
 DTSTART:20260819T210000Z
 DTEND:20260819T230000Z
-DTSTAMP:20260813T111841Z
+DTSTAMP:20260813T235159Z
 UID:match-729752@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729752/tbd-vct-2026-americas-stage-2
  -lr1
