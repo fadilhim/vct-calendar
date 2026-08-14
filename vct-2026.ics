@@ -5471,11 +5471,10 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/724641/tbd-vct-2026-china-stage-2-ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 2 - JD Gaming vs 4:00 pm WITA\, Aug 19 (Upper
-  Semifinals)
+SUMMARY:VCT 2026 China Stage 2 - TYLOO vs JD Gaming (Upper Semifinals)
 DTSTART:20260819T080000Z
 DTEND:20260819T100000Z
-DTSTAMP:20260814T113326Z
+DTSTAMP:20260814T123909Z
 UID:match-724642@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/724642/tbd-vct-2026-china-stage-2-ub
  sf
@@ -5507,11 +5506,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/724644/tbd-vct-2026-china-stage-2-ubf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 China Stage 2 - Nova Esports vs 4:00 pm WITA\, Aug 16 (Lo
- wer Round 1)
+SUMMARY:VCT 2026 China Stage 2 - Titan Esports Club vs Nova Esports (Lower
+  Round 1)
 DTSTART:20260816T080000Z
 DTEND:20260816T100000Z
-DTSTAMP:20260814T113326Z
+DTSTAMP:20260814T123909Z
 UID:match-724646@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/724646/tbd-vct-2026-china-stage-2-lr
  1
@@ -6056,11 +6055,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730541/tbd-vct-2026-pacific-stage-2-ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - Nongshim RedForce vs 7:00 pm WITA\, Aug
-  16 (Upper Quarterfinals)
+SUMMARY:VCT 2026 Pacific Stage 2 - Nongshim RedForce vs Team Secret (Upper
+  Quarterfinals)
 DTSTART:20260816T110000Z
 DTEND:20260816T130000Z
-DTSTAMP:20260814T113326Z
+DTSTAMP:20260814T123909Z
 UID:match-730542@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730542/tbd-vct-2026-pacific-stage-2-
  ubqf
@@ -6128,11 +6127,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/730547/tbd-vct-2026-pacific-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 7:00 pm WITA\, Aug 20 vs TBD (Lower Rou
- nd 1)
+SUMMARY:VCT 2026 Pacific Stage 2 - Xipto Esports vs 7:00 pm WITA\, Aug 20 
+ (Lower Round 1)
 DTSTART:20260820T110000Z
 DTEND:20260820T130000Z
-DTSTAMP:20260814T113326Z
+DTSTAMP:20260814T123909Z
 UID:match-730548@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/730548/tbd-vct-2026-pacific-stage-2-
  lr1
