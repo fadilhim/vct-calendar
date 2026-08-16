@@ -6544,9 +6544,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Stage 2 - Sentinels vs ENVY (Upper Quarterfinals
  )
-DTSTART:20260816T000000Z
-DTEND:20260816T020000Z
-DTSTAMP:20260814T032629Z
+DTSTART:20260815T230500Z
+DTEND:20260816T010500Z
+DTSTAMP:20260816T052519Z
 UID:match-729747@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729747/sentinels-vs-tbd-vct-2026-ame
  ricas-stage-2-ubqf
@@ -6581,11 +6581,10 @@ URL:https://www.vlr.gg/729749/evil-geniuses-vs-tbd-vct-2026-americas-stage
  -2-ubqf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - 5:00 am WITA\, Aug 22 vs TBD (Upper Se
- mifinals)
+SUMMARY:VCT 2026 Americas Stage 2 - MIBR vs ENVY (Upper Semifinals)
 DTSTART:20260821T210000Z
 DTEND:20260821T230000Z
-DTSTAMP:20260814T113326Z
+DTSTAMP:20260816T052519Z
 UID:match-729750@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729750/tbd-vct-2026-americas-stage-2
  -ubsf
@@ -6629,11 +6628,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/729753/tbd-vct-2026-americas-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - 2Game Esports vs 5:00 am WITA\, Aug 21
-  (Lower Round 1)
+SUMMARY:VCT 2026 Americas Stage 2 - Sentinels vs 2Game Esports (Lower Roun
+ d 1)
 DTSTART:20260820T210000Z
 DTEND:20260820T230000Z
-DTSTAMP:20260815T031104Z
+DTSTAMP:20260816T052519Z
 UID:match-729754@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729754/tbd-vct-2026-americas-stage-2
  -lr1
@@ -6641,11 +6640,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/729754/tbd-vct-2026-americas-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - Fluxo W7M vs 8:00 am WITA\, Aug 21 (Lo
- wer Round 1)
+SUMMARY:VCT 2026 Americas Stage 2 - KRÜ Esports vs Fluxo W7M (Lower Round
+  1)
 DTSTART:20260821T000000Z
 DTEND:20260821T020000Z
-DTSTAMP:20260815T041213Z
+DTSTAMP:20260816T052519Z
 UID:match-729755@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729755/tbd-vct-2026-americas-stage-2
  -lr1
