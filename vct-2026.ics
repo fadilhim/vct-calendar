@@ -6591,11 +6591,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/729750/tbd-vct-2026-americas-stage-2-ubsf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - FURIA vs 8:00 am WITA\, Aug 22 (Upper 
- Semifinals)
+SUMMARY:VCT 2026 Americas Stage 2 - FURIA vs Evil Geniuses (Upper Semifina
+ ls)
 DTSTART:20260822T000000Z
 DTEND:20260822T020000Z
-DTSTAMP:20260817T012331Z
+DTSTAMP:20260818T003456Z
 UID:match-729751@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729751/tbd-vct-2026-americas-stage-2
  -ubsf
@@ -6603,11 +6603,10 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/729751/tbd-vct-2026-americas-stage-2-ubsf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - BESTIA vs 5:00 am WITA\, Aug 20 (Lower
-  Round 1)
+SUMMARY:VCT 2026 Americas Stage 2 - Cloud9 vs BESTIA (Lower Round 1)
 DTSTART:20260819T210000Z
 DTEND:20260819T230000Z
-DTSTAMP:20260817T012331Z
+DTSTAMP:20260818T003456Z
 UID:match-729752@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/729752/tbd-vct-2026-americas-stage-2
  -lr1
