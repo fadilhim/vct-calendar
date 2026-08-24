@@ -6331,11 +6331,10 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/724645/tbd-vct-2026-china-stage-2-gf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - LOUD vs Play-Ins (#1-2) (Upper Round 1
- )
+SUMMARY:VCT 2026 Americas Stage 2 - LOUD vs FURIA (Upper Round 1)
 DTSTART:20260827T210000Z
 DTEND:20260827T230000Z
-DTSTAMP:20260810T015441Z
+DTSTAMP:20260824T035614Z
 UID:match-734302@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/734302/loud-vs-tbd-vct-2026-americas
  -stage-2-ur1
@@ -6343,11 +6342,10 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/734302/loud-vs-tbd-vct-2026-americas-stage-2-ur1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - LEVIATÁN vs Play-Ins (#1-2) (Upper Ro
- und 1)
+SUMMARY:VCT 2026 Americas Stage 2 - LEVIATÁN vs MIBR (Upper Round 1)
 DTSTART:20260828T000000Z
 DTEND:20260828T020000Z
-DTSTAMP:20260810T015441Z
+DTSTAMP:20260824T035614Z
 UID:match-734303@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/734303/leviat-n-vs-tbd-vct-2026-amer
  icas-stage-2-ur1
@@ -6405,11 +6403,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/734308/tbd-vct-2026-americas-stage-2-gf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - Play-Ins (#3-4) vs 5:00 am WITA\, Aug 
- 30 (Lower Round 1)
+SUMMARY:VCT 2026 Americas Stage 2 - G2 Esports vs 5:00 am WITA\, Aug 30 (L
+ ower Round 1)
 DTSTART:20260829T210000Z
 DTEND:20260829T230000Z
-DTSTAMP:20260822T083000Z
+DTSTAMP:20260824T035614Z
 UID:match-734309@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/734309/tbd-vct-2026-americas-stage-2
  -lr1
@@ -6417,11 +6415,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/734309/tbd-vct-2026-americas-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - Play-Ins (#3-4) vs 8:00 am WITA\, Aug 
- 30 (Lower Round 1)
+SUMMARY:VCT 2026 Americas Stage 2 - Evil Geniuses vs 8:00 am WITA\, Aug 30
+  (Lower Round 1)
 DTSTART:20260830T000000Z
 DTEND:20260830T020000Z
-DTSTAMP:20260822T083000Z
+DTSTAMP:20260824T035614Z
 UID:match-734310@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/734310/tbd-vct-2026-americas-stage-2
  -lr1
