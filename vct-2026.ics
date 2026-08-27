@@ -6728,9 +6728,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Pacific Stage 2 - VARREL vs Global Esports (Upper Semifin
  als)
-DTSTART:20260827T110000Z
-DTEND:20260827T130000Z
-DTSTAMP:20260826T202118Z
+DTSTART:20260827T111000Z
+DTEND:20260827T131000Z
+DTSTAMP:20260827T230839Z
 UID:match-742479@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/742479/varrel-vs-tbd-vct-2026-pacifi
  c-stage-2-ubsf
@@ -6738,11 +6738,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/742479/varrel-vs-tbd-vct-2026-pacific-stage-2-ubsf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 4:00 pm WITA\, Sep 4 vs TBD (Upper Fina
- l)
+SUMMARY:VCT 2026 Pacific Stage 2 - Nongshim RedForce vs Global Esports (Up
+ per Final)
 DTSTART:20260904T080000Z
 DTEND:20260904T100000Z
-DTSTAMP:20260826T202118Z
+DTSTAMP:20260827T230839Z
 UID:match-742480@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/742480/tbd-vct-2026-pacific-stage-2-
  ubf
@@ -6785,11 +6785,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/742483/tbd-vct-2026-pacific-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 4:00 pm WITA\, Aug 29 vs TBD (Lower Rou
- nd 2)
+SUMMARY:VCT 2026 Pacific Stage 2 - VARREL vs 4:00 pm WITA\, Aug 29 (Lower 
+ Round 2)
 DTSTART:20260829T080000Z
 DTEND:20260829T100000Z
-DTSTAMP:20260826T202118Z
+DTSTAMP:20260827T230839Z
 UID:match-742484@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/742484/tbd-vct-2026-pacific-stage-2-
  lr2
@@ -6797,11 +6797,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/742484/tbd-vct-2026-pacific-stage-2-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 7:00 pm WITA\, Aug 29 vs TBD (Lower Rou
- nd 2)
+SUMMARY:VCT 2026 Pacific Stage 2 - Gen.G vs 7:00 pm WITA\, Aug 29 (Lower R
+ ound 2)
 DTSTART:20260829T110000Z
 DTEND:20260829T130000Z
-DTSTAMP:20260826T202118Z
+DTSTAMP:20260827T230839Z
 UID:match-742485@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/742485/tbd-vct-2026-pacific-stage-2-
  lr2
