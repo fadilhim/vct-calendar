@@ -6366,9 +6366,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCT 2026 Americas Stage 2 - 100 Thieves vs LEVIATÁN (Upper Semifi
  nals)
-DTSTART:20260829T000000Z
-DTEND:20260829T020000Z
-DTSTAMP:20260828T195303Z
+DTSTART:20260829T002000Z
+DTEND:20260829T022000Z
+DTSTAMP:20260829T152704Z
 UID:match-734305@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/734305/100-thieves-vs-tbd-vct-2026-a
  mericas-stage-2-ubsf
@@ -6377,11 +6377,10 @@ URL:https://www.vlr.gg/734305/100-thieves-vs-tbd-vct-2026-americas-stage-2
  -ubsf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - 1:00 am WITA\, Sep 5 vs TBD (Upper Fin
- al)
+SUMMARY:VCT 2026 Americas Stage 2 - NRG vs 100 Thieves (Upper Final)
 DTSTART:20260904T170000Z
 DTEND:20260904T190000Z
-DTSTAMP:20260826T202118Z
+DTSTAMP:20260829T152704Z
 UID:match-734307@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/734307/tbd-vct-2026-americas-stage-2
  -ubf
@@ -6423,11 +6422,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/734310/tbd-vct-2026-americas-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - 5:00 am WITA\, Aug 31 vs TBD (Lower Ro
- und 2)
+SUMMARY:VCT 2026 Americas Stage 2 - LEVIATÁN vs 5:00 am WITA\, Aug 31 (Lo
+ wer Round 2)
 DTSTART:20260830T210000Z
 DTEND:20260830T230000Z
-DTSTAMP:20260826T202118Z
+DTSTAMP:20260829T152704Z
 UID:match-734311@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/734311/tbd-vct-2026-americas-stage-2
  -lr2
@@ -6435,11 +6434,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/734311/tbd-vct-2026-americas-stage-2-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - 8:00 am WITA\, Aug 31 vs TBD (Lower Ro
- und 2)
+SUMMARY:VCT 2026 Americas Stage 2 - LOUD vs 8:00 am WITA\, Aug 31 (Lower R
+ ound 2)
 DTSTART:20260831T000000Z
 DTEND:20260831T020000Z
-DTSTAMP:20260826T202118Z
+DTSTAMP:20260829T152704Z
 UID:match-734312@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/734312/tbd-vct-2026-americas-stage-2
  -lr2
@@ -6803,11 +6802,10 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/742485/tbd-vct-2026-pacific-stage-2-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Pacific Stage 2 - 7:00 pm WITA\, Sep 4 vs TBD (Lower Roun
- d 3)
+SUMMARY:VCT 2026 Pacific Stage 2 - VARREL vs T1 (Lower Round 3)
 DTSTART:20260904T110000Z
 DTEND:20260904T130000Z
-DTSTAMP:20260826T202118Z
+DTSTAMP:20260829T152704Z
 UID:match-742486@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/742486/tbd-vct-2026-pacific-stage-2-
  lr3
