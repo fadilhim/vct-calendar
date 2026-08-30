@@ -6244,11 +6244,10 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/731400/tbd-vct-2026-emea-stage-2-ubf
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 EMEA Stage 2 - Karmine Corp vs 11:00 pm WITA\, Aug 30 (Gr
- and Final)
+SUMMARY:VCT 2026 EMEA Stage 2 - Karmine Corp vs Team Liquid (Grand Final)
 DTSTART:20260830T150000Z
 DTEND:20260830T170000Z
-DTSTAMP:20260828T195303Z
+DTSTAMP:20260830T141614Z
 UID:match-731401@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/731401/tbd-vct-2026-emea-stage-2-gf
 STATUS:TENTATIVE
@@ -6422,11 +6421,11 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/734310/tbd-vct-2026-americas-stage-2-lr1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - LEVIATÁN vs 5:00 am WITA\, Aug 31 (Lo
- wer Round 2)
+SUMMARY:VCT 2026 Americas Stage 2 - LEVIATÁN vs G2 Esports (Lower Round 2
+ )
 DTSTART:20260830T210000Z
 DTEND:20260830T230000Z
-DTSTAMP:20260829T152704Z
+DTSTAMP:20260830T141614Z
 UID:match-734311@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/734311/tbd-vct-2026-americas-stage-2
  -lr2
@@ -6434,11 +6433,10 @@ STATUS:TENTATIVE
 URL:https://www.vlr.gg/734311/tbd-vct-2026-americas-stage-2-lr2
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VCT 2026 Americas Stage 2 - LOUD vs 8:00 am WITA\, Aug 31 (Lower R
- ound 2)
+SUMMARY:VCT 2026 Americas Stage 2 - LOUD vs MIBR (Lower Round 2)
 DTSTART:20260831T000000Z
 DTEND:20260831T020000Z
-DTSTAMP:20260829T152704Z
+DTSTAMP:20260830T141614Z
 UID:match-734312@vlr.gg
 DESCRIPTION:Watch: https://www.vlr.gg/734312/tbd-vct-2026-americas-stage-2
  -lr2
